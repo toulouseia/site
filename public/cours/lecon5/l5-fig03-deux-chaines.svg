@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="760" viewBox="0 0 1380 760">
+<rect width="1380" height="760" fill="#FFFFFF"/>
+<text x="60.0" y="70.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">un seul chemin</text>
+<line x1="60.0" y1="84.0" x2="660.0" y2="84.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<text x="760.0" y="70.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">plusieurs chemins</text>
+<line x1="760.0" y1="84.0" x2="1320.0" y2="84.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<circle cx="140.0" cy="390.0" r="52.00" fill="#FFFFFF" stroke="#14120F" stroke-width="2.6"/>
+<text x="140.0" y="401.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">w⁽³⁾</text>
+<circle cx="300.0" cy="390.0" r="52.00" fill="#FFFFFF" stroke="#14120F" stroke-width="2.6"/>
+<text x="300.0" y="401.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">z⁽³⁾</text>
+<line x1="198.0" y1="390.0" x2="232.9" y2="390.0" stroke="#14120F" stroke-width="2.4" data-role="filet"/><polygon points="242.0,390.0 230.0,395.1 230.0,384.9" fill="#14120F" data-role="filet"/>
+<circle cx="460.0" cy="390.0" r="52.00" fill="#FFFFFF" stroke="#14120F" stroke-width="2.6"/>
+<text x="460.0" y="401.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">a⁽³⁾</text>
+<line x1="358.0" y1="390.0" x2="392.9" y2="390.0" stroke="#14120F" stroke-width="2.4" data-role="filet"/><polygon points="402.0,390.0 390.0,395.1 390.0,384.9" fill="#14120F" data-role="filet"/>
+<circle cx="620.0" cy="390.0" r="52.00" fill="#FFFFFF" stroke="#14120F" stroke-width="2.6"/>
+<text x="620.0" y="401.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">ℓ</text>
+<line x1="518.0" y1="390.0" x2="552.9" y2="390.0" stroke="#14120F" stroke-width="2.4" data-role="filet"/><polygon points="562.0,390.0 550.0,395.1 550.0,384.9" fill="#14120F" data-role="filet"/>
+<text x="60.0" y="690.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="start">∂ℓ/∂w = ∂ℓ/∂a · ∂a/∂z · ∂z/∂w</text>
+<line x1="846.4" y1="355.2" x2="991.1" y2="246.7" stroke="#A8442A" stroke-width="2.4" data-role="filet"/><polygon points="998.4,241.2 991.9,252.4 985.8,244.3" fill="#A8442A" data-role="filet"/>
+<line x1="1080.2" y1="242.9" x2="1208.1" y2="347.5" stroke="#7E7972" stroke-width="2.2" data-role="filet"/><polygon points="1215.1,353.3 1202.6,349.6 1209.0,341.8" fill="#7E7972" data-role="filet"/>
+<line x1="856.3" y1="375.9" x2="980.7" y2="344.8" stroke="#A8442A" stroke-width="2.4" data-role="filet"/><polygon points="989.6,342.6 979.2,350.4 976.7,340.6" fill="#A8442A" data-role="filet"/>
+<line x1="1090.2" y1="343.7" x2="1195.3" y2="372.3" stroke="#7E7972" stroke-width="2.2" data-role="filet"/><polygon points="1204.0,374.7 1191.2,376.5 1193.8,366.7" fill="#7E7972" data-role="filet"/>
+<line x1="856.3" y1="404.1" x2="980.7" y2="435.2" stroke="#A8442A" stroke-width="2.4" data-role="filet"/><polygon points="989.6,437.4 976.7,439.4 979.2,429.6" fill="#A8442A" data-role="filet"/>
+<line x1="1090.2" y1="436.3" x2="1195.3" y2="407.7" stroke="#7E7972" stroke-width="2.2" data-role="filet"/><polygon points="1204.0,405.3 1193.8,413.3 1191.2,403.5" fill="#7E7972" data-role="filet"/>
+<line x1="846.4" y1="424.8" x2="991.1" y2="533.3" stroke="#A8442A" stroke-width="2.4" data-role="filet"/><polygon points="998.4,538.8 985.8,535.7 991.9,527.6" fill="#A8442A" data-role="filet"/>
+<line x1="1080.2" y1="537.1" x2="1208.1" y2="432.5" stroke="#7E7972" stroke-width="2.2" data-role="filet"/><polygon points="1215.1,426.7 1209.0,438.2 1202.6,430.4" fill="#7E7972" data-role="filet"/>
+<circle cx="800.0" cy="390.0" r="52.00" fill="#FFFFFF" stroke="#A8442A" stroke-width="3.0"/>
+<text x="800.0" y="401.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#A8442A" text-anchor="middle">aⱼ</text>
+<circle cx="1040.0" cy="210.0" r="46.00" fill="#FFFFFF" stroke="#14120F" stroke-width="2.6"/>
+<text x="1040.0" y="221.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">z₁</text>
+<circle cx="1040.0" cy="330.0" r="46.00" fill="#FFFFFF" stroke="#14120F" stroke-width="2.6"/>
+<text x="1040.0" y="341.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">z₂</text>
+<circle cx="1040.0" cy="450.0" r="46.00" fill="#FFFFFF" stroke="#14120F" stroke-width="2.6"/>
+<text x="1040.0" y="461.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">z₃</text>
+<circle cx="1040.0" cy="570.0" r="46.00" fill="#FFFFFF" stroke="#14120F" stroke-width="2.6"/>
+<text x="1040.0" y="581.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">z₄</text>
+<circle cx="1260.0" cy="390.0" r="52.00" fill="#FFFFFF" stroke="#14120F" stroke-width="2.6"/>
+<text x="1260.0" y="401.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">ℓ</text>
+<text x="760.0" y="690.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="start">∂ℓ/∂aⱼ = Σᵢ ∂ℓ/∂zᵢ · ∂zᵢ/∂aⱼ</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="560" viewBox="0 0 1380 560">
+<rect width="1380" height="560" fill="#FFFFFF"/>
+<text x="60.0" y="60.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">deux réseaux, deux comptes</text>
+<line x1="60.0" y1="74.0" x2="760.0" y2="74.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<rect x="80.0" y="220.0" width="245.4" height="96.0" fill="none" stroke="#14120F" stroke-width="2.4"/>
+<text x="202.7" y="282.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">784</text>
+<rect x="365.4" y="220.0" width="122.6" height="96.0" fill="none" stroke="#14120F" stroke-width="2.4"/>
+<text x="426.7" y="282.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">16</text>
+<rect x="528.0" y="220.0" width="122.6" height="96.0" fill="none" stroke="#14120F" stroke-width="2.4"/>
+<text x="589.3" y="282.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">16</text>
+<rect x="690.6" y="220.0" width="121.6" height="96.0" fill="none" stroke="#14120F" stroke-width="2.4"/>
+<text x="751.4" y="282.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">10</text>
+<text x="1120.0" y="282.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#14120F" text-anchor="end">13 002</text>
+<text x="1160.0" y="282.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">nombres</text>
+<rect x="80.0" y="420.0" width="245.4" height="96.0" fill="none" stroke="#14120F" stroke-width="2.4"/>
+<text x="202.7" y="482.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">784</text>
+<rect x="365.4" y="420.0" width="140.5" height="96.0" fill="none" stroke="#14120F" stroke-width="2.4"/>
+<text x="435.7" y="482.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">128</text>
+<rect x="545.9" y="420.0" width="121.6" height="96.0" fill="none" stroke="#14120F" stroke-width="2.4"/>
+<text x="606.7" y="482.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">10</text>
+<text x="1120.0" y="482.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#14120F" text-anchor="end">101 770</text>
+<text x="1160.0" y="482.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">nombres</text>
+<text x="80.0" y="180.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">784 → 16 → 16 → 10</text>
+<text x="80.0" y="380.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">784 → 128 → 10</text>
+</svg>

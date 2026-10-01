@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="500" viewBox="0 0 1380 500">
+<rect width="1380" height="500" fill="#FFFFFF"/>
+<text x="40.0" y="40.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">programmer des règles, ou les apprendre</text>
+<line x1="40.0" y1="50.0" x2="1340.0" y2="50.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<text x="60.0" y="86.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">on programme</text>
+<rect x="150.0" y="108.0" width="260.0" height="56.0" fill="#FFFFFF" stroke="#14120F" stroke-width="2.4"/>
+<text x="280.0" y="144.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">RÈGLES</text>
+<rect x="150.0" y="182.0" width="260.0" height="56.0" fill="#FFFFFF" stroke="#14120F" stroke-width="2.4"/>
+<text x="280.0" y="218.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">DONNÉES</text>
+<line x1="430.0" y1="156.0" x2="693.7" y2="156.0" stroke="#7E7972" stroke-width="2.4" data-role="filet"/><polygon points="700.0,156.0 691.7,159.5 691.7,152.5" fill="#7E7972" data-role="filet"/>
+<rect x="720.0" y="128.0" width="340.0" height="56.0" fill="#FFFFFF" stroke="#14120F" stroke-width="2.6"/>
+<text x="890.0" y="164.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">RÉPONSES</text>
+<line x1="60.0" y1="268.0" x2="1320.0" y2="268.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<text x="60.0" y="302.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">on apprend</text>
+<rect x="150.0" y="324.0" width="260.0" height="56.0" fill="#FFFFFF" stroke="#14120F" stroke-width="2.4"/>
+<text x="280.0" y="360.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">DONNÉES</text>
+<rect x="150.0" y="398.0" width="260.0" height="56.0" fill="#FFFFFF" stroke="#14120F" stroke-width="2.4"/>
+<text x="280.0" y="434.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">RÉPONSES</text>
+<line x1="430.0" y1="372.0" x2="693.7" y2="372.0" stroke="#7E7972" stroke-width="2.4" data-role="filet"/><polygon points="700.0,372.0 691.7,375.5 691.7,368.5" fill="#7E7972" data-role="filet"/>
+<rect x="720.0" y="344.0" width="340.0" height="56.0" fill="#FFFFFF" stroke="#A8442A" stroke-width="2.6"/>
+<text x="890.0" y="380.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#A8442A" text-anchor="middle">RÈGLES APPRISES</text>
+</svg>

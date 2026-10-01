@@ -1,0 +1,24 @@
+{
+  "empreinte": "237a47f4a26a",
+  "duree": 11.7,
+  "largeur": 1920,
+  "hauteur": 1080,
+  "cadence": 30,
+  "poster": "/animations/ce-que-la-sortie-reclame/237a47f4a26a.webp",
+  "rendus": [
+    {
+      "format": "mp4",
+      "src": "/animations/ce-que-la-sortie-reclame/237a47f4a26a.mp4",
+      "octets": 1695419,
+      "mime": "video/mp4; codecs=\"avc1.640032\""
+    }
+  ],
+  "profil": {
+    "rendu": "3840x2160",
+    "encodage": "x264-crf18-tune-animation-v1"
+  },
+  "source": {
+    "manim": "0.21.0",
+    "rendu": "2026-09-20T11:56:05+00:00"
+  }
+}

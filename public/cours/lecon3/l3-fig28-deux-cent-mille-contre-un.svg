@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="560" viewBox="0 0 1380 560">
+<rect width="1380" height="560" fill="#FFFFFF"/>
+<text x="60.0" y="60.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">propagations avant, pour un gradient</text>
+<line x1="60.0" y1="74.0" x2="820.0" y2="74.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<rect x="420.0" y="220.0" width="710.0" height="56.0" fill="#A8442A"/>
+<text x="60.0" y="258.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="start">différences finies</text>
+<text x="1300.0" y="258.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="end">203 540</text>
+<rect x="420.0" y="360.0" width="4.0" height="56.0" fill="#14120F"/>
+<text x="60.0" y="398.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#14120F" text-anchor="start">au chapitre 4</text>
+<text x="1300.0" y="398.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#14120F" text-anchor="end">1</text>
+<text x="60.0" y="478.2" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">un entraînement entier</text>
+<text x="1300.0" y="478.2" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="end">cinq années</text>
+<text x="1300.0" y="522.7" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#14120F" text-anchor="end">une minute</text>
+</svg>

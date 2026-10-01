@@ -1,0 +1,35 @@
+# Lu par Cloudflare au moment de servir les pages (documentation « Workers
+# Static Assets », fichier _headers). Ne s'applique pas aux réponses de
+# worker/index.ts, qui posent leurs propres en-têtes.
+#
+# Les règles s'additionnent : un fichier qui correspond à deux chemins reçoit
+# les deux valeurs, jointes par une virgule. D'où l'ordre ci-dessous et la
+# ligne « ! Cache-Control », qui retire la valeur posée par la règle générale
+# avant d'en poser une autre.
+#
+# Les pages changent à chaque mise en ligne sous le même nom. Le navigateur
+# peut en garder une copie mais doit toujours vérifier auprès du serveur
+# qu'elle est encore la bonne avant de l'afficher (« no-cache » veut dire
+# « revérifie », pas « ne garde pas »).
+/*
+  Cache-Control: no-cache
+
+# Les fichiers de code et de médias portent un nom unique par version : une
+# fois téléchargés, ils ne changent jamais. Le navigateur peut les garder un an
+# sans redemander (« immutable »). Une nouvelle version = de nouveaux noms.
+/_next/static/*
+  ! Cache-Control
+  Cache-Control: public, max-age=31536000, immutable
+
+# Les rendus d'animation aussi : la vidéo et son affiche portent l'empreinte de
+# la scène dans leur nom (/animations/<scène>/<empreinte>.mp4). Sans ces règles,
+# chaque lecture d'une leçon revalide plusieurs mégaoctets de vidéo. Ni
+# `manifeste.json` ni les `rendu.json` n'y entrent : ils gardent leur nom quand
+# ils changent, et restent en « no-cache ».
+/animations/:scene/:empreinte.mp4
+  ! Cache-Control
+  Cache-Control: public, max-age=31536000, immutable
+
+/animations/:scene/:empreinte.webp
+  ! Cache-Control
+  Cache-Control: public, max-age=31536000, immutable

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="430" viewBox="0 0 1380 430">
+<rect width="1380" height="430" fill="#FFFFFF"/>
+<polyline points="50.0,150.0 178.0,270.0 306.0,150.0 434.0,270.0 562.0,150.0 690.0,270.0 818.0,150.0 946.0,270.0 1074.0,150.0 1202.0,270.0 1330.0,150.0" fill="none" stroke="#14120F" stroke-width="2.6"/>
+<circle cx="50.0" cy="150.0" r="6.0" fill="#14120F"/>
+<text x="50.0" y="212.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="middle">1</text>
+<text x="82.6" y="71.4" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="500" fill="#14120F" text-anchor="middle">le cadre</text>
+<text x="82.6" y="116.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="500" fill="#14120F" text-anchor="middle">du cours</text>
+<circle cx="178.0" cy="270.0" r="6.0" fill="#14120F"/>
+<text x="178.0" y="222.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="middle">2</text>
+<text x="178.0" y="314.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="500" fill="#14120F" text-anchor="middle">écrire la règle</text>
+<text x="178.0" y="358.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="500" fill="#14120F" text-anchor="middle">échoue</text>
+<circle cx="306.0" cy="150.0" r="6.0" fill="#14120F"/>
+<text x="306.0" y="212.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="middle">3</text>
+<text x="306.0" y="71.4" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="500" fill="#14120F" text-anchor="middle">un problème</text>
+<text x="306.0" y="116.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="500" fill="#14120F" text-anchor="middle">concret</text>
+<circle cx="434.0" cy="270.0" r="6.0" fill="#14120F"/>
+<text x="434.0" y="222.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="middle">4</text>
+<text x="434.0" y="314.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="500" fill="#14120F" text-anchor="middle">nommer</text>
+<text x="434.0" y="358.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="500" fill="#14120F" text-anchor="middle">les objets</text>
+<circle cx="562.0" cy="150.0" r="6.0" fill="#14120F"/>
+<text x="562.0" y="212.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="middle">5</text>
+<text x="562.0" y="71.4" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="500" fill="#14120F" text-anchor="middle">chiffrer</text>
+<text x="562.0" y="116.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="500" fill="#14120F" text-anchor="middle">l'erreur</text>
+<circle cx="690.0" cy="270.0" r="6.0" fill="#14120F"/>
+<text x="690.0" y="222.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="middle">6</text>
+<text x="690.0" y="314.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="500" fill="#14120F" text-anchor="middle">la faire</text>
+<text x="690.0" y="358.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="500" fill="#14120F" text-anchor="middle">baisser</text>
+<circle cx="818.0" cy="150.0" r="6.0" fill="#14120F"/>
+<text x="818.0" y="212.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="middle">7</text>
+<text x="818.0" y="71.4" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="500" fill="#14120F" text-anchor="middle">les trois</text>
+<text x="818.0" y="116.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="500" fill="#14120F" text-anchor="middle">familles</text>
+<circle cx="946.0" cy="270.0" r="6.0" fill="#14120F"/>
+<text x="946.0" y="222.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="middle">8</text>
+<text x="946.0" y="314.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="500" fill="#14120F" text-anchor="middle">régression ou</text>
+<text x="946.0" y="358.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="500" fill="#14120F" text-anchor="middle">classification</text>
+<circle cx="1074.0" cy="150.0" r="6.0" fill="#14120F"/>
+<text x="1074.0" y="212.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="middle">9</text>
+<text x="1074.0" y="71.4" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="500" fill="#14120F" text-anchor="middle">tout</text>
+<text x="1074.0" y="116.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="500" fill="#14120F" text-anchor="middle">calculer</text>
+<circle cx="1202.0" cy="270.0" r="6.0" fill="#14120F"/>
+<text x="1202.0" y="222.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="middle">10</text>
+<text x="1202.0" y="314.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="500" fill="#14120F" text-anchor="middle">compter</text>
+<text x="1202.0" y="358.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="500" fill="#14120F" text-anchor="middle">les réglages</text>
+<circle cx="1330.0" cy="150.0" r="6.0" fill="#14120F"/>
+<text x="1330.0" y="212.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="middle">11</text>
+<text x="1315.5" y="71.4" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="500" fill="#14120F" text-anchor="middle">garder</text>
+<text x="1270.2" y="116.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="500" fill="#14120F" text-anchor="middle">l'essentiel</text>
+<line x1="50.0" y1="386.0" x2="1330.0" y2="386.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<text x="50.0" y="416.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#A8442A" text-anchor="start">onze étapes, un seul trajet</text>
+</svg>

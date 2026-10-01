@@ -1,0 +1,5 @@
+[
+  {"paper": {"id": "2609.00001", "title": "Un papier très voté", "summary": "Résumé du papier très voté.", "upvotes": 201, "publishedAt": "2026-09-22T00:00:00.000Z"}, "publishedAt": "2026-09-22T20:00:00.000Z", "title": "Un papier très voté"},
+  {"paper": {"id": "2609.00002", "title": "Un papier moyen", "summary": "Résumé.", "upvotes": 60}, "publishedAt": "2026-09-22T20:00:00.000Z"},
+  {"paper": {"id": "2609.00003", "title": "Un papier peu voté", "summary": "Résumé.", "upvotes": 3}, "publishedAt": "2026-09-22T20:00:00.000Z"}
+]

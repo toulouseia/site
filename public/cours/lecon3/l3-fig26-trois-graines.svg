@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="660" viewBox="0 0 1380 660">
+<rect width="1380" height="660" fill="#FFFFFF"/>
+<text x="60.0" y="60.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">trois départs, trois arrivées</text>
+<line x1="60.0" y1="74.0" x2="680.0" y2="74.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<circle cx="170.0" cy="400.0" r="6.00" fill="#7E7972"/>
+<line x1="170.0" y1="400.0" x2="103.5" y2="332.2" stroke="#14120F" stroke-width="3.0"/>
+<circle cx="103.5" cy="332.2" r="10.00" fill="#A8442A"/>
+<line x1="170.0" y1="400.0" x2="236.5" y2="332.2" stroke="#14120F" stroke-width="3.0"/>
+<circle cx="236.5" cy="332.2" r="10.00" fill="#A8442A"/>
+<text x="170.0" y="462.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#14120F" text-anchor="middle">0 et 1</text>
+<text x="170.0" y="506.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="middle">88,9°</text>
+<circle cx="400.0" cy="400.0" r="6.00" fill="#7E7972"/>
+<line x1="400.0" y1="400.0" x2="333.6" y2="332.0" stroke="#14120F" stroke-width="3.0"/>
+<circle cx="333.6" cy="332.0" r="10.00" fill="#A8442A"/>
+<line x1="400.0" y1="400.0" x2="466.4" y2="332.0" stroke="#14120F" stroke-width="3.0"/>
+<circle cx="466.4" cy="332.0" r="10.00" fill="#A8442A"/>
+<text x="400.0" y="462.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#14120F" text-anchor="middle">0 et 2</text>
+<text x="400.0" y="506.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="middle">88,7°</text>
+<circle cx="630.0" cy="400.0" r="6.00" fill="#7E7972"/>
+<line x1="630.0" y1="400.0" x2="563.5" y2="332.1" stroke="#14120F" stroke-width="3.0"/>
+<circle cx="563.5" cy="332.1" r="10.00" fill="#A8442A"/>
+<line x1="630.0" y1="400.0" x2="696.5" y2="332.1" stroke="#14120F" stroke-width="3.0"/>
+<circle cx="696.5" cy="332.1" r="10.00" fill="#A8442A"/>
+<text x="630.0" y="462.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#14120F" text-anchor="middle">1 et 2</text>
+<text x="630.0" y="506.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="middle">88,8°</text>
+<text x="820.0" y="200.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">graine</text>
+<text x="1120.0" y="200.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="end">précision</text>
+<text x="1320.0" y="200.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="end">erreurs</text>
+<line x1="820.0" y1="216.0" x2="1320.0" y2="216.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<text x="820.0" y="244.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#14120F" text-anchor="start">0</text>
+<text x="1120.0" y="244.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#565049" text-anchor="end">0,9814</text>
+<text x="1320.0" y="244.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#565049" text-anchor="end">186</text>
+<text x="820.0" y="289.1" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#14120F" text-anchor="start">1</text>
+<text x="1120.0" y="289.1" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#565049" text-anchor="end">0,9823</text>
+<text x="1320.0" y="289.1" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#565049" text-anchor="end">177</text>
+<text x="820.0" y="333.7" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#14120F" text-anchor="start">2</text>
+<text x="1120.0" y="333.7" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#565049" text-anchor="end">0,9816</text>
+<text x="1320.0" y="333.7" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#565049" text-anchor="end">184</text>
+<text x="820.0" y="396.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">normes des trois θ</text>
+<text x="820.0" y="440.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#14120F" text-anchor="start">0</text>
+<text x="1320.0" y="440.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#565049" text-anchor="end">36,3214</text>
+<text x="820.0" y="485.1" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#14120F" text-anchor="start">1</text>
+<text x="1320.0" y="485.1" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#565049" text-anchor="end">36,5051</text>
+<text x="820.0" y="529.7" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#14120F" text-anchor="start">2</text>
+<text x="1320.0" y="529.7" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#565049" text-anchor="end">36,4907</text>
+</svg>

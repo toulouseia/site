@@ -1,0 +1,89 @@
+{
+  // La mise en ligne sur Cloudflare. Un seul déploiement, deux portes : le
+  // dossier de pages fabriqué par `npm run build`, que Cloudflare recopie sur
+  // son réseau et sert sans calcul, et le programme `worker/index.ts`, qui ne
+  // répond qu'aux adresses commençant par `/api/`.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "toulouseia",
+  // Le compte de l'association (contact@toulouseia.fr, ouvert le 14 septembre
+  // 2026), pas celui d'un membre. Sans cette ligne, une commande d'envoi
+  // demande quel compte viser, et un jour se trompe. Ce n'est pas un secret —
+  // il s'affiche dans l'adresse du tableau de bord.
+  "account_id": "fb289fb4b372e69601939ec9b7ca79e3",
+  // Le programme serveur. Quatre lignes suffisent : celle-ci, le drapeau de
+  // compatibilité, le nom sous lequel les pages sont atteignables depuis le
+  // programme, et la liste des adresses qui doivent lui parvenir en premier.
+  "main": "worker/index.ts",
+  // Portée du 1er août au 4 septembre 2026 : c'est à partir du 4 août que les
+  // pages du site sont atteignables depuis le programme par leur nom, ce sur
+  // quoi repose `assets.binding` ci-dessous.
+  "compatibility_date": "2026-09-04",
+  // Donne au programme la bibliothèque standard de Node.js. Hono n'en a pas
+  // besoin, la vérification des jetons de connexion si.
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": true,
+  // Le nom de l'association. Deux entrées plutôt qu'une : `www` est ce que tape
+  // la moitié des gens, et sans lui ils tombent sur une erreur. Cloudflare pose
+  // lui-même les lignes d'annuaire et le certificat de chiffrement à partir
+  // d'ici — rien n'est cliqué dans le tableau de bord, pour que la prochaine
+  // personne trouve l'information dans le code.
+  "routes": [
+    { "pattern": "toulouseia.fr", "custom_domain": true },
+    { "pattern": "www.toulouseia.fr", "custom_domain": true }
+  ],
+  "assets": {
+    "directory": "./out",
+    // Une adresse inconnue rend la page 404 de l'application, avec ses quatre
+    // portes, au lieu du message brut de l'hébergeur.
+    "not_found_handling": "404-page",
+    // Le nom sous lequel le programme atteint les pages, pour leur rendre la
+    // main quand l'adresse demandée n'est pas une adresse `/api/`.
+    "binding": "PAGES",
+    // La ligne qui évite le piège documenté. Sans elle, une requête de
+    // navigation vers `/api/...` est servie par un fichier — ou par la page
+    // 404 — et n'atteint jamais le programme. Le symptôme est une page
+    // introuvable au retour d'une connexion Google, sans message d'erreur.
+    // Tout le reste du site continue d'être servi sans passer par le
+    // programme, donc sans être compté ni facturé.
+    "run_worker_first": ["/api/*"]
+  },
+  // La base de l'association, créée le 15 septembre 2026 dans la région
+  // « WEUR » — Europe de l'Ouest, donc les données restent en Europe. C'est du
+  // SQLite : le même moteur que le fichier de vérification hors ligne, ce qui
+  // rend les quatorze essais de `npm run verifier:schema` valables ici aussi.
+  // L'identifiant n'est pas un secret : il ne donne accès à rien sans le jeton
+  // du compte.
+  "d1_databases": [
+    {
+      // Le nom sous lequel le programme atteint la base : `c.env.BASE`.
+      "binding": "BASE",
+      "database_name": "toulouseia",
+      "database_id": "23c2d639-5423-4331-964a-ca283aab3abf",
+      // Où `wrangler d1 migrations` va chercher les fichiers à appliquer.
+      "migrations_dir": "migrations"
+    }
+  ],
+  // Le bucket des images d'illustration des projets. La base ne garde que la
+  // clé d'un objet ; les octets vivent ici. Le programme l'atteint par
+  // `c.env.IMAGES`. Le nom du bucket n'est pas un secret : il ne donne accès à
+  // rien sans le jeton du compte.
+  "r2_buckets": [
+    { "binding": "IMAGES", "bucket_name": "toulouseia-images" }
+  ],
+  // Ce que le programme sait de l'endroit où il tourne. Ce n'est pas un
+  // secret : un secret se pose avec `wrangler secret put`, jamais ici.
+  "vars": {
+    "OU": "production",
+    // L'adresse du site, telle qu'elle est déclarée chez Google et chez GitHub.
+    // L'adresse de retour de connexion se construit à partir de cette ligne, et
+    // jamais à partir de ce que le visiteur a tapé : c'est ce qui empêche de
+    // faire rebondir une connexion vers un autre site.
+    "SITE": "https://toulouseia.fr",
+    // Les identifiants des deux applications de connexion. Ce ne sont pas des
+    // secrets : ils partent dans l'adresse du navigateur à chaque connexion, et
+    // ils ne servent à rien sans le secret correspondant, qui lui n'est nulle
+    // part dans ce dépôt (`npx wrangler secret put GOOGLE_SECRET`).
+    "GOOGLE_ID": "747113576341-hnf6ih9c7962spel6jti78karl7eempv.apps.googleusercontent.com",
+    "GITHUB_ID": "Ov23liiPlxmzzj7Ckiiz"
+  }
+}

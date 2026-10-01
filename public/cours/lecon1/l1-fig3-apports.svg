@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="430" viewBox="0 0 1380 430">
+<rect width="1380" height="430" fill="#FFFFFF"/>
+<rect x="60.0" y="110.0" width="380.0" height="200.0" fill="none" stroke="#ADA8A0" stroke-width="1.8"/>
+<text x="250.0" y="33.4" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">une famille de fonctions</text>
+<text x="250.0" y="78.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">le modèle</text>
+<rect x="500.0" y="110.0" width="380.0" height="200.0" fill="none" stroke="#ADA8A0" stroke-width="1.8"/>
+<text x="690.0" y="33.4" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">des données</text>
+<text x="690.0" y="78.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">les exemples déjà résolus</text>
+<rect x="940.0" y="110.0" width="380.0" height="200.0" fill="none" stroke="#ADA8A0" stroke-width="1.8"/>
+<text x="1130.0" y="33.4" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">une mesure d'erreur</text>
+<text x="1130.0" y="78.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">de combien on se trompe</text>
+<line x1="90.0" y1="292.5" x2="410.0" y2="127.5" stroke="#D2CEC8" stroke-width="2.0"/>
+<line x1="90.0" y1="252.0" x2="410.0" y2="168.0" stroke="#D2CEC8" stroke-width="2.0"/>
+<line x1="90.0" y1="210.0" x2="410.0" y2="210.0" stroke="#D2CEC8" stroke-width="2.0"/>
+<line x1="90.0" y1="168.0" x2="410.0" y2="252.0" stroke="#D2CEC8" stroke-width="2.0"/>
+<line x1="90.0" y1="127.5" x2="410.0" y2="292.5" stroke="#D2CEC8" stroke-width="2.0"/>
+<line x1="90.0" y1="273.0" x2="410.0" y2="147.0" stroke="#14120F" stroke-width="3.0"/>
+<circle cx="555.6" cy="248.4" r="5.0" fill="#14120F"/>
+<circle cx="587.6" cy="229.2" r="5.0" fill="#14120F"/>
+<circle cx="616.4" cy="238.8" r="5.0" fill="#14120F"/>
+<circle cx="648.4" cy="218.0" r="5.0" fill="#14120F"/>
+<circle cx="683.6" cy="206.8" r="5.0" fill="#14120F"/>
+<circle cx="715.6" cy="213.2" r="5.0" fill="#14120F"/>
+<circle cx="747.6" cy="187.6" r="5.0" fill="#14120F"/>
+<circle cx="782.8" cy="179.6" r="5.0" fill="#14120F"/>
+<circle cx="818.0" cy="165.2" r="5.0" fill="#14120F"/>
+<line x1="980.0" y1="265.0" x2="1280.0" y2="172.0" stroke="#14120F" stroke-width="3.0"/>
+<circle cx="1090.0" cy="154.0" r="5.5" fill="#14120F"/>
+<line x1="1090.0" y1="154.0" x2="1090.0" y2="230.9" stroke="#A8442A" stroke-width="3.0" data-role="filet"/>
+<line x1="1102.0" y1="230.9" x2="1116.0" y2="230.9" stroke="#7E7972" stroke-width="1.6"/>
+<line x1="1102.0" y1="211.7" x2="1116.0" y2="211.7" stroke="#7E7972" stroke-width="1.6"/>
+<line x1="1102.0" y1="192.4" x2="1116.0" y2="192.4" stroke="#7E7972" stroke-width="1.6"/>
+<line x1="1102.0" y1="173.2" x2="1116.0" y2="173.2" stroke="#7E7972" stroke-width="1.6"/>
+<line x1="1102.0" y1="154.0" x2="1116.0" y2="154.0" stroke="#7E7972" stroke-width="1.6"/>
+<line x1="1109.0" y1="154.0" x2="1109.0" y2="230.9" stroke="#7E7972" stroke-width="1.6"/>
+<text x="1070.0" y="197.4" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#A8442A" text-anchor="end">l'écart</text>
+<rect x="440.0" y="314.0" width="500.0" height="62.0" fill="none" stroke="#14120F" stroke-width="2.6"/>
+<text x="690.0" y="358.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">la machine</text>
+<line x1="250.0" y1="318.0" x2="683.7" y2="306.2" stroke="#7E7972" stroke-width="2.0" data-role="filet"/><polygon points="690.0,306.0 681.8,309.7 681.6,302.7" fill="#7E7972" data-role="filet"/>
+<line x1="690.0" y1="318.0" x2="690.0" y2="312.3" stroke="#7E7972" stroke-width="2.0" data-role="filet"/><polygon points="690.0,306.0 693.5,314.3 686.5,314.3" fill="#7E7972" data-role="filet"/>
+<line x1="1130.0" y1="318.0" x2="696.3" y2="306.2" stroke="#7E7972" stroke-width="2.0" data-role="filet"/><polygon points="690.0,306.0 698.4,302.7 698.2,309.7" fill="#7E7972" data-role="filet"/>
+<text x="690.0" y="422.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">elle règle, elle mesure, elle garde</text>
+</svg>

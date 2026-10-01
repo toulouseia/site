@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="600" viewBox="0 0 1380 600">
+<rect width="1380" height="600" fill="#FFFFFF"/>
+<text x="40.0" y="40.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">1 · chaque ligne porte</text>
+<text x="40.0" y="84.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">sa réponse</text>
+<line x1="40.0" y1="94.6" x2="460.0" y2="94.6" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<text x="40.0" y="130.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">ce qu'on observe</text>
+<text x="460.0" y="174.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="end">ce qui a été payé</text>
+<rect x="40.0" y="210.0" width="280.0" height="38.0" fill="none" stroke="#14120F" stroke-width="2.0"/>
+<rect x="320.0" y="210.0" width="140.0" height="38.0" fill="none" stroke="#14120F" stroke-width="2.0"/>
+<text x="180.0" y="235.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#14120F" text-anchor="middle">50 m², 2 pièces</text>
+<text x="390.0" y="235.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#A8442A" text-anchor="middle">200 k€</text>
+<rect x="40.0" y="256.0" width="280.0" height="38.0" fill="none" stroke="#14120F" stroke-width="2.0"/>
+<rect x="320.0" y="256.0" width="140.0" height="38.0" fill="none" stroke="#14120F" stroke-width="2.0"/>
+<text x="180.0" y="281.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#14120F" text-anchor="middle">30 m², 1 pièce</text>
+<text x="390.0" y="281.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#A8442A" text-anchor="middle">115 k€</text>
+<rect x="40.0" y="302.0" width="280.0" height="38.0" fill="none" stroke="#D2CEC8" stroke-width="2.0"/>
+<rect x="320.0" y="302.0" width="140.0" height="38.0" fill="none" stroke="#D2CEC8" stroke-width="2.0"/>
+<text x="180.0" y="329.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#ADA8A0" text-anchor="middle">⋮</text>
+<text x="390.0" y="329.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#ADA8A0" text-anchor="middle">⋮</text>
+<text x="40.0" y="434.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#14120F" text-anchor="start">un écart se mesure sur</text>
+<text x="40.0" y="478.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#14120F" text-anchor="start">chaque ligne</text>
+<text x="500.0" y="40.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">2 · la colonne de</text>
+<text x="500.0" y="84.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">droite est vide</text>
+<line x1="500.0" y1="94.6" x2="920.0" y2="94.6" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<text x="500.0" y="130.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">ce qu'on observe</text>
+<text x="920.0" y="174.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#ADA8A0" text-anchor="end">rien</text>
+<rect x="500.0" y="210.0" width="280.0" height="38.0" fill="none" stroke="#14120F" stroke-width="2.0"/>
+<rect x="780.0" y="210.0" width="140.0" height="38.0" fill="none" stroke="#D2CEC8" stroke-width="2.0"/>
+<text x="640.0" y="235.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#14120F" text-anchor="middle">50 m², 2 pièces</text>
+<rect x="500.0" y="256.0" width="280.0" height="38.0" fill="none" stroke="#14120F" stroke-width="2.0"/>
+<rect x="780.0" y="256.0" width="140.0" height="38.0" fill="none" stroke="#D2CEC8" stroke-width="2.0"/>
+<text x="640.0" y="281.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#14120F" text-anchor="middle">30 m², 1 pièce</text>
+<rect x="500.0" y="302.0" width="280.0" height="38.0" fill="none" stroke="#D2CEC8" stroke-width="2.0"/>
+<rect x="780.0" y="302.0" width="140.0" height="38.0" fill="none" stroke="#D2CEC8" stroke-width="2.0"/>
+<text x="640.0" y="329.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#ADA8A0" text-anchor="middle">⋮</text>
+<text x="500.0" y="434.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#14120F" text-anchor="start">il ne reste rien à</text>
+<text x="500.0" y="478.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#14120F" text-anchor="start">soustraire</text>
+<text x="960.0" y="40.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">3 · aucune ligne</text>
+<text x="960.0" y="84.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">n'existe d'avance</text>
+<line x1="960.0" y1="94.6" x2="1380.0" y2="94.6" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<text x="960.0" y="130.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">ce que l'agent produit</text>
+<text x="960.0" y="174.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">en agissant</text>
+<rect x="960.0" y="210.0" width="140.0" height="38.0" fill="none" stroke="#14120F" stroke-width="2.0"/>
+<text x="1030.0" y="235.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="500" fill="#14120F" text-anchor="middle">s₁</text>
+<rect x="1100.0" y="210.0" width="140.0" height="38.0" fill="none" stroke="#14120F" stroke-width="2.0"/>
+<text x="1170.0" y="235.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="500" fill="#14120F" text-anchor="middle">a₁</text>
+<rect x="1240.0" y="210.0" width="140.0" height="38.0" fill="none" stroke="#14120F" stroke-width="2.0"/>
+<text x="1310.0" y="235.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="500" fill="#14120F" text-anchor="middle">r₂</text>
+<rect x="960.0" y="256.0" width="140.0" height="38.0" fill="none" stroke="#14120F" stroke-width="2.0"/>
+<text x="1030.0" y="281.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="500" fill="#14120F" text-anchor="middle">s₂</text>
+<rect x="1100.0" y="256.0" width="140.0" height="38.0" fill="none" stroke="#14120F" stroke-width="2.0"/>
+<text x="1170.0" y="281.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="500" fill="#14120F" text-anchor="middle">a₂</text>
+<rect x="1240.0" y="256.0" width="140.0" height="38.0" fill="none" stroke="#14120F" stroke-width="2.0"/>
+<text x="1310.0" y="281.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="500" fill="#14120F" text-anchor="middle">r₃</text>
+<rect x="960.0" y="302.0" width="140.0" height="38.0" fill="none" stroke="#14120F" stroke-width="2.0"/>
+<text x="1030.0" y="327.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="500" fill="#14120F" text-anchor="middle">s₃</text>
+<rect x="1100.0" y="302.0" width="140.0" height="38.0" fill="none" stroke="#14120F" stroke-width="2.0"/>
+<text x="1170.0" y="327.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="500" fill="#14120F" text-anchor="middle">a₃</text>
+<rect x="1240.0" y="302.0" width="140.0" height="38.0" fill="none" stroke="#14120F" stroke-width="2.0"/>
+<text x="1310.0" y="327.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="500" fill="#14120F" text-anchor="middle">r₄</text>
+<rect x="960.0" y="358.0" width="140.0" height="38.0" fill="none" stroke="#D2CEC8" stroke-width="2.0"/>
+<rect x="1100.0" y="358.0" width="140.0" height="38.0" fill="none" stroke="#D2CEC8" stroke-width="2.0"/>
+<rect x="1240.0" y="358.0" width="140.0" height="38.0" fill="none" stroke="#D2CEC8" stroke-width="2.0"/>
+<text x="1030.0" y="394.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#ADA8A0" text-anchor="middle">?</text>
+<line x1="1170.0" y1="340.0" x2="1170.0" y2="344.0" stroke="#A8442A" stroke-width="2.4" data-role="filet"/>
+<line x1="1170.0" y1="344.0" x2="1030.0" y2="344.0" stroke="#A8442A" stroke-width="2.4" data-role="filet"/>
+<line x1="1030.0" y1="344.0" x2="1030.0" y2="347.7" stroke="#A8442A" stroke-width="2.4" data-role="filet"/><polygon points="1030.0,354.0 1026.5,345.7 1033.5,345.7" fill="#A8442A" data-role="filet"/>
+<text x="960.0" y="434.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">ce qu'on observera</text>
+<text x="960.0" y="478.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">ensuite dépend de</text>
+<text x="960.0" y="523.1" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">l'action qui vient</text>
+<text x="960.0" y="567.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">d'être choisie</text>
+</svg>

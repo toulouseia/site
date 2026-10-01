@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="800" viewBox="0 0 1380 800">
+<rect width="1380" height="800" fill="#FFFFFF"/>
+<text x="40.0" y="52.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">δ⁽²⁾ = a⁽²⁾ − y, classe par classe</text>
+<line x1="40.0" y1="68.0" x2="1340.0" y2="68.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<line x1="116.0" y1="320.0" x2="1304.0" y2="320.0" stroke="#14120F" stroke-width="1.8"/>
+<rect x="162.8" y="291.8" width="68.4" height="28.2" fill="#A8442A"/>
+<text x="197.0" y="534.5" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#565049" text-anchor="middle">0</text>
+<rect x="276.8" y="297.3" width="68.4" height="22.7" fill="#A8442A"/>
+<text x="311.0" y="534.5" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#565049" text-anchor="middle">1</text>
+<rect x="390.8" y="320.0" width="68.4" height="156.0" fill="#2A5A78"/>
+<text x="425.0" y="534.5" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#565049" text-anchor="middle">2</text>
+<rect x="504.8" y="301.2" width="68.4" height="18.8" fill="#A8442A"/>
+<text x="539.0" y="534.5" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#565049" text-anchor="middle">3</text>
+<rect x="618.8" y="303.6" width="68.4" height="16.4" fill="#A8442A"/>
+<text x="653.0" y="534.5" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#565049" text-anchor="middle">4</text>
+<rect x="732.8" y="293.0" width="68.4" height="27.0" fill="#A8442A"/>
+<text x="767.0" y="534.5" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#565049" text-anchor="middle">5</text>
+<rect x="846.8" y="310.1" width="68.4" height="9.9" fill="#A8442A"/>
+<text x="881.0" y="534.5" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#565049" text-anchor="middle">6</text>
+<rect x="960.8" y="308.2" width="68.4" height="11.8" fill="#A8442A"/>
+<text x="995.0" y="534.5" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#565049" text-anchor="middle">7</text>
+<rect x="1074.8" y="308.4" width="68.4" height="11.6" fill="#A8442A"/>
+<text x="1109.0" y="534.5" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#565049" text-anchor="middle">8</text>
+<rect x="1188.8" y="310.5" width="68.4" height="9.5" fill="#A8442A"/>
+<text x="1223.0" y="534.5" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#565049" text-anchor="middle">9</text>
+<text x="106.0" y="331.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="end">0</text>
+<text x="60.0" y="592.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">classe</text>
+<text x="1340.0" y="196.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#A8442A" text-anchor="end">δₖ &gt; 0 : l'activation descend</text>
+<text x="1340.0" y="468.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#2A5A78" text-anchor="end">δₖ &lt; 0 : l'activation monte</text>
+<line x1="40.0" y1="646.0" x2="1340.0" y2="646.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<text x="60.0" y="710.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="60" font-weight="700" fill="#2A5A78" text-anchor="start">δ₂ = −0,755461</text>
+<text x="1340.0" y="710.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="end">sa valeur absolue égale</text>
+<text x="1340.0" y="764.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="end">la somme des neuf autres</text>
+</svg>

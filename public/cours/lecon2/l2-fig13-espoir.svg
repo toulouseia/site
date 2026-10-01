@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="740" viewBox="0 0 1380 740">
+<rect width="1380" height="740" fill="#FFFFFF"/>
+<text x="40.0" y="40.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">ce qu'on espère de la couche</text>
+<text x="40.0" y="84.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">cachée</text>
+<line x1="40.0" y1="98.6" x2="660.0" y2="98.6" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<text x="760.0" y="40.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">la corrélation la plus forte</text>
+<text x="760.0" y="84.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">vaut 0,4894</text>
+<line x1="760.0" y1="98.6" x2="1340.0" y2="98.6" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<rect x="265.0" y="110.0" width="190.0" height="84.0" fill="none" stroke="#14120F" stroke-width="1.8"/>
+<text x="360.0" y="140.7" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">un</text>
+<text x="360.0" y="185.3" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">chiffre</text>
+<rect x="61.0" y="250.0" width="190.0" height="84.0" fill="none" stroke="#14120F" stroke-width="1.8"/>
+<text x="156.0" y="280.7" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">une</text>
+<text x="156.0" y="325.3" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">boucle</text>
+<rect x="265.0" y="250.0" width="190.0" height="84.0" fill="none" stroke="#14120F" stroke-width="1.8"/>
+<text x="360.0" y="280.7" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">un trait</text>
+<text x="360.0" y="325.3" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">droit</text>
+<rect x="469.0" y="250.0" width="190.0" height="84.0" fill="none" stroke="#14120F" stroke-width="1.8"/>
+<text x="564.0" y="280.7" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">une</text>
+<text x="564.0" y="325.3" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">jonction</text>
+<rect x="37.0" y="390.0" width="96.0" height="84.0" fill="none" stroke="#14120F" stroke-width="1.8"/>
+<text x="85.0" y="443.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">bord</text>
+<rect x="147.0" y="390.0" width="96.0" height="84.0" fill="none" stroke="#14120F" stroke-width="1.8"/>
+<text x="195.0" y="443.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">bord</text>
+<rect x="257.0" y="390.0" width="96.0" height="84.0" fill="none" stroke="#14120F" stroke-width="1.8"/>
+<text x="305.0" y="443.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">bord</text>
+<rect x="367.0" y="390.0" width="96.0" height="84.0" fill="none" stroke="#14120F" stroke-width="1.8"/>
+<text x="415.0" y="443.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">bord</text>
+<rect x="477.0" y="390.0" width="96.0" height="84.0" fill="none" stroke="#14120F" stroke-width="1.8"/>
+<text x="525.0" y="443.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">bord</text>
+<rect x="587.0" y="390.0" width="96.0" height="84.0" fill="none" stroke="#14120F" stroke-width="1.8"/>
+<text x="635.0" y="443.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">bord</text>
+<line x1="360.0" y1="204.0" x2="156.0" y2="240.0" stroke="#7E7972" stroke-width="1.2" stroke-opacity="0.45"/>
+<line x1="360.0" y1="204.0" x2="360.0" y2="240.0" stroke="#7E7972" stroke-width="1.2" stroke-opacity="0.45"/>
+<line x1="360.0" y1="204.0" x2="564.0" y2="240.0" stroke="#7E7972" stroke-width="1.2" stroke-opacity="0.45"/>
+<line x1="156.0" y1="344.0" x2="85.0" y2="380.0" stroke="#7E7972" stroke-width="1.2" stroke-opacity="0.45"/>
+<line x1="156.0" y1="344.0" x2="195.0" y2="380.0" stroke="#7E7972" stroke-width="1.2" stroke-opacity="0.45"/>
+<line x1="156.0" y1="344.0" x2="305.0" y2="380.0" stroke="#7E7972" stroke-width="1.2" stroke-opacity="0.45"/>
+<line x1="156.0" y1="344.0" x2="415.0" y2="380.0" stroke="#7E7972" stroke-width="1.2" stroke-opacity="0.45"/>
+<line x1="156.0" y1="344.0" x2="525.0" y2="380.0" stroke="#7E7972" stroke-width="1.2" stroke-opacity="0.45"/>
+<line x1="156.0" y1="344.0" x2="635.0" y2="380.0" stroke="#7E7972" stroke-width="1.2" stroke-opacity="0.45"/>
+<line x1="360.0" y1="344.0" x2="85.0" y2="380.0" stroke="#7E7972" stroke-width="1.2" stroke-opacity="0.45"/>
+<line x1="360.0" y1="344.0" x2="195.0" y2="380.0" stroke="#7E7972" stroke-width="1.2" stroke-opacity="0.45"/>
+<line x1="360.0" y1="344.0" x2="305.0" y2="380.0" stroke="#7E7972" stroke-width="1.2" stroke-opacity="0.45"/>
+<line x1="360.0" y1="344.0" x2="415.0" y2="380.0" stroke="#7E7972" stroke-width="1.2" stroke-opacity="0.45"/>
+<line x1="360.0" y1="344.0" x2="525.0" y2="380.0" stroke="#7E7972" stroke-width="1.2" stroke-opacity="0.45"/>
+<line x1="360.0" y1="344.0" x2="635.0" y2="380.0" stroke="#7E7972" stroke-width="1.2" stroke-opacity="0.45"/>
+<line x1="564.0" y1="344.0" x2="85.0" y2="380.0" stroke="#7E7972" stroke-width="1.2" stroke-opacity="0.45"/>
+<line x1="564.0" y1="344.0" x2="195.0" y2="380.0" stroke="#7E7972" stroke-width="1.2" stroke-opacity="0.45"/>
+<line x1="564.0" y1="344.0" x2="305.0" y2="380.0" stroke="#7E7972" stroke-width="1.2" stroke-opacity="0.45"/>
+<line x1="564.0" y1="344.0" x2="415.0" y2="380.0" stroke="#7E7972" stroke-width="1.2" stroke-opacity="0.45"/>
+<line x1="564.0" y1="344.0" x2="525.0" y2="380.0" stroke="#7E7972" stroke-width="1.2" stroke-opacity="0.45"/>
+<line x1="564.0" y1="344.0" x2="635.0" y2="380.0" stroke="#7E7972" stroke-width="1.2" stroke-opacity="0.45"/>
+<text x="360.0" y="540.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">un neurone caché par morceau</text>
+<line x1="800.0" y1="360.0" x2="1320.0" y2="360.0" stroke="#14120F" stroke-width="2.2"/>
+<line x1="800.0" y1="360.0" x2="800.0" y2="368.0" stroke="#7E7972" stroke-width="1.4" data-role="filet"/>
+<text x="800.0" y="402.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">0,00</text>
+<line x1="930.0" y1="360.0" x2="930.0" y2="368.0" stroke="#7E7972" stroke-width="1.4" data-role="filet"/>
+<text x="930.0" y="402.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">0,25</text>
+<line x1="1060.0" y1="360.0" x2="1060.0" y2="368.0" stroke="#7E7972" stroke-width="1.4" data-role="filet"/>
+<text x="1060.0" y="402.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">0,50</text>
+<line x1="1190.0" y1="360.0" x2="1190.0" y2="368.0" stroke="#7E7972" stroke-width="1.4" data-role="filet"/>
+<text x="1190.0" y="402.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">0,75</text>
+<line x1="1320.0" y1="360.0" x2="1320.0" y2="368.0" stroke="#7E7972" stroke-width="1.4" data-role="filet"/>
+<text x="1320.0" y="402.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">1,00</text>
+<text x="800.0" y="446.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">|ρ| caché / gabarit de classe</text>
+<line x1="1060.0" y1="314.0" x2="1060.0" y2="372.0" stroke="#ADA8A0" stroke-width="1.6" stroke-dasharray="6 6" data-role="filet"/>
+<line x1="844.4" y1="314.0" x2="844.4" y2="360.0" stroke="#7E7972" stroke-width="2.4" data-role="filet"/>
+<circle cx="844.4" cy="360.0" r="7.00" fill="#7E7972"/>
+<text x="844.4" y="210.9" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#7E7972" text-anchor="middle">0,0853</text>
+<text x="844.4" y="255.4" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">moyenne des</text>
+<text x="844.4" y="300.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">1 280 couples</text>
+<line x1="1054.5" y1="210.0" x2="1054.5" y2="360.0" stroke="#A8442A" stroke-width="2.4" data-role="filet"/>
+<circle cx="1054.5" cy="360.0" r="7.00" fill="#A8442A"/>
+<text x="1054.5" y="106.9" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="middle">0,4894</text>
+<text x="1054.5" y="151.4" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#A8442A" text-anchor="middle">maximum, caché</text>
+<text x="1054.5" y="196.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#A8442A" text-anchor="middle">54 / classe 7</text>
+<line x1="760.0" y1="490.0" x2="1340.0" y2="490.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<text x="760.0" y="526.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">couples examinés</text>
+<text x="1340.0" y="526.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="end">1 280</text>
+<text x="760.0" y="570.5" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">couples au-dessus</text>
+<text x="760.0" y="615.1" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">de 0,50</text>
+<text x="1340.0" y="570.5" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="end">0 sur 1 280</text>
+<text x="760.0" y="659.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">moyenne des |ρ|</text>
+<text x="1340.0" y="659.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="end">0,0853</text>
+<text x="760.0" y="704.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#A8442A" text-anchor="start">aucun ne ressemble à un chiffre</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="900" viewBox="0 0 1380 900">
+<rect width="1380" height="900" fill="#FFFFFF"/>
+<text x="60.0" y="70.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">chaque dérivée sort d'une équation</text>
+<line x1="60.0" y1="84.0" x2="1360.0" y2="84.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<text x="60.0" y="220.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="start">z⁽³⁾ = w⁽³⁾ a⁽²⁾ + b⁽³⁾</text>
+<text x="60.0" y="264.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">la somme pondérée</text>
+<line x1="660.0" y1="210.0" x2="720.9" y2="210.0" stroke="#ADA8A0" stroke-width="2.4" data-role="filet"/><polygon points="730.0,210.0 718.0,215.1 718.0,204.9" fill="#ADA8A0" data-role="filet"/>
+<text x="780.0" y="220.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="start">∂z⁽³⁾/∂w⁽³⁾ = a⁽²⁾</text>
+<text x="780.0" y="264.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="start">1,100000</text>
+<line x1="60.0" y1="350.0" x2="1320.0" y2="350.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<text x="60.0" y="450.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="start">a⁽³⁾ = σ(z⁽³⁾)</text>
+<text x="60.0" y="494.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">l'activation</text>
+<line x1="660.0" y1="440.0" x2="720.9" y2="440.0" stroke="#ADA8A0" stroke-width="2.4" data-role="filet"/><polygon points="730.0,440.0 718.0,445.1 718.0,434.9" fill="#ADA8A0" data-role="filet"/>
+<text x="780.0" y="450.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="start">∂a⁽³⁾/∂z⁽³⁾ = a⁽³⁾(1 − a⁽³⁾)</text>
+<text x="780.0" y="494.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="start">0,130606</text>
+<line x1="60.0" y1="580.0" x2="1320.0" y2="580.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<text x="60.0" y="680.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="start">ℓ = − ln a⁽³⁾</text>
+<text x="60.0" y="724.5" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">la perte</text>
+<line x1="660.0" y1="670.0" x2="720.9" y2="670.0" stroke="#ADA8A0" stroke-width="2.4" data-role="filet"/><polygon points="730.0,670.0 718.0,675.1 718.0,664.9" fill="#ADA8A0" data-role="filet"/>
+<text x="780.0" y="680.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="start">∂ℓ/∂a⁽³⁾ = − 1/a⁽³⁾</text>
+<text x="780.0" y="724.5" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="start">−1,182684</text>
+<line x1="60.0" y1="780.0" x2="1320.0" y2="780.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<text x="60.0" y="840.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#14120F" text-anchor="start">∂ℓ/∂w⁽³⁾ = −0,169912</text>
+</svg>

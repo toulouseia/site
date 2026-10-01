@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Fil RSS écrit à la main pour les essais, sur le modèle des fils d'OpenAI,
+     d'Inria et de la Commission : titre en CDATA, résumé en HTML échappé,
+     catégories. Aucun texte n'est repris d'un vrai fil. -->
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>Essai</title>
+<item>
+<title><![CDATA[Un modèle de langage plus sobre]]></title>
+<description>&lt;div class="date"&gt;&lt;time datetime="2026-09-20T08:00:00Z"&gt;20/09/2026&lt;/time&gt;&lt;/div&gt; &lt;p&gt;Un résumé avec &amp;amp; une esperluette et un lien.&lt;/p&gt;</description>
+<link>https://exemple.org/modele-sobre?utm_source=rss&amp;utm_medium=fil</link>
+<category><![CDATA[Recherche]]></category>
+<category>Produit</category>
+<pubDate>Sun, 20 Sep 2026 10:00:00 +0200</pubDate>
+</item>
+<item>
+<title>Une fête de fin d'année</title>
+<description>Rien à voir avec le sujet de la veille.</description>
+<link>https://exemple.org/fete</link>
+<pubDate>Mon, 21 Sep 2026 09:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Un vieux billet sur l'intelligence artificielle</title>
+<description>Paru bien avant la période récoltée.</description>
+<link>https://exemple.org/vieux</link>
+<pubDate>Tue, 08 Dec 2020 09:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

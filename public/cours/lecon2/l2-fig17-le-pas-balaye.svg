@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="560" viewBox="0 0 1380 560">
+<rect width="1380" height="560" fill="#FFFFFF"/>
+<text x="40.0" y="40.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">six pas, quinze époques</text>
+<line x1="40.0" y1="54.0" x2="1340.0" y2="54.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<line x1="150.0" y1="400.0" x2="1270.0" y2="400.0" stroke="#ADA8A0" stroke-width="1.5"/>
+<text x="150.0" y="486.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">pas d'apprentissage η</text>
+<line x1="150.0" y1="359.7" x2="1270.0" y2="359.7" stroke="#7E7972" stroke-width="1.6" stroke-dasharray="6 5" data-role="filet"/>
+<text x="1270.0" y="347.7" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="end">7 850 paramètres · 0,9193</text>
+<text x="190.0" y="442.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">0,50</text>
+<line x1="179.0" y1="104.0" x2="201.0" y2="126.0" stroke="#A8442A" stroke-width="2.4"/>
+<line x1="179.0" y1="126.0" x2="201.0" y2="104.0" stroke="#A8442A" stroke-width="2.4"/>
+<text x="190.0" y="84.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#A8442A" text-anchor="middle">divergence (NaN)</text>
+<text x="400.0" y="442.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">0,20</text>
+<circle cx="400.0" cy="241.4" r="5.50" fill="#7E7972"/>
+<text x="400.0" y="221.4" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#14120F" text-anchor="middle">0,9237</text>
+<text x="610.0" y="442.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">0,10</text>
+<circle cx="610.0" cy="190.3" r="8.00" fill="#A8442A"/>
+<text x="610.0" y="170.3" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="middle">0,9256</text>
+<text x="610.0" y="224.3" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#A8442A" text-anchor="middle">retenu</text>
+<text x="820.0" y="442.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">0,05</text>
+<circle cx="820.0" cy="222.6" r="5.50" fill="#7E7972"/>
+<text x="820.0" y="202.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#14120F" text-anchor="middle">0,9244</text>
+<text x="1030.0" y="442.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">0,02</text>
+<circle cx="1030.0" cy="233.3" r="5.50" fill="#7E7972"/>
+<text x="1030.0" y="213.3" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#14120F" text-anchor="middle">0,9240</text>
+<text x="1240.0" y="442.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">0,01</text>
+<circle cx="1240.0" cy="308.6" r="5.50" fill="#7E7972"/>
+<text x="1240.0" y="288.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#14120F" text-anchor="middle">0,9212</text>
+<line x1="56.0" y1="464.0" x2="1324.0" y2="464.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<text x="56.0" y="534.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="start">744 erreurs contre 807</text>
+</svg>

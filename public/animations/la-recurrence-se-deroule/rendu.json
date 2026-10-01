@@ -1,0 +1,24 @@
+{
+  "empreinte": "3ec1589c57a2",
+  "duree": 13.67,
+  "largeur": 1920,
+  "hauteur": 1080,
+  "cadence": 30,
+  "poster": "/animations/la-recurrence-se-deroule/3ec1589c57a2.webp",
+  "rendus": [
+    {
+      "format": "mp4",
+      "src": "/animations/la-recurrence-se-deroule/3ec1589c57a2.mp4",
+      "octets": 451670,
+      "mime": "video/mp4; codecs=\"avc1.640032\""
+    }
+  ],
+  "profil": {
+    "rendu": "3840x2160",
+    "encodage": "x264-crf18-tune-animation-v1"
+  },
+  "source": {
+    "manim": "0.21.0",
+    "rendu": "2026-09-20T11:40:08+00:00"
+  }
+}

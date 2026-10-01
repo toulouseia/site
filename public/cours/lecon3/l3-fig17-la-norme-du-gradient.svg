@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="640" viewBox="0 0 1380 640">
+<rect width="1380" height="640" fill="#FFFFFF"/>
+<text x="60.0" y="60.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">le pas rétrécit tout seul</text>
+<line x1="60.0" y1="74.0" x2="760.0" y2="74.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<polyline points="220.0,200.0 360.7,224.4 536.6,217.5 888.3,413.1 1240.0,480.0" fill="none" stroke="#14120F" stroke-width="3.4" stroke-linejoin="round"/>
+<line x1="180.0" y1="500.0" x2="1290.0" y2="500.0" stroke="#14120F" stroke-width="2.4"/>
+<line x1="220.0" y1="500.0" x2="220.0" y2="510.0" stroke="#7E7972" stroke-width="1.8"/>
+<text x="220.0" y="554.5" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">0</text>
+<line x1="1240.0" y1="500.0" x2="1240.0" y2="510.0" stroke="#7E7972" stroke-width="1.8"/>
+<text x="1240.0" y="554.5" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">29</text>
+<text x="180.0" y="599.1" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">époque</text>
+<text x="220.0" y="176.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#14120F" text-anchor="start">8,79 × 10⁻²</text>
+<text x="1240.0" y="390.9" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#14120F" text-anchor="end">8,33 × 10⁻⁴</text>
+<text x="1290.0" y="200.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="end">÷ 105</text>
+</svg>

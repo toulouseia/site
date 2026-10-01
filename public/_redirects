@@ -1,0 +1,8 @@
+# Lu par Cloudflare au moment de servir les pages (documentation « Workers
+# Static Assets », fichier _redirects). La page racine ne contient rien : c'est
+# le tableau des projets qui accueille. Sans cette ligne, la redirection est
+# faite par le code JavaScript de la page, une fois ses six fichiers chargés —
+# et l'écran reste blanc jusque-là, ou pour toujours si un vieux HTML gardé par
+# le navigateur appelle du code disparu à la mise en ligne suivante. Ici le
+# serveur répond 302 avant d'avoir servi le moindre octet de page.
+/ /projets/ 302

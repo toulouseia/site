@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="920" viewBox="0 0 1380 920">
+<rect width="1380" height="920" fill="#FFFFFF"/>
+<text x="40.0" y="52.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">le retour, dans l'ordre où il s'exécute</text>
+<line x1="40.0" y1="68.0" x2="1340.0" y2="68.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<rect x="600.0" y="170.0" width="400.0" height="120.0" fill="#FFFFFF" stroke="#14120F" stroke-width="2.2"/>
+<text x="800.0" y="222.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="600" fill="#14120F" text-anchor="middle">a⁽²⁾ − y</text>
+<text x="800.0" y="268.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">δ⁽²⁾</text>
+<text x="1340.0" y="222.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#A8442A" text-anchor="end">grad b⁽²⁾</text>
+<line x1="1014.0" y1="212.0" x2="1053.6" y2="212.0" stroke="#A8442A" stroke-width="2.2" data-role="filet"/><polygon points="1062.0,212.0 1050.9,216.7 1050.9,207.3" fill="#A8442A" data-role="filet"/>
+<text x="1340.0" y="284.4" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#A8442A" text-anchor="end">grad W⁽²⁾</text>
+<line x1="1014.0" y1="274.4" x2="1053.6" y2="274.4" stroke="#A8442A" stroke-width="2.2" data-role="filet"/><polygon points="1062.0,274.4 1050.9,279.0 1050.9,269.7" fill="#A8442A" data-role="filet"/>
+<rect x="600.0" y="400.0" width="400.0" height="120.0" fill="#FFFFFF" stroke="#14120F" stroke-width="2.2"/>
+<text x="800.0" y="452.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="600" fill="#14120F" text-anchor="middle">(W⁽²⁾)ᵀ δ⁽²⁾</text>
+<text x="800.0" y="498.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">la demande sur a⁽¹⁾</text>
+<rect x="600.0" y="630.0" width="400.0" height="120.0" fill="#FFFFFF" stroke="#14120F" stroke-width="2.2"/>
+<text x="800.0" y="682.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="600" fill="#14120F" text-anchor="middle">⊙ φ′(z⁽¹⁾)</text>
+<text x="800.0" y="728.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">δ⁽¹⁾</text>
+<text x="1340.0" y="682.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#A8442A" text-anchor="end">grad b⁽¹⁾</text>
+<line x1="1014.0" y1="672.0" x2="1053.6" y2="672.0" stroke="#A8442A" stroke-width="2.2" data-role="filet"/><polygon points="1062.0,672.0 1050.9,676.7 1050.9,667.3" fill="#A8442A" data-role="filet"/>
+<text x="1340.0" y="744.4" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#A8442A" text-anchor="end">grad W⁽¹⁾</text>
+<line x1="1014.0" y1="734.4" x2="1053.6" y2="734.4" stroke="#A8442A" stroke-width="2.2" data-role="filet"/><polygon points="1062.0,734.4 1050.9,739.0 1050.9,729.7" fill="#A8442A" data-role="filet"/>
+<line x1="800.0" y1="298.0" x2="800.0" y2="382.2" stroke="#14120F" stroke-width="2.4" data-role="filet"/><polygon points="800.0,392.0 794.5,379.1 805.5,379.1" fill="#14120F" data-role="filet"/>
+<line x1="800.0" y1="528.0" x2="800.0" y2="612.2" stroke="#14120F" stroke-width="2.4" data-role="filet"/><polygon points="800.0,622.0 794.5,609.1 805.5,609.1" fill="#14120F" data-role="filet"/>
+<text x="60.0" y="222.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">l'étiquette entre ici</text>
+<line x1="470.0" y1="250.0" x2="583.6" y2="250.0" stroke="#7E7972" stroke-width="2.2" data-role="filet"/><polygon points="592.0,250.0 580.9,254.7 580.9,245.3" fill="#7E7972" data-role="filet"/>
+<text x="60.0" y="452.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">la matrice, lue en colonnes</text>
+<text x="60.0" y="682.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">la porte, décidée à l'aller</text>
+<line x1="40.0" y1="806.0" x2="1340.0" y2="806.0" stroke="#14120F" stroke-width="1.6" data-role="filet"/>
+<text x="60.0" y="866.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="start">sur tout le jeu, on en fait la moyenne</text>
+</svg>

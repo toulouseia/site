@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="820" viewBox="0 0 1380 820">
+<rect width="1380" height="820" fill="#FFFFFF"/>
+<text x="40.0" y="52.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">trois voies vers une même somme</text>
+<line x1="40.0" y1="68.0" x2="1340.0" y2="68.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<circle cx="1150.0" cy="430.0" r="130.00" fill="#FFFFFF" stroke="#14120F" stroke-width="2.6"/>
+<text x="1150.0" y="448.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="60" font-weight="600" fill="#14120F" text-anchor="middle">z⁽²⁾₂</text>
+<rect x="40.0" y="170.0" width="640.0" height="150.0" fill="#FFFFFF" stroke="#A8442A" stroke-width="2.2"/>
+<text x="64.0" y="230.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="600" fill="#A8442A" text-anchor="start">b⁽²⁾₂, le biais</text>
+<text x="64.0" y="286.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#14120F" text-anchor="start">∂ℓ/∂b vaut</text>
+<text x="656.0" y="286.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="end">−0,755461</text>
+<line x1="700.0" y1="245.0" x2="998.3" y2="372.7" stroke="#A8442A" stroke-width="2.2" data-role="filet"/><polygon points="1006.0,376.0 994.0,375.9 997.7,367.4" fill="#A8442A" data-role="filet"/>
+<rect x="40.0" y="350.0" width="640.0" height="150.0" fill="#FFFFFF" stroke="#A8442A" stroke-width="2.2"/>
+<text x="64.0" y="410.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="600" fill="#A8442A" text-anchor="start">W⁽²⁾₂,₉₂, le poids</text>
+<text x="64.0" y="466.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#14120F" text-anchor="start">∂ℓ/∂W vaut</text>
+<text x="656.0" y="466.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="end">−1,201409</text>
+<line x1="700.0" y1="425.0" x2="997.6" y2="429.9" stroke="#A8442A" stroke-width="2.2" data-role="filet"/><polygon points="1006.0,430.0 994.9,434.5 995.0,425.1" fill="#A8442A" data-role="filet"/>
+<rect x="40.0" y="530.0" width="640.0" height="150.0" fill="#FFFFFF" stroke="#7E7972" stroke-width="2.2"/>
+<text x="64.0" y="590.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="600" fill="#7E7972" text-anchor="start">a⁽¹⁾₉₂, l'activation</text>
+<text x="64.0" y="646.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#14120F" text-anchor="start">∂ℓ/∂a vaut</text>
+<text x="656.0" y="646.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#7E7972" text-anchor="end">+0,006402</text>
+<line x1="700.0" y1="605.0" x2="998.2" y2="487.1" stroke="#7E7972" stroke-width="2.2" data-role="filet"/><polygon points="1006.0,484.0 997.4,492.4 994.0,483.7" fill="#7E7972" data-role="filet"/>
+<line x1="40.0" y1="720.0" x2="1340.0" y2="720.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<text x="60.0" y="776.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#A8442A" text-anchor="start">les deux premières se règlent</text>
+<text x="1340.0" y="776.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="end">la troisième ne se règle pas</text>
+</svg>

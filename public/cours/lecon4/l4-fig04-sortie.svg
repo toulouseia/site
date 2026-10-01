@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="800" viewBox="0 0 1380 800">
+<rect width="1380" height="800" fill="#FFFFFF"/>
+<text x="40.0" y="52.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">la sortie d'un réseau non entraîné</text>
+<line x1="40.0" y1="68.0" x2="1340.0" y2="68.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<rect x="165.1" y="357.1" width="63.8" height="122.9" fill="#ADA8A0"/>
+<text x="197.0" y="542.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="700" fill="#14120F" text-anchor="middle">0</text>
+<rect x="279.1" y="381.3" width="63.8" height="98.7" fill="#ADA8A0"/>
+<text x="311.0" y="542.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="700" fill="#14120F" text-anchor="middle">1</text>
+<rect x="393.1" y="260.0" width="63.8" height="220.0" fill="#A8442A"/>
+<text x="425.0" y="542.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="700" fill="#A8442A" text-anchor="middle">2</text>
+<rect x="507.1" y="398.0" width="63.8" height="82.0" fill="#ADA8A0"/>
+<text x="539.0" y="542.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="700" fill="#14120F" text-anchor="middle">3</text>
+<rect x="621.1" y="408.4" width="63.8" height="71.6" fill="#ADA8A0"/>
+<text x="653.0" y="542.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="700" fill="#14120F" text-anchor="middle">4</text>
+<rect x="735.1" y="362.3" width="63.8" height="117.7" fill="#ADA8A0"/>
+<text x="767.0" y="542.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="700" fill="#14120F" text-anchor="middle">5</text>
+<rect x="849.1" y="437.0" width="63.8" height="43.0" fill="#ADA8A0"/>
+<text x="881.0" y="542.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="700" fill="#14120F" text-anchor="middle">6</text>
+<rect x="963.1" y="428.4" width="63.8" height="51.6" fill="#ADA8A0"/>
+<text x="995.0" y="542.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="700" fill="#14120F" text-anchor="middle">7</text>
+<rect x="1077.1" y="429.4" width="63.8" height="50.6" fill="#ADA8A0"/>
+<text x="1109.0" y="542.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="700" fill="#14120F" text-anchor="middle">8</text>
+<rect x="1191.1" y="438.5" width="63.8" height="41.5" fill="#ADA8A0"/>
+<text x="1223.0" y="542.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="700" fill="#14120F" text-anchor="middle">9</text>
+<line x1="116.0" y1="480.0" x2="1304.0" y2="480.0" stroke="#14120F" stroke-width="2.0"/>
+<text x="425.0" y="236.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="700" fill="#A8442A" text-anchor="middle">0,2445</text>
+<line x1="116.0" y1="390.0" x2="1304.0" y2="390.0" stroke="#7E7972" stroke-width="1.6" stroke-dasharray="6 6"/>
+<text x="104.0" y="401.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="end">0,1</text>
+<text x="104.0" y="491.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="end">0</text>
+<line x1="40.0" y1="600.0" x2="1340.0" y2="600.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<text x="60.0" y="656.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">perte de cet exemple</text>
+<text x="700.0" y="656.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="600" fill="#14120F" text-anchor="end">1,408379</text>
+<text x="60.0" y="722.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">perte du hasard, ln 10</text>
+<text x="700.0" y="722.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="400" fill="#565049" text-anchor="end">2,302585</text>
+<text x="1340.0" y="656.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#A8442A" text-anchor="end">la plus haute est la classe 2</text>
+<text x="1340.0" y="722.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#A8442A" text-anchor="end">et c'est la bonne, par accident</text>
+</svg>

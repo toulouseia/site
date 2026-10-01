@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="500" viewBox="0 0 1380 500">
+<rect width="1380" height="500" fill="#FFFFFF"/>
+<text x="40.0" y="40.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">le chemin du chapitre, jalon par jalon</text>
+<line x1="40.0" y1="50.0" x2="1340.0" y2="50.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<line x1="110.0" y1="176.0" x2="275.7" y2="199.2" stroke="#14120F" stroke-width="2.4"/>
+<line x1="275.7" y1="199.2" x2="441.4" y2="197.0" stroke="#14120F" stroke-width="2.4"/>
+<line x1="441.4" y1="197.0" x2="607.1" y2="171.9" stroke="#14120F" stroke-width="2.4"/>
+<line x1="607.1" y1="171.9" x2="772.9" y2="151.3" stroke="#14120F" stroke-width="2.4"/>
+<line x1="772.9" y1="151.3" x2="938.6" y2="157.7" stroke="#14120F" stroke-width="2.4"/>
+<line x1="938.6" y1="157.7" x2="1104.3" y2="184.1" stroke="#14120F" stroke-width="2.4"/>
+<line x1="1104.3" y1="184.1" x2="1270.0" y2="201.7" stroke="#14120F" stroke-width="2.4"/>
+<circle cx="110.0" cy="176.0" r="7.0" fill="#14120F"/>
+<text x="110.0" y="142.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="600" fill="#14120F" text-anchor="middle"><tspan dy="0.00" font-size="49">x</tspan></text>
+<circle cx="275.7" cy="199.2" r="7.0" fill="#14120F"/>
+<text x="275.7" y="165.2" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="600" fill="#14120F" text-anchor="middle"><tspan dy="0.00" font-size="49">y</tspan></text>
+<circle cx="441.4" cy="197.0" r="7.0" fill="#14120F"/>
+<text x="441.4" y="163.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="600" fill="#14120F" text-anchor="middle"><tspan dy="0.00" font-size="49">𝒟</tspan></text>
+<circle cx="607.1" cy="171.9" r="7.0" fill="#14120F"/>
+<text x="607.1" y="137.9" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="600" fill="#14120F" text-anchor="middle"><tspan dy="0.00" font-size="49">f</tspan><tspan dy="11.76" font-size="33.3">θ</tspan></text>
+<circle cx="772.9" cy="151.3" r="7.0" fill="#14120F"/>
+<text x="772.9" y="117.3" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="600" fill="#14120F" text-anchor="middle"><tspan dy="0.00" font-size="49">ℓ</tspan></text>
+<circle cx="938.6" cy="157.7" r="7.0" fill="#14120F"/>
+<text x="938.6" y="123.7" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="600" fill="#14120F" text-anchor="middle"><tspan dy="0.00" font-size="49">ℒ</tspan><tspan dy="11.76" font-size="33.3">𝒟</tspan></text>
+<circle cx="1104.3" cy="184.1" r="7.0" fill="#14120F"/>
+<text x="1104.3" y="150.1" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="600" fill="#14120F" text-anchor="middle"><tspan dy="0.00" font-size="49">θ</tspan><tspan dy="11.76" font-size="33.3">⋆</tspan></text>
+<circle cx="1270.0" cy="201.7" r="7.0" fill="#14120F"/>
+<text x="1270.0" y="167.7" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="600" fill="#14120F" text-anchor="middle"><tspan dy="0.00" font-size="49">p</tspan></text>
+<line x1="60.0" y1="240.0" x2="1320.0" y2="240.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<text x="90.0" y="290.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#ADA8A0" text-anchor="start">1</text>
+<text x="122.0" y="290.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="600" fill="#14120F" text-anchor="start"><tspan dy="0.00" font-size="49">x</tspan></text>
+<text x="186.0" y="290.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">l'entrée</text>
+<text x="410.0" y="290.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#ADA8A0" text-anchor="start">2</text>
+<text x="442.0" y="290.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="600" fill="#14120F" text-anchor="start"><tspan dy="0.00" font-size="49">y</tspan></text>
+<text x="506.0" y="290.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">la vérité</text>
+<text x="506.0" y="334.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">terrain</text>
+<text x="730.0" y="290.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#ADA8A0" text-anchor="start">3</text>
+<text x="762.0" y="290.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="600" fill="#14120F" text-anchor="start"><tspan dy="0.00" font-size="49">𝒟</tspan></text>
+<text x="826.0" y="290.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">le jeu de</text>
+<text x="826.0" y="334.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">données</text>
+<text x="1050.0" y="290.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#ADA8A0" text-anchor="start">4</text>
+<text x="1082.0" y="290.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="600" fill="#14120F" text-anchor="start"><tspan dy="0.00" font-size="49">f</tspan><tspan dy="11.76" font-size="33.3">θ</tspan></text>
+<text x="1146.0" y="290.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">le modèle</text>
+<text x="90.0" y="384.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#ADA8A0" text-anchor="start">5</text>
+<text x="122.0" y="384.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="600" fill="#14120F" text-anchor="start"><tspan dy="0.00" font-size="49">ℓ</tspan></text>
+<text x="186.0" y="384.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">la perte sur</text>
+<text x="186.0" y="428.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">un exemple</text>
+<text x="410.0" y="384.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#ADA8A0" text-anchor="start">6</text>
+<text x="442.0" y="384.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="600" fill="#14120F" text-anchor="start"><tspan dy="0.00" font-size="49">ℒ</tspan><tspan dy="11.76" font-size="33.3">𝒟</tspan></text>
+<text x="506.0" y="384.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">la perte</text>
+<text x="506.0" y="428.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">moyenne</text>
+<text x="730.0" y="384.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#ADA8A0" text-anchor="start">7</text>
+<text x="762.0" y="384.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="600" fill="#14120F" text-anchor="start"><tspan dy="0.00" font-size="49">θ</tspan><tspan dy="11.76" font-size="33.3">⋆</tspan></text>
+<text x="826.0" y="384.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">les</text>
+<text x="826.0" y="428.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">paramètres</text>
+<text x="826.0" y="473.1" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">cherchés</text>
+<text x="1050.0" y="384.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#ADA8A0" text-anchor="start">8</text>
+<text x="1082.0" y="384.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="600" fill="#14120F" text-anchor="start"><tspan dy="0.00" font-size="49">p</tspan></text>
+<text x="1146.0" y="384.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">le nombre de</text>
+<text x="1146.0" y="428.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">réglages</text>
+<line x1="60.0" y1="448.0" x2="1320.0" y2="448.0" stroke="#A8442A" stroke-width="2.0" data-role="filet"/>
+<text x="60.0" y="484.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#A8442A" text-anchor="start">8 jalons, un seul chemin</text>
+</svg>

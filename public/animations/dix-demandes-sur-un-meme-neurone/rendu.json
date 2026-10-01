@@ -1,0 +1,24 @@
+{
+  "empreinte": "afbdc54a3c25",
+  "duree": 15.2,
+  "largeur": 1920,
+  "hauteur": 1080,
+  "cadence": 30,
+  "poster": "/animations/dix-demandes-sur-un-meme-neurone/afbdc54a3c25.webp",
+  "rendus": [
+    {
+      "format": "mp4",
+      "src": "/animations/dix-demandes-sur-un-meme-neurone/afbdc54a3c25.mp4",
+      "octets": 2508235,
+      "mime": "video/mp4; codecs=\"avc1.640032\""
+    }
+  ],
+  "profil": {
+    "rendu": "3840x2160",
+    "encodage": "x264-crf18-tune-animation-v1"
+  },
+  "source": {
+    "manim": "0.21.0",
+    "rendu": "2026-09-20T12:03:15+00:00"
+  }
+}

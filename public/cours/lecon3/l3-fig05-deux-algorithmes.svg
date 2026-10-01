@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="620" viewBox="0 0 1380 620">
+<rect width="1380" height="620" fill="#FFFFFF"/>
+<text x="60.0" y="60.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">celui qui reconnaît</text>
+<line x1="60.0" y1="74.0" x2="620.0" y2="74.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<text x="740.0" y="60.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">celui qu'on écrit</text>
+<line x1="740.0" y1="74.0" x2="1300.0" y2="74.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<rect x="210.0" y="240.0" width="300.0" height="150.0" fill="none" stroke="#14120F" stroke-width="2.6"/>
+<text x="360.0" y="332.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#14120F" text-anchor="middle">dix lignes</text>
+<line x1="80.0" y1="315.0" x2="193.7" y2="315.0" stroke="#7E7972" stroke-width="2.4" data-role="filet"/><polygon points="200.0,315.0 191.7,318.5 191.7,311.5" fill="#7E7972" data-role="filet"/>
+<line x1="520.0" y1="315.0" x2="633.7" y2="315.0" stroke="#7E7972" stroke-width="2.4" data-role="filet"/><polygon points="640.0,315.0 631.7,318.5 631.7,311.5" fill="#7E7972" data-role="filet"/>
+<text x="80.0" y="218.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">une image</text>
+<text x="640.0" y="218.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="end">dix nombres</text>
+<rect x="890.0" y="240.0" width="300.0" height="150.0" fill="none" stroke="#A8442A" stroke-width="2.6"/>
+<text x="1040.0" y="332.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="middle">cinq lignes</text>
+<line x1="760.0" y1="315.0" x2="873.7" y2="315.0" stroke="#7E7972" stroke-width="2.4" data-role="filet"/><polygon points="880.0,315.0 871.7,318.5 871.7,311.5" fill="#7E7972" data-role="filet"/>
+<line x1="1200.0" y1="315.0" x2="1313.7" y2="315.0" stroke="#7E7972" stroke-width="2.4" data-role="filet"/><polygon points="1320.0,315.0 1311.7,318.5 1311.7,311.5" fill="#7E7972" data-role="filet"/>
+<text x="760.0" y="218.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">un θ, le jeu</text>
+<text x="1320.0" y="218.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="end">un autre θ</text>
+<text x="80.0" y="500.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">écrit au chapitre 2</text>
+<text x="760.0" y="500.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#A8442A" text-anchor="start">écrit ici</text>
+<text x="80.0" y="544.5" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">son comportement vient de θ</text>
+<text x="760.0" y="544.5" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">il fabrique θ</text>
+</svg>

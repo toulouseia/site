@@ -1,0 +1,5 @@
+# Depuis le 14 septembre 2026, les projets et les personnes affichés sont réels.
+# Le site peut être indexé.
+User-agent: *
+Allow: /
+Sitemap: https://toulouseia.fr/sitemap.xml

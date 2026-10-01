@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="900" viewBox="0 0 1380 900">
+<rect width="1380" height="900" fill="#FFFFFF"/>
+<text x="40.0" y="52.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">la demande descend, et passe une porte</text>
+<line x1="40.0" y1="68.0" x2="1340.0" y2="68.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<rect x="40.0" y="150.0" width="290.0" height="130.0" fill="#FFFFFF" stroke="#14120F" stroke-width="2.2"/>
+<text x="185.0" y="231.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="600" fill="#14120F" text-anchor="middle">δ⁽²⁾</text>
+<text x="185.0" y="330.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">signal de sortie</text>
+<text x="185.0" y="376.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#565049" text-anchor="middle">10 composantes</text>
+<line x1="336.0" y1="215.0" x2="360.6" y2="215.0" stroke="#7E7972" stroke-width="2.2" data-role="filet"/><polygon points="369.0,215.0 357.9,219.7 357.9,210.3" fill="#7E7972" data-role="filet"/>
+<rect x="375.0" y="150.0" width="290.0" height="130.0" fill="#FFFFFF" stroke="#14120F" stroke-width="2.2"/>
+<text x="520.0" y="197.9" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="600" fill="#14120F" text-anchor="middle">(W⁽²⁾)ᵀ</text>
+<text x="520.0" y="264.1" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="600" fill="#14120F" text-anchor="middle">δ⁽²⁾</text>
+<text x="520.0" y="330.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">la demande reçue</text>
+<text x="520.0" y="376.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#565049" text-anchor="middle">128 composantes</text>
+<line x1="671.0" y1="215.0" x2="695.6" y2="215.0" stroke="#7E7972" stroke-width="2.2" data-role="filet"/><polygon points="704.0,215.0 692.9,219.7 692.9,210.3" fill="#7E7972" data-role="filet"/>
+<rect x="710.0" y="150.0" width="290.0" height="130.0" fill="#FFFFFF" stroke="#A8442A" stroke-width="2.2"/>
+<text x="855.0" y="231.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="600" fill="#A8442A" text-anchor="middle">⊙ φ′(z⁽¹⁾)</text>
+<text x="855.0" y="330.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">la porte ReLU</text>
+<text x="855.0" y="376.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#565049" text-anchor="middle">71 annulées</text>
+<line x1="1006.0" y1="215.0" x2="1030.6" y2="215.0" stroke="#7E7972" stroke-width="2.2" data-role="filet"/><polygon points="1039.0,215.0 1027.9,219.7 1027.9,210.3" fill="#7E7972" data-role="filet"/>
+<rect x="1045.0" y="150.0" width="290.0" height="130.0" fill="#FFFFFF" stroke="#14120F" stroke-width="2.2"/>
+<text x="1190.0" y="231.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="600" fill="#14120F" text-anchor="middle">δ⁽¹⁾</text>
+<text x="1190.0" y="330.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">signal caché</text>
+<text x="1190.0" y="376.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#565049" text-anchor="middle">57 non nulles</text>
+<line x1="40.0" y1="430.0" x2="1340.0" y2="430.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<text x="60.0" y="490.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">neurone</text>
+<text x="620.0" y="490.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="end">z⁽¹⁾ⱼ</text>
+<text x="960.0" y="490.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="end">demande reçue</text>
+<text x="1340.0" y="490.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="end">δ⁽¹⁾ⱼ</text>
+<line x1="60.0" y1="508.0" x2="1340.0" y2="508.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<text x="60.0" y="576.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="start">j = 92, allumé</text>
+<text x="620.0" y="576.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#14120F" text-anchor="end">+1,5903</text>
+<text x="960.0" y="576.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#14120F" text-anchor="end">+0,006402</text>
+<text x="1340.0" y="576.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#14120F" text-anchor="end">+0,006402</text>
+<text x="60.0" y="665.1" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">j = 0, éteint</text>
+<text x="620.0" y="665.1" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="end">−0,2455</text>
+<text x="960.0" y="665.1" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="end">−0,009335</text>
+<text x="1340.0" y="665.1" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="end">0</text>
+<line x1="40.0" y1="740.0" x2="1340.0" y2="740.0" stroke="#14120F" stroke-width="1.6" data-role="filet"/>
+<text x="60.0" y="796.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="start">un neurone éteint ne transmet rien</text>
+<text x="60.0" y="850.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">la porte se ferme dans les deux sens</text>
+</svg>

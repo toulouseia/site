@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="500" viewBox="0 0 1380 500">
+<rect width="1380" height="500" fill="#FFFFFF"/>
+<text x="40.0" y="40.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">trois boutons, lisibles tous les trois</text>
+<line x1="40.0" y1="50.0" x2="1340.0" y2="50.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<rect x="70.0" y="130.0" width="360.0" height="250.0" fill="#FFFFFF" stroke="#D2CEC8" stroke-width="1.6"/>
+<line x1="70.0" y1="370.8" x2="430.0" y2="250.8" stroke="#A8442A" stroke-width="2.0" stroke-dasharray="6 5"/>
+<line x1="70.0" y1="330.8" x2="430.0" y2="130.0" stroke="#A8442A" stroke-width="2.0" stroke-dasharray="6 5"/>
+<line x1="70.0" y1="350.8" x2="430.0" y2="150.8" stroke="#14120F" stroke-width="3.0"/>
+<circle cx="205.0" cy="263.3" r="6.0" fill="#14120F"/>
+<circle cx="115.0" cy="334.2" r="6.0" fill="#14120F"/>
+<text x="70.0" y="414.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="start">w₁</text>
+<text x="124.3" y="414.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#14120F" text-anchor="start">de 1,8 à 4,2</text>
+<text x="70.0" y="458.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">posé à 3</text>
+<rect x="500.0" y="130.0" width="360.0" height="250.0" fill="#FFFFFF" stroke="#D2CEC8" stroke-width="1.6"/>
+<line x1="500.0" y1="360.8" x2="860.0" y2="160.8" stroke="#A8442A" stroke-width="2.0" stroke-dasharray="6 5"/>
+<line x1="500.0" y1="340.8" x2="860.0" y2="140.8" stroke="#A8442A" stroke-width="2.0" stroke-dasharray="6 5"/>
+<line x1="500.0" y1="350.8" x2="860.0" y2="150.8" stroke="#14120F" stroke-width="3.0"/>
+<circle cx="635.0" cy="263.3" r="6.0" fill="#14120F"/>
+<circle cx="545.0" cy="334.2" r="6.0" fill="#14120F"/>
+<text x="500.0" y="414.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="start">w₂</text>
+<text x="554.3" y="414.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#14120F" text-anchor="start">de 2 à 18</text>
+<text x="500.0" y="458.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">posé à 10</text>
+<rect x="930.0" y="130.0" width="360.0" height="250.0" fill="#FFFFFF" stroke="#D2CEC8" stroke-width="1.6"/>
+<line x1="930.0" y1="374.2" x2="1290.0" y2="174.2" stroke="#A8442A" stroke-width="2.0" stroke-dasharray="6 5"/>
+<line x1="930.0" y1="327.5" x2="1290.0" y2="130.0" stroke="#A8442A" stroke-width="2.0" stroke-dasharray="6 5"/>
+<line x1="930.0" y1="350.8" x2="1290.0" y2="150.8" stroke="#14120F" stroke-width="3.0"/>
+<circle cx="1065.0" cy="263.3" r="6.0" fill="#14120F"/>
+<circle cx="975.0" cy="334.2" r="6.0" fill="#14120F"/>
+<text x="930.0" y="414.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="start">b</text>
+<text x="966.1" y="414.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#14120F" text-anchor="start">de -8 à 48</text>
+<text x="930.0" y="458.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">posé à 20</text>
+</svg>

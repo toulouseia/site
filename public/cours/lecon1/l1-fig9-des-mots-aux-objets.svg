@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="480" viewBox="0 0 1380 480">
+<rect width="1380" height="480" fill="#FFFFFF"/>
+<text x="40.0" y="40.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">la phrase, objet par objet</text>
+<line x1="40.0" y1="50.0" x2="1340.0" y2="50.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<text x="60.0" y="96.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">dans la phrase</text>
+<text x="500.0" y="96.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">l'objet, et ce qu'il porte</text>
+<line x1="60.0" y1="110.0" x2="1320.0" y2="110.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<text x="60.0" y="150.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#A8442A" text-anchor="start">la surface et le</text>
+<text x="60.0" y="194.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#A8442A" text-anchor="start">nombre de pièces</text>
+<line x1="438.0" y1="143.0" x2="473.7" y2="143.0" stroke="#ADA8A0" stroke-width="1.8" data-role="filet"/><polygon points="480.0,143.0 471.7,146.5 471.7,139.5" fill="#ADA8A0" data-role="filet"/>
+<text x="500.0" y="150.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="600" fill="#14120F" text-anchor="start"><tspan dy="0.00" font-size="49">x = (x</tspan><tspan dy="11.76" font-size="33.3">1</tspan><tspan dy="-11.76" font-size="49">, x</tspan><tspan dy="11.76" font-size="33.3">2</tspan><tspan dy="-11.76" font-size="49">) ∈ ℝ²</tspan></text>
+<text x="500.0" y="216.2" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">deux nombres par logement</text>
+<line x1="60.0" y1="234.0" x2="1320.0" y2="234.0" stroke="#E4E1DC" stroke-width="1.2" data-role="filet"/>
+<text x="60.0" y="266.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#A8442A" text-anchor="start">le prix de vente</text>
+<line x1="438.0" y1="259.0" x2="473.7" y2="259.0" stroke="#ADA8A0" stroke-width="1.8" data-role="filet"/><polygon points="480.0,259.0 471.7,262.5 471.7,255.5" fill="#ADA8A0" data-role="filet"/>
+<text x="500.0" y="266.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="600" fill="#14120F" text-anchor="start"><tspan dy="0.00" font-size="49">y ∈ ℝ</tspan></text>
+<text x="500.0" y="332.1" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">un seul nombre à prédire</text>
+<line x1="60.0" y1="350.0" x2="1320.0" y2="350.0" stroke="#E4E1DC" stroke-width="1.2" data-role="filet"/>
+<text x="60.0" y="382.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#A8442A" text-anchor="start">N ventes passées</text>
+<line x1="438.0" y1="375.0" x2="473.7" y2="375.0" stroke="#ADA8A0" stroke-width="1.8" data-role="filet"/><polygon points="480.0,375.0 471.7,378.5 471.7,371.5" fill="#ADA8A0" data-role="filet"/>
+<text x="500.0" y="382.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="600" fill="#14120F" text-anchor="start"><tspan dy="0.00" font-size="49">𝒟 = { (x⁽ⁱ⁾, y⁽ⁱ⁾) },  i = 1 … N</tspan></text>
+<text x="500.0" y="448.1" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">les N exemples du fichier</text>
+</svg>

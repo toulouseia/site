@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="780" viewBox="0 0 1380 780">
+<rect width="1380" height="780" fill="#FFFFFF"/>
+<text x="60.0" y="70.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">le coût, compté en multiplications</text>
+<line x1="60.0" y1="84.0" x2="1360.0" y2="84.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<text x="60.0" y="190.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">784 → 64 → 64 → 64 → 64 → 10</text>
+<text x="60.0" y="271.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#565049" text-anchor="start">passe avant</text>
+<rect x="420.0" y="230.0" width="344.7" height="60.0" fill="#ADA8A0"/>
+<text x="790.7" y="271.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#14120F" text-anchor="start">63 104</text>
+<text x="60.0" y="411.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#565049" text-anchor="start">passe arrière</text>
+<rect x="420.0" y="370.0" width="415.3" height="60.0" fill="#A8442A"/>
+<text x="861.3" y="411.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#14120F" text-anchor="start">76 032</text>
+<text x="60.0" y="551.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#565049" text-anchor="start">les deux</text>
+<rect x="420.0" y="510.0" width="760.0" height="60.0" fill="#14120F"/>
+<text x="1206.0" y="551.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#14120F" text-anchor="start">139 136</text>
+<line x1="60.0" y1="640.0" x2="1320.0" y2="640.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<text x="60.0" y="700.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#14120F" text-anchor="start">avant + arrière = 2,20 × avant</text>
+</svg>

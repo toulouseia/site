@@ -1,0 +1,24 @@
+{
+  "empreinte": "2a4757f0cead",
+  "duree": 16.4,
+  "largeur": 1920,
+  "hauteur": 1080,
+  "cadence": 30,
+  "poster": "/animations/larbre-des-dependances/2a4757f0cead.webp",
+  "rendus": [
+    {
+      "format": "mp4",
+      "src": "/animations/larbre-des-dependances/2a4757f0cead.mp4",
+      "octets": 325720,
+      "mime": "video/mp4; codecs=\"avc1.640032\""
+    }
+  ],
+  "profil": {
+    "rendu": "3840x2160",
+    "encodage": "x264-crf18-tune-animation-v1"
+  },
+  "source": {
+    "manim": "0.21.0",
+    "rendu": "2026-09-20T11:46:16+00:00"
+  }
+}

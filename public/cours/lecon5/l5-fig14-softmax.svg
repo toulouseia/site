@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="820" viewBox="0 0 1380 820">
+<rect width="1380" height="820" fill="#FFFFFF"/>
+<text x="60.0" y="70.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">la jacobienne du softmax</text>
+<line x1="60.0" y1="84.0" x2="1360.0" y2="84.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<text x="60.0" y="340.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="start">sᵢ = softmax(z)ᵢ</text>
+<text x="60.0" y="384.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#565049" text-anchor="start">∂sᵢ / ∂zⱼ</text>
+<text x="60.0" y="429.1" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#565049" text-anchor="start">= sᵢ(δᵢⱼ − sⱼ)</text>
+<text x="547.5" y="311.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#A8442A" text-anchor="middle">s₁(1 − s₁)</text>
+<text x="762.5" y="311.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">− s₁s₂</text>
+<text x="977.5" y="311.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">− s₁s₃</text>
+<text x="1192.5" y="311.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">− s₁s₄</text>
+<text x="547.5" y="411.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">− s₂s₁</text>
+<text x="762.5" y="411.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#A8442A" text-anchor="middle">s₂(1 − s₂)</text>
+<text x="977.5" y="411.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">− s₂s₃</text>
+<text x="1192.5" y="411.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">− s₂s₄</text>
+<text x="547.5" y="511.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">− s₃s₁</text>
+<text x="762.5" y="511.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">− s₃s₂</text>
+<text x="977.5" y="511.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#A8442A" text-anchor="middle">s₃(1 − s₃)</text>
+<text x="1192.5" y="511.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">− s₃s₄</text>
+<text x="547.5" y="611.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">− s₄s₁</text>
+<text x="762.5" y="611.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">− s₄s₂</text>
+<text x="977.5" y="611.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">− s₄s₃</text>
+<text x="1192.5" y="611.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#A8442A" text-anchor="middle">s₄(1 − s₄)</text>
+<line x1="416.0" y1="250.0" x2="416.0" y2="650.0" stroke="#14120F" stroke-width="2.4" data-role="filet"/>
+<line x1="416.0" y1="250.0" x2="438.0" y2="250.0" stroke="#14120F" stroke-width="2.4" data-role="filet"/>
+<line x1="416.0" y1="650.0" x2="438.0" y2="650.0" stroke="#14120F" stroke-width="2.4" data-role="filet"/>
+<line x1="1324.0" y1="250.0" x2="1324.0" y2="650.0" stroke="#14120F" stroke-width="2.4" data-role="filet"/>
+<line x1="1324.0" y1="250.0" x2="1302.0" y2="250.0" stroke="#14120F" stroke-width="2.4" data-role="filet"/>
+<line x1="1324.0" y1="650.0" x2="1302.0" y2="650.0" stroke="#14120F" stroke-width="2.4" data-role="filet"/>
+<text x="547.5" y="225.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">1</text>
+<text x="762.5" y="225.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">2</text>
+<text x="977.5" y="225.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">3</text>
+<text x="1192.5" y="225.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">4</text>
+<text x="386.0" y="311.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="end">1</text>
+<text x="386.0" y="411.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="end">2</text>
+<text x="386.0" y="511.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="end">3</text>
+<text x="386.0" y="611.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="end">4</text>
+<line x1="60.0" y1="680.0" x2="1320.0" y2="680.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<text x="60.0" y="740.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#14120F" text-anchor="start">J = diag(s) − s sᵀ</text>
+</svg>

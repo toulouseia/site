@@ -1,0 +1,30 @@
+-- ─────────────────────────────────────────────────────────────────────────────
+-- Les moyens de contact d'une personne, et une règle révoquée.
+--
+-- Deux choses, décidées le 15 septembre 2026 :
+--
+--   1. `personnes` n'avait pas de colonne pour les moyens de contact, alors que
+--      le vocabulaire de l'application en a un depuis le début (`types.ts`,
+--      type `Personne` : `contacts: Contact[]`). C'était un trou du schéma :
+--      la fiche d'un projet affiche où joindre son porteur, et sans cette
+--      colonne un projet de la base n'aurait personne à joindre.
+--
+--   2. La modération se fait après coup. Le commentaire de `0001_socle.sql`
+--      au-dessus de la table `projets` disait qu'un projet « ne s'affiche que
+--      lorsqu'un membre du bureau l'a relu ». Cette règle est révoquée par le
+--      président, le 15 septembre 2026 à 14 h 30 : un projet déposé est public
+--      dès l'envoi — le programme l'insère avec `publication = 'publie'`. La
+--      colonne et ses trois valeurs restent : elles servent au bureau pour
+--      retirer une fiche (`refuse`), et `attente` reste le défaut de la table
+--      pour une ligne écrite à la main, jamais pour un dépôt du site.
+--      `0001` ne se retouche pas — il est appliqué en ligne — d'où cette note
+--      ici.
+-- ─────────────────────────────────────────────────────────────────────────────
+
+-- Du JSON, pour la même raison que `projets.outils` : une liste de deux ou
+-- trois entrées qu'on n'interroge jamais séparément, et une table de plus
+-- coûterait une jointure à chaque lecture de la vitrine. Chaque entrée a la
+-- forme `{"canal": …, "valeur": …}`, avec un canal parmi les six de
+-- l'application. Le plafond de trois est tenu par le programme, pas par la
+-- base : la base garantit seulement qu'il y a toujours une liste, même vide.
+ALTER TABLE personnes ADD COLUMN contacts TEXT NOT NULL DEFAULT '[]';

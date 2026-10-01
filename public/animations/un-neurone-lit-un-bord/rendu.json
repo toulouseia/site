@@ -1,0 +1,24 @@
+{
+  "empreinte": "3793ba2bc487",
+  "duree": 30.2,
+  "largeur": 1920,
+  "hauteur": 1080,
+  "cadence": 30,
+  "poster": "/animations/un-neurone-lit-un-bord/3793ba2bc487.webp",
+  "rendus": [
+    {
+      "format": "mp4",
+      "src": "/animations/un-neurone-lit-un-bord/3793ba2bc487.mp4",
+      "octets": 5753087,
+      "mime": "video/mp4; codecs=\"avc1.640032\""
+    }
+  ],
+  "profil": {
+    "rendu": "3840x2160",
+    "encodage": "x264-crf18-tune-animation-v1"
+  },
+  "source": {
+    "manim": "0.21.0",
+    "rendu": "2026-09-07T10:37:14+00:00"
+  }
+}

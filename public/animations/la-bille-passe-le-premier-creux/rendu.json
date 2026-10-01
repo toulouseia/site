@@ -1,0 +1,24 @@
+{
+  "empreinte": "58caa6a292e7",
+  "duree": 18.33,
+  "largeur": 1920,
+  "hauteur": 1080,
+  "cadence": 30,
+  "poster": "/animations/la-bille-passe-le-premier-creux/58caa6a292e7.webp",
+  "rendus": [
+    {
+      "format": "mp4",
+      "src": "/animations/la-bille-passe-le-premier-creux/58caa6a292e7.mp4",
+      "octets": 611344,
+      "mime": "video/mp4; codecs=\"avc1.640032\""
+    }
+  ],
+  "profil": {
+    "rendu": "3840x2160",
+    "encodage": "x264-crf18-tune-animation-v1"
+  },
+  "source": {
+    "manim": "0.21.0",
+    "rendu": "2026-09-20T12:01:34+00:00"
+  }
+}

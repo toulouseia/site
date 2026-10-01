@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="720" viewBox="0 0 1380 720">
+<rect width="1380" height="720" fill="#FFFFFF"/>
+<text x="40.0" y="52.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">ce que les chapitres 2 et 3 ont posé</text>
+<line x1="40.0" y1="68.0" x2="1340.0" y2="68.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<text x="60.0" y="160.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="600" fill="#14120F" text-anchor="start">x ∈ [0, 1]⁷⁸⁴</text>
+<text x="1340.0" y="160.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="end">l'image, aplatie</text>
+<text x="60.0" y="240.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="400" fill="#14120F" text-anchor="start">f<tspan font-size="33.3" dy="11.8">θ</tspan><tspan font-size="49" dy="-11.8">(x) = a⁽²⁾</tspan></text>
+<text x="1340.0" y="240.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="end">le réseau, 784 → 128 → 10</text>
+<text x="60.0" y="320.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="400" fill="#14120F" text-anchor="start">ℓ(θ) = − ln a⁽²⁾<tspan font-size="33.3" dy="11.8">c</tspan><tspan font-size="49" dy="-11.8"></tspan></text>
+<text x="1340.0" y="320.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="end">la perte d'un exemple</text>
+<text x="60.0" y="400.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="600" fill="#14120F" text-anchor="start">θ ← θ − η grad ℓ</text>
+<text x="1340.0" y="400.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="end">la descente de gradient</text>
+<line x1="40.0" y1="460.0" x2="1340.0" y2="460.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<rect x="40.0" y="510.0" width="660.0" height="160.0" fill="#FFFFFF" stroke="#A8442A" stroke-width="2.6"/>
+<text x="370.0" y="582.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="60" font-weight="700" fill="#A8442A" text-anchor="middle">grad ℓ</text>
+<text x="370.0" y="636.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#A8442A" text-anchor="middle">101 770 nombres</text>
+<line x1="370.0" y1="502.0" x2="370.0" y2="442.4" stroke="#A8442A" stroke-width="2.4" data-role="filet"/><polygon points="370.0,434.0 374.7,445.1 365.3,445.1" fill="#A8442A" data-role="filet"/>
+<text x="760.0" y="582.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#A8442A" text-anchor="start">manque</text>
+</svg>

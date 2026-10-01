@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="660" viewBox="0 0 1380 660">
+<rect width="1380" height="660" fill="#FFFFFF"/>
+<text x="60.0" y="60.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">les deux coûts sur quatre sorties</text>
+<line x1="60.0" y1="74.0" x2="760.0" y2="74.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<rect x="124.0" y="518.3" width="86.0" height="1.7" fill="#14120F"/>
+<rect x="230.0" y="519.9" width="86.0" height="0.1" fill="#2A5A78"/>
+<text x="220.0" y="564.5" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">0,970</text>
+<rect x="424.0" y="456.0" width="86.0" height="64.0" fill="#14120F"/>
+<rect x="530.0" y="491.1" width="86.0" height="28.9" fill="#2A5A78"/>
+<text x="520.0" y="564.5" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">0,310</text>
+<rect x="724.0" y="404.1" width="86.0" height="115.9" fill="#14120F"/>
+<rect x="830.0" y="473.0" width="86.0" height="47.0" fill="#2A5A78"/>
+<text x="820.0" y="564.5" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">0,120</text>
+<rect x="1024.0" y="218.1" width="86.0" height="301.9" fill="#14120F"/>
+<rect x="1130.0" y="459.7" width="86.0" height="60.3" fill="#2A5A78"/>
+<text x="1120.0" y="564.5" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">0,004</text>
+<line x1="80.0" y1="520.0" x2="1320.0" y2="520.0" stroke="#14120F" stroke-width="2.4"/>
+<text x="80.0" y="609.1" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="start">entropie croisée</text>
+<text x="560.0" y="609.1" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#2A5A78" text-anchor="start">quadratique</text>
+<text x="1320.0" y="175.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="end">la vraie classe reçoit</text>
+</svg>

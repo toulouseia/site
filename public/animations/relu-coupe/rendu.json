@@ -1,0 +1,24 @@
+{
+  "empreinte": "c59b910e3643",
+  "duree": 22.37,
+  "largeur": 1920,
+  "hauteur": 1080,
+  "cadence": 30,
+  "poster": "/animations/relu-coupe/c59b910e3643.webp",
+  "rendus": [
+    {
+      "format": "mp4",
+      "src": "/animations/relu-coupe/c59b910e3643.mp4",
+      "octets": 6462005,
+      "mime": "video/mp4; codecs=\"avc1.640032\""
+    }
+  ],
+  "profil": {
+    "rendu": "3840x2160",
+    "encodage": "x264-crf18-tune-animation-v1"
+  },
+  "source": {
+    "manim": "0.21.0",
+    "rendu": "2026-09-07T10:33:56+00:00"
+  }
+}

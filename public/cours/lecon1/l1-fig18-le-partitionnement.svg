@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="540" viewBox="0 0 1380 540">
+<rect width="1380" height="540" fill="#FFFFFF"/>
+<text x="40.0" y="40.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">les k moyennes, avant et après</text>
+<line x1="40.0" y1="50.0" x2="1340.0" y2="50.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<rect x="70.0" y="120.0" width="540.0" height="330.0" fill="#FFFFFF" stroke="#ADA8A0" stroke-width="1.6"/>
+<circle cx="125.4" cy="170.7" r="5.0" fill="#ADA8A0"/>
+<circle cx="222.2" cy="202.3" r="5.0" fill="#ADA8A0"/>
+<circle cx="120.9" cy="186.4" r="5.0" fill="#ADA8A0"/>
+<circle cx="199.7" cy="145.1" r="5.0" fill="#ADA8A0"/>
+<circle cx="125.8" cy="230.0" r="5.0" fill="#ADA8A0"/>
+<circle cx="209.6" cy="167.2" r="5.0" fill="#ADA8A0"/>
+<circle cx="245.7" cy="149.2" r="5.0" fill="#ADA8A0"/>
+<circle cx="174.4" cy="193.8" r="5.0" fill="#ADA8A0"/>
+<circle cx="290.9" cy="194.3" r="5.0" fill="#ADA8A0"/>
+<circle cx="144.6" cy="224.5" r="5.0" fill="#ADA8A0"/>
+<circle cx="183.0" cy="178.9" r="5.0" fill="#ADA8A0"/>
+<circle cx="163.8" cy="186.3" r="5.0" fill="#ADA8A0"/>
+<circle cx="190.7" cy="159.5" r="5.0" fill="#ADA8A0"/>
+<circle cx="226.6" cy="176.6" r="5.0" fill="#ADA8A0"/>
+<circle cx="100.8" cy="159.1" r="5.0" fill="#ADA8A0"/>
+<circle cx="116.9" cy="190.2" r="5.0" fill="#ADA8A0"/>
+<circle cx="114.6" cy="184.0" r="5.0" fill="#ADA8A0"/>
+<circle cx="144.9" cy="176.5" r="5.0" fill="#ADA8A0"/>
+<circle cx="579.2" cy="198.3" r="5.0" fill="#ADA8A0"/>
+<circle cx="472.0" cy="243.6" r="5.0" fill="#ADA8A0"/>
+<circle cx="422.8" cy="173.1" r="5.0" fill="#ADA8A0"/>
+<circle cx="431.3" cy="183.5" r="5.0" fill="#ADA8A0"/>
+<circle cx="439.8" cy="232.3" r="5.0" fill="#ADA8A0"/>
+<circle cx="459.9" cy="225.4" r="5.0" fill="#ADA8A0"/>
+<circle cx="516.9" cy="214.5" r="5.0" fill="#ADA8A0"/>
+<circle cx="465.2" cy="196.5" r="5.0" fill="#ADA8A0"/>
+<circle cx="476.8" cy="218.0" r="5.0" fill="#ADA8A0"/>
+<circle cx="478.9" cy="201.0" r="5.0" fill="#ADA8A0"/>
+<circle cx="490.4" cy="174.4" r="5.0" fill="#ADA8A0"/>
+<circle cx="441.5" cy="224.3" r="5.0" fill="#ADA8A0"/>
+<circle cx="468.8" cy="180.0" r="5.0" fill="#ADA8A0"/>
+<circle cx="506.9" cy="210.0" r="5.0" fill="#ADA8A0"/>
+<circle cx="459.5" cy="178.6" r="5.0" fill="#ADA8A0"/>
+<circle cx="447.7" cy="189.2" r="5.0" fill="#ADA8A0"/>
+<circle cx="443.3" cy="217.8" r="5.0" fill="#ADA8A0"/>
+<circle cx="391.1" cy="210.7" r="5.0" fill="#ADA8A0"/>
+<circle cx="327.7" cy="330.9" r="5.0" fill="#ADA8A0"/>
+<circle cx="344.5" cy="347.2" r="5.0" fill="#ADA8A0"/>
+<circle cx="335.8" cy="359.8" r="5.0" fill="#ADA8A0"/>
+<circle cx="309.9" cy="357.2" r="5.0" fill="#ADA8A0"/>
+<circle cx="379.3" cy="396.2" r="5.0" fill="#ADA8A0"/>
+<circle cx="271.7" cy="315.0" r="5.0" fill="#ADA8A0"/>
+<circle cx="312.6" cy="350.1" r="5.0" fill="#ADA8A0"/>
+<circle cx="340.0" cy="424.9" r="5.0" fill="#ADA8A0"/>
+<circle cx="408.0" cy="321.5" r="5.0" fill="#ADA8A0"/>
+<circle cx="309.7" cy="357.9" r="5.0" fill="#ADA8A0"/>
+<circle cx="307.5" cy="416.0" r="5.0" fill="#ADA8A0"/>
+<circle cx="297.1" cy="371.3" r="5.0" fill="#ADA8A0"/>
+<circle cx="350.6" cy="359.4" r="5.0" fill="#ADA8A0"/>
+<circle cx="304.5" cy="336.5" r="5.0" fill="#ADA8A0"/>
+<circle cx="268.8" cy="356.4" r="5.0" fill="#ADA8A0"/>
+<circle cx="350.4" cy="395.0" r="5.0" fill="#ADA8A0"/>
+<circle cx="223.9" cy="416.8" r="5.0" fill="#ADA8A0"/>
+<circle cx="312.3" cy="365.9" r="5.0" fill="#ADA8A0"/>
+<rect x="109.3" y="414.2" width="16.0" height="16.0" fill="#14120F" stroke="#14120F" stroke-width="2.4"/>
+<rect x="201.6" y="288.9" width="16.0" height="16.0" fill="#A8442A" stroke="#A8442A" stroke-width="2.4"/>
+<rect x="478.6" y="389.1" width="16.0" height="16.0" fill="#FFFFFF" stroke="#14120F" stroke-width="2.4"/>
+<rect x="770.0" y="120.0" width="540.0" height="330.0" fill="#FFFFFF" stroke="#ADA8A0" stroke-width="1.6"/>
+<circle cx="825.4" cy="170.7" r="5.5" fill="#A8442A"/>
+<circle cx="922.2" cy="202.3" r="5.5" fill="#A8442A"/>
+<circle cx="820.9" cy="186.4" r="5.5" fill="#A8442A"/>
+<circle cx="899.7" cy="145.1" r="5.5" fill="#A8442A"/>
+<circle cx="825.8" cy="230.0" r="5.5" fill="#A8442A"/>
+<circle cx="909.6" cy="167.2" r="5.5" fill="#A8442A"/>
+<circle cx="945.7" cy="149.2" r="5.5" fill="#A8442A"/>
+<circle cx="874.4" cy="193.8" r="5.5" fill="#A8442A"/>
+<circle cx="990.9" cy="194.3" r="5.5" fill="#A8442A"/>
+<circle cx="844.6" cy="224.5" r="5.5" fill="#A8442A"/>
+<circle cx="883.0" cy="178.9" r="5.5" fill="#A8442A"/>
+<circle cx="863.8" cy="186.3" r="5.5" fill="#A8442A"/>
+<circle cx="890.7" cy="159.5" r="5.5" fill="#A8442A"/>
+<circle cx="926.6" cy="176.6" r="5.5" fill="#A8442A"/>
+<circle cx="800.8" cy="159.1" r="5.5" fill="#A8442A"/>
+<circle cx="816.9" cy="190.2" r="5.5" fill="#A8442A"/>
+<circle cx="814.6" cy="184.0" r="5.5" fill="#A8442A"/>
+<circle cx="844.9" cy="176.5" r="5.5" fill="#A8442A"/>
+<circle cx="1279.2" cy="198.3" r="5.0" fill="#FFFFFF" stroke="#14120F" stroke-width="2.0"/>
+<circle cx="1172.0" cy="243.6" r="5.0" fill="#FFFFFF" stroke="#14120F" stroke-width="2.0"/>
+<circle cx="1122.8" cy="173.1" r="5.0" fill="#FFFFFF" stroke="#14120F" stroke-width="2.0"/>
+<circle cx="1131.3" cy="183.5" r="5.0" fill="#FFFFFF" stroke="#14120F" stroke-width="2.0"/>
+<circle cx="1139.8" cy="232.3" r="5.0" fill="#FFFFFF" stroke="#14120F" stroke-width="2.0"/>
+<circle cx="1159.9" cy="225.4" r="5.0" fill="#FFFFFF" stroke="#14120F" stroke-width="2.0"/>
+<circle cx="1216.9" cy="214.5" r="5.0" fill="#FFFFFF" stroke="#14120F" stroke-width="2.0"/>
+<circle cx="1165.2" cy="196.5" r="5.0" fill="#FFFFFF" stroke="#14120F" stroke-width="2.0"/>
+<circle cx="1176.8" cy="218.0" r="5.0" fill="#FFFFFF" stroke="#14120F" stroke-width="2.0"/>
+<circle cx="1178.9" cy="201.0" r="5.0" fill="#FFFFFF" stroke="#14120F" stroke-width="2.0"/>
+<circle cx="1190.4" cy="174.4" r="5.0" fill="#FFFFFF" stroke="#14120F" stroke-width="2.0"/>
+<circle cx="1141.5" cy="224.3" r="5.0" fill="#FFFFFF" stroke="#14120F" stroke-width="2.0"/>
+<circle cx="1168.8" cy="180.0" r="5.0" fill="#FFFFFF" stroke="#14120F" stroke-width="2.0"/>
+<circle cx="1206.9" cy="210.0" r="5.0" fill="#FFFFFF" stroke="#14120F" stroke-width="2.0"/>
+<circle cx="1159.5" cy="178.6" r="5.0" fill="#FFFFFF" stroke="#14120F" stroke-width="2.0"/>
+<circle cx="1147.7" cy="189.2" r="5.0" fill="#FFFFFF" stroke="#14120F" stroke-width="2.0"/>
+<circle cx="1143.3" cy="217.8" r="5.0" fill="#FFFFFF" stroke="#14120F" stroke-width="2.0"/>
+<circle cx="1091.1" cy="210.7" r="5.0" fill="#FFFFFF" stroke="#14120F" stroke-width="2.0"/>
+<circle cx="1027.7" cy="330.9" r="5.5" fill="#14120F"/>
+<circle cx="1044.5" cy="347.2" r="5.5" fill="#14120F"/>
+<circle cx="1035.8" cy="359.8" r="5.5" fill="#14120F"/>
+<circle cx="1009.9" cy="357.2" r="5.5" fill="#14120F"/>
+<circle cx="1079.3" cy="396.2" r="5.5" fill="#14120F"/>
+<circle cx="971.7" cy="315.0" r="5.5" fill="#14120F"/>
+<circle cx="1012.6" cy="350.1" r="5.5" fill="#14120F"/>
+<circle cx="1040.0" cy="424.9" r="5.5" fill="#14120F"/>
+<circle cx="1108.0" cy="321.5" r="5.5" fill="#14120F"/>
+<circle cx="1009.7" cy="357.9" r="5.5" fill="#14120F"/>
+<circle cx="1007.5" cy="416.0" r="5.5" fill="#14120F"/>
+<circle cx="997.1" cy="371.3" r="5.5" fill="#14120F"/>
+<circle cx="1050.6" cy="359.4" r="5.5" fill="#14120F"/>
+<circle cx="1004.5" cy="336.5" r="5.5" fill="#14120F"/>
+<circle cx="968.8" cy="356.4" r="5.5" fill="#14120F"/>
+<circle cx="1050.4" cy="395.0" r="5.5" fill="#14120F"/>
+<circle cx="923.9" cy="416.8" r="5.5" fill="#14120F"/>
+<circle cx="1012.3" cy="365.9" r="5.5" fill="#14120F"/>
+<rect x="1011.7" y="357.5" width="16.0" height="16.0" fill="#14120F" stroke="#14120F" stroke-width="2.4"/>
+<rect x="864.2" y="173.9" width="16.0" height="16.0" fill="#A8442A" stroke="#A8442A" stroke-width="2.4"/>
+<rect x="1158.2" y="196.0" width="16.0" height="16.0" fill="#FFFFFF" stroke="#14120F" stroke-width="2.4"/>
+<text x="70.0" y="100.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="start">54 points, trois centres au hasard</text>
+<text x="770.0" y="100.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="start">après quatre tours</text>
+<text x="70.0" y="486.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">aucune étiquette, des positions</text>
+<text x="770.0" y="486.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">trois groupes de 18 · 18 · 18</text>
+</svg>

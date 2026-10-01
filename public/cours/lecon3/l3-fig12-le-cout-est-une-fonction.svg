@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="560" viewBox="0 0 1380 560">
+<rect width="1380" height="560" fill="#FFFFFF"/>
+<text x="60.0" y="60.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">le coût, vu comme une fonction</text>
+<line x1="60.0" y1="74.0" x2="820.0" y2="74.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<rect x="480.0" y="220.0" width="420.0" height="190.0" fill="none" stroke="#A8442A" stroke-width="2.8"/>
+<line x1="180.0" y1="315.0" x2="463.7" y2="315.0" stroke="#7E7972" stroke-width="2.6" data-role="filet"/><polygon points="470.0,315.0 461.7,318.5 461.7,311.5" fill="#7E7972" data-role="filet"/>
+<line x1="910.0" y1="315.0" x2="1193.7" y2="315.0" stroke="#7E7972" stroke-width="2.6" data-role="filet"/><polygon points="1200.0,315.0 1191.7,318.5 1191.7,311.5" fill="#7E7972" data-role="filet"/>
+<text x="180.0" y="270.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#14120F" text-anchor="start">101 770 nombres</text>
+<text x="1200.0" y="270.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#14120F" text-anchor="end">1 nombre</text>
+<text x="690.0" y="455.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="middle">fixé</text>
+<text x="690.0" y="499.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">le jeu</text>
+<text x="690.0" y="335.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="700" fill="#A8442A" text-anchor="middle">C<tspan font-size="33.3" dy="11.8">D</tspan><tspan font-size="49" dy="-11.8"></tspan></text>
+</svg>

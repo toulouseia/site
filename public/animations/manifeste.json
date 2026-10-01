@@ -1,0 +1,1575 @@
+{
+  "version": 1,
+  "genere": "2026-09-21T13:26:16+00:00",
+  "style": {
+    "fichier": "n7ia.py",
+    "empreinte": "105794847977",
+    "modifiee": "2026-09-06T19:22:22+00:00"
+  },
+  "animations": [
+    {
+      "id": "larbre-des-dependances",
+      "titre": "Ce dont la perte dépend, branche par branche",
+      "alt": "La lettre ℓ apparaît seule au bas du centre de l'écran. Un trait vertical monte d'elle vers un nouveau symbole, a exposant trois, qui vient de naître au-dessus ; puis un second trait monte vers z exposant trois. De ce dernier partent alors trois traits à la fois, un vers la gauche, un droit au-dessus, un vers la droite, et trois symboles apparaissent à leur extrémité : w exposant trois, a exposant deux, b exposant trois. Le motif recommence depuis a exposant deux, qui fait monter z exposant deux, lequel ouvre à son tour trois branches vers w exposant deux, a exposant un et b exposant deux ; puis une troisième fois, jusqu'à une dernière génération portant w exposant un, la lettre x et b exposant un. À chaque poussée, la branche qui vient de sortir est seule en couleur brique, et tout ce qui a déjà poussé est retombé à l'encre pâlie. L'arbre achevé occupe toute la hauteur de l'écran.",
+      "notions": [
+        "geste : arbre qui pousse branche par branche",
+        "dépendance",
+        "variable intermédiaire",
+        "règle de la chaîne"
+      ],
+      "chapitres": null,
+      "licence": "CC BY-SA 4.0, N7-IA",
+      "empreinte": "2a4757f0cead",
+      "duree": 16.4,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "cadence": 30,
+      "poster": "/animations/larbre-des-dependances/2a4757f0cead.webp",
+      "rendus": [
+        {
+          "format": "mp4",
+          "src": "/animations/larbre-des-dependances/2a4757f0cead.mp4",
+          "octets": 325720,
+          "mime": "video/mp4; codecs=\"avc1.640032\""
+        }
+      ],
+      "profil": {
+        "rendu": "3840x2160",
+        "encodage": "x264-crf18-tune-animation-v1"
+      },
+      "source": {
+        "fichier": "calcul/arbre.py",
+        "scene": "LarbreDesDependances",
+        "empreinte": "ee88e26ec555",
+        "modifiee": "2026-09-20T11:39:15+00:00",
+        "manim": "0.21.0",
+        "rendu": "2026-09-20T11:46:16+00:00"
+      }
+    },
+    {
+      "id": "trois-droites-graduees",
+      "titre": "Une poussée sur w, et ce qu'elle devient",
+      "alt": "Trois droites horizontales graduées de traits réguliers occupent l'écran, l'une au-dessus de l'autre, désignées à leur gauche par w exposant trois, z exposant trois et la lettre ℓ. Chacune porte un point brique posé sur elle, et sous chaque point la valeur mesurée s'inscrit : deux virgule zéro, un virgule sept cents, zéro virgule cent soixante-sept mille sept cent quatre-vingt-six. Le point de la première droite glisse vers la droite d'une longueur nette, laissant derrière lui un segment brique qui mesure son déplacement, tandis que la valeur de départ reste inscrite à sa place. Le point de la deuxième droite part alors à son tour dans le même sens, un peu plus loin que le premier, et celui de la troisième recule vers la gauche d'une longueur bien plus courte. Deux rapports s'inscrivent à droite. Tout revient ensuite à sa place, les traits de graduation s'écartent largement les uns des autres, et la même scène se rejoue avec un déplacement dix fois plus petit : les deux rapports réapparaissent identiques, chiffre pour chiffre.",
+      "notions": [
+        "geste : trois droites graduées reliées par des tirets",
+        "dérivée partielle",
+        "règle de la chaîne",
+        "passage à la limite"
+      ],
+      "chapitres": null,
+      "licence": "CC BY-SA 4.0, N7-IA",
+      "empreinte": "2a4757f0cead",
+      "duree": 23.83,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "cadence": 30,
+      "poster": "/animations/trois-droites-graduees/2a4757f0cead.webp",
+      "rendus": [
+        {
+          "format": "mp4",
+          "src": "/animations/trois-droites-graduees/2a4757f0cead.mp4",
+          "octets": 1048425,
+          "mime": "video/mp4; codecs=\"avc1.640032\""
+        }
+      ],
+      "profil": {
+        "rendu": "3840x2160",
+        "encodage": "x264-crf18-tune-animation-v1"
+      },
+      "source": {
+        "fichier": "calcul/arbre.py",
+        "scene": "TroisDroitesGraduees",
+        "empreinte": "694b69bb4f67",
+        "modifiee": "2026-09-20T11:39:15+00:00",
+        "manim": "0.21.0",
+        "rendu": "2026-09-20T11:47:15+00:00"
+      }
+    },
+    {
+      "id": "le-gradient-est-un-produit-exterieur",
+      "titre": "Une colonne, une ligne, et le bloc se remplit",
+      "alt": "Une colonne étroite de cases est posée à gauche de l'écran et une ligne de cases au-dessus, à angle droit l'une de l'autre, désignées l'une par delta et l'autre par a transposé. Entre elles, un grand tableau carré est entièrement vide, ses cases seulement dessinées par un filet très pâle. Une case de la colonne s'éclaire en brique, une case de la ligne s'éclaire en brique, et à l'endroit précis où leur rangée et leur colonne se croisent, une case du tableau se remplit d'encre. Le couple s'éteint, un autre couple s'éclaire ailleurs, et une deuxième case se remplit à son croisement ; la chose se répète plusieurs fois en des points dispersés du tableau. Puis le balayage s'accélère : la case éclairée de la colonne descend rangée après rangée, et à chaque descente toute une rangée du tableau se remplit d'un coup, jusqu'à ce que le tableau soit plein. Deux cotes s'inscrivent enfin à droite, l'une donnant la taille vraie du bloc et son nombre de coefficients, l'autre le nombre de multiplications que tous les produits extérieurs du réseau coûtent.",
+      "notions": [
+        "geste : colonne et ligne dont le croisement remplit un tableau",
+        "produit extérieur",
+        "proposition 6",
+        "gradient d'un bloc"
+      ],
+      "chapitres": null,
+      "licence": "CC BY-SA 4.0, N7-IA",
+      "empreinte": "461325f5b380",
+      "duree": 15.07,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "cadence": 30,
+      "poster": "/animations/le-gradient-est-un-produit-exterieur/461325f5b380.webp",
+      "rendus": [
+        {
+          "format": "mp4",
+          "src": "/animations/le-gradient-est-un-produit-exterieur/461325f5b380.mp4",
+          "octets": 552298,
+          "mime": "video/mp4; codecs=\"avc1.640032\""
+        }
+      ],
+      "profil": {
+        "rendu": "3840x2160",
+        "encodage": "x264-crf18-tune-animation-v1"
+      },
+      "source": {
+        "fichier": "calcul/bloc.py",
+        "scene": "LeGradientEstUnProduitExterieur",
+        "empreinte": "da71108efd9c",
+        "modifiee": "2026-09-20T11:34:06+00:00",
+        "manim": "0.21.0",
+        "rendu": "2026-09-20T11:45:27+00:00"
+      }
+    },
+    {
+      "id": "le-reseau-minuscule",
+      "titre": "Le réseau que le texte calcule à la main",
+      "alt": "Quatre ronds à contour gris sont alignés horizontalement au milieu de l'écran, reliés de proche en proche par trois traits droits. Au-dessus de chaque trait s'inscrit un poids, zéro virgule huit, un virgule cinq, puis deux, et au-dessous de chaque trait un biais, zéro virgule deux, moins zéro virgule quatre, moins zéro virgule cinq. Le rond de gauche se remplit d'encre et la valeur un s'écrit sous lui. Le deuxième rond se remplit à son tour et porte un virgule zéro zéro zéro, le troisième un virgule cent, le quatrième, plus pâle que les deux précédents, zéro virgule huit cent quarante-cinq mille cinq cent trente-cinq. À chaque étape, le poste qui vient de se remplir est le seul en encre pleine, les autres ayant pâli. Enfin, sous le dernier rond, la perte s'inscrit en brique : zéro virgule cent soixante-sept mille sept cent quatre-vingt-six.",
+      "notions": [
+        "geste : réseau à un neurone par couche qui se remplit poste par poste",
+        "réseau 1-1-1-1",
+        "propagation avant",
+        "entropie croisée binaire"
+      ],
+      "chapitres": null,
+      "licence": "CC BY-SA 4.0, N7-IA",
+      "empreinte": "63d67892ed65",
+      "duree": 12.9,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "cadence": 30,
+      "poster": "/animations/le-reseau-minuscule/63d67892ed65.webp",
+      "rendus": [
+        {
+          "format": "mp4",
+          "src": "/animations/le-reseau-minuscule/63d67892ed65.mp4",
+          "octets": 614194,
+          "mime": "video/mp4; codecs=\"avc1.640032\""
+        }
+      ],
+      "profil": {
+        "rendu": "3840x2160",
+        "encodage": "x264-crf18-tune-animation-v1"
+      },
+      "source": {
+        "fichier": "calcul/minuscule.py",
+        "scene": "LeReseauMinuscule",
+        "empreinte": "e4e141e29426",
+        "modifiee": "2026-09-20T11:37:03+00:00",
+        "manim": "0.21.0",
+        "rendu": "2026-09-20T11:48:03+00:00"
+      }
+    },
+    {
+      "id": "le-signal-sattenue",
+      "titre": "Le signal traverse cinq couches, deux fois",
+      "alt": "Un tableau carré de coefficients occupe le haut de l'écran, chacune de ses cases remplie d'une encre uniforme ; une cote indique qu'il s'agit de la transposée d'un bloc de soixante-quatre sur soixante-quatre. Sous lui, cinq emplacements de barres sont alignés sur une même ligne de base, désignés de la couche cinq à la couche un. La barre de droite du groupe, celle de la couche de sortie, monte d'abord jusqu'à une hauteur nette et sa valeur s'inscrit au-dessus. Le tableau s'éclaire alors en brique sur toute sa surface, comme traversé, et la barre voisine monte à son tour presque aussi haut. Le mouvement se répète quatre fois et laisse cinq barres de hauteurs voisines, sous l'étiquette ReLU, avec un rapport proche de un. Toutes les barres retombent ensuite, l'étiquette devient sigmoïde, et le même trajet recommence sans que l'échelle change : la première barre monte aussi haut que tout à l'heure, la deuxième au tiers, la troisième à un dixième, et les deux dernières ne se voient plus du tout — seules leurs cotes chiffrées disent qu'elles existent. Le rapport inscrit à la fin vaut cette fois plus de cent.",
+      "notions": [
+        "geste : signal atténué à chaque relais",
+        "transposée",
+        "profondeur",
+        "atténuation du gradient"
+      ],
+      "chapitres": null,
+      "licence": "CC BY-SA 4.0, N7-IA",
+      "empreinte": "2e2813285e16",
+      "duree": 27.17,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "cadence": 30,
+      "poster": "/animations/le-signal-sattenue/2e2813285e16.webp",
+      "rendus": [
+        {
+          "format": "mp4",
+          "src": "/animations/le-signal-sattenue/2e2813285e16.mp4",
+          "octets": 1395284,
+          "mime": "video/mp4; codecs=\"avc1.640032\""
+        }
+      ],
+      "profil": {
+        "rendu": "3840x2160",
+        "encodage": "x264-crf18-tune-animation-v1"
+      },
+      "source": {
+        "fichier": "calcul/profondeur.py",
+        "scene": "LeSignalSattenue",
+        "empreinte": "29d4c4855c77",
+        "modifiee": "2026-09-20T11:34:14+00:00",
+        "manim": "0.21.0",
+        "rendu": "2026-09-20T11:44:19+00:00"
+      }
+    },
+    {
+      "id": "la-recurrence-se-deroule",
+      "titre": "Le signal descend les trois couches",
+      "alt": "Trois segments horizontaux épais sont posés l'un au-dessus de l'autre, régulièrement espacés, occupant la hauteur de l'écran. Sur le segment du haut s'inscrit le symbole delta exposant trois à gauche et, à droite, sa valeur en brique : moins zéro virgule cent cinquante-quatre mille quatre cent soixante-cinq. Entre le premier et le deuxième segment apparaît alors un facteur, fois w exposant trois fois phi prime de z exposant deux, et un trait brique descend du premier barreau au second, où delta exposant deux s'inscrit avec sa valeur, moins zéro virgule trois cent huit mille neuf cent trente et un — le double de la précédente. Le même mouvement se répète vers le troisième barreau, portant delta exposant un et moins zéro virgule quatre cent soixante-trois mille trois cent quatre-vingt-seize. Les trois barreaux pâlissent alors, et une seule longue expression s'écrit sous eux, produit de six facteurs ; à son extrémité paraît la même valeur que celle du dernier barreau, et au-dessous la mention d'un écart nul.",
+      "notions": [
+        "geste : signal d'erreur qui descend les barreaux d'une couche à l'autre",
+        "récurrence",
+        "proposition 4",
+        "produit déroulé"
+      ],
+      "chapitres": null,
+      "licence": "CC BY-SA 4.0, N7-IA",
+      "empreinte": "3ec1589c57a2",
+      "duree": 13.67,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "cadence": 30,
+      "poster": "/animations/la-recurrence-se-deroule/3ec1589c57a2.webp",
+      "rendus": [
+        {
+          "format": "mp4",
+          "src": "/animations/la-recurrence-se-deroule/3ec1589c57a2.mp4",
+          "octets": 451670,
+          "mime": "video/mp4; codecs=\"avc1.640032\""
+        }
+      ],
+      "profil": {
+        "rendu": "3840x2160",
+        "encodage": "x264-crf18-tune-animation-v1"
+      },
+      "source": {
+        "fichier": "calcul/recurrence.py",
+        "scene": "LaRecurrenceSeDeroule",
+        "empreinte": "8aab5c04592a",
+        "modifiee": "2026-09-20T09:13:19+00:00",
+        "manim": "0.21.0",
+        "rendu": "2026-09-20T11:40:08+00:00"
+      }
+    },
+    {
+      "id": "la-jacobienne-est-diagonale",
+      "titre": "Le tableau se vide sauf sa diagonale",
+      "alt": "Un tableau carré de vingt rangées sur vingt colonnes occupe la hauteur de l'écran, chacune de ses quatre cents cases remplie d'une encre sombre uniforme et séparée de ses voisines par un filet très pâle. Une étiquette posée au-dessus indique que l'activation considérée est la sigmoïde. Les cases commencent alors à s'éteindre par vagues obliques qui traversent le tableau en diagonale, rangée après rangée, laissant derrière elles des cases entièrement vides ; seules celles qui se trouvent sur la diagonale allant du coin supérieur gauche au coin inférieur droit conservent leur encre. Quand la dernière vague est passée, il ne reste qu'une ligne oblique de vingt cases pleines sur un damier vide, et le contour de ces vingt cases passe en couleur brique. À droite du tableau s'inscrivent alors deux cotes, le nombre de coefficients hors diagonale et le nombre de ceux qui ne sont pas nuls, puis une troisième donnant le plus petit module relevé sur la diagonale.",
+      "notions": [
+        "geste : matrice qui se vide sauf sa diagonale",
+        "jacobienne",
+        "proposition 6",
+        "produit de Hadamard"
+      ],
+      "chapitres": null,
+      "licence": "CC BY-SA 4.0, N7-IA",
+      "empreinte": "05f7d6ce3e5b",
+      "duree": 10.43,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "cadence": 30,
+      "poster": "/animations/la-jacobienne-est-diagonale/05f7d6ce3e5b.webp",
+      "rendus": [
+        {
+          "format": "mp4",
+          "src": "/animations/la-jacobienne-est-diagonale/05f7d6ce3e5b.mp4",
+          "octets": 533963,
+          "mime": "video/mp4; codecs=\"avc1.640032\""
+        }
+      ],
+      "profil": {
+        "rendu": "3840x2160",
+        "encodage": "x264-crf18-tune-animation-v1"
+      },
+      "source": {
+        "fichier": "calcul/vectorielle.py",
+        "scene": "LaJacobienneEstDiagonale",
+        "empreinte": "c16c469066fc",
+        "modifiee": "2026-09-20T09:17:47+00:00",
+        "manim": "0.21.0",
+        "rendu": "2026-09-20T11:41:06+00:00"
+      }
+    },
+    {
+      "id": "le-softmax-ne-se-vide-pas",
+      "titre": "Le même contrôle, et le tableau qui ne se vide pas",
+      "alt": "Un tableau carré de dix rangées sur dix colonnes occupe le centre de l'écran, ses cent cases remplies d'une encre sombre uniforme, sous une étiquette portant le mot softmax. Une vague oblique le traverse exactement comme elle avait traversé le tableau précédent, mais cette fois aucune case ne s'éteint : les cases s'éclaircissent au passage de la vague puis retrouvent toutes leur encre. Les dix cases de la diagonale prennent ensuite un contour brique, tandis que les quatre-vingt-dix autres restent pleines. Trois cotes s'inscrivent à droite du tableau : le nombre de coefficients hors diagonale, le nombre de ceux qui ne sont pas nuls — le même — et le plus grand module relevé hors diagonale. Enfin, les colonnes du tableau s'éclairent l'une après l'autre de gauche à droite, et sous le tableau s'inscrit la somme de chaque colonne, un nombre de l'ordre de dix puissance moins onze.",
+      "notions": [
+        "geste : matrice soumise au même contrôle qui ne se vide pas",
+        "softmax",
+        "jacobienne non diagonale",
+        "couplage des composantes"
+      ],
+      "chapitres": null,
+      "licence": "CC BY-SA 4.0, N7-IA",
+      "empreinte": "05f7d6ce3e5b",
+      "duree": 13.6,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "cadence": 30,
+      "poster": "/animations/le-softmax-ne-se-vide-pas/05f7d6ce3e5b.webp",
+      "rendus": [
+        {
+          "format": "mp4",
+          "src": "/animations/le-softmax-ne-se-vide-pas/05f7d6ce3e5b.mp4",
+          "octets": 610867,
+          "mime": "video/mp4; codecs=\"avc1.640032\""
+        }
+      ],
+      "profil": {
+        "rendu": "3840x2160",
+        "encodage": "x264-crf18-tune-animation-v1"
+      },
+      "source": {
+        "fichier": "calcul/vectorielle.py",
+        "scene": "LeSoftmaxNeSeVidePas",
+        "empreinte": "56cf1097be76",
+        "modifiee": "2026-09-20T09:17:47+00:00",
+        "manim": "0.21.0",
+        "rendu": "2026-09-20T11:42:16+00:00"
+      }
+    },
+    {
+      "id": "le-reseau-au-hasard",
+      "titre": "Le réseau avant d'avoir rien appris",
+      "alt": "Le réseau occupe tout l'écran : à gauche une grille carrée de vingt-huit cases sur vingt-huit, puis trois colonnes de ronds vides reliées par deux nappes de traits très pâles, et à droite une colonne de dix ronds portant chacun son chiffre, de zéro à neuf. Les deux premières colonnes sont abrégées par des points de suspension, avec une accolade qui porte leur taille vraie, sept cent quatre-vingt-quatre et cent vingt-huit. La grille se remplit du dessin d'un chiffre manuscrit en niveaux de gris. Ses cases encrées se détachent alors une à une et filent vers la colonne d'entrée, dont les ronds se remplissent d'encre à mesure. Une vague de brique traverse ensuite la première nappe de traits, de gauche à droite, et la colonne du milieu se remplit derrière elle, très inégalement : certains ronds deviennent presque noirs, beaucoup restent vides. La même vague traverse la seconde nappe, et les dix ronds de sortie se remplissent à leur tour. Aucun ne s'impose : le plus foncé l'est quatre fois plus que le plus pâle, là où un réseau entraîné en noircirait un seul et laisserait les neuf autres presque vides. Le plus rempli d'entre eux voit enfin son contour passer à la brique, et ce n'est pas celui du chiffre dessiné dans la grille.",
+      "notions": [
+        "geste : une image traverse le réseau, couche après couche",
+        "initialisation au hasard",
+        "propagation avant",
+        "softmax"
+      ],
+      "chapitres": null,
+      "licence": "CC BY-SA 4.0, N7-IA",
+      "empreinte": "b8e6ee316729",
+      "duree": 9.7,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "cadence": 30,
+      "poster": "/animations/le-reseau-au-hasard/b8e6ee316729.webp",
+      "rendus": [
+        {
+          "format": "mp4",
+          "src": "/animations/le-reseau-au-hasard/b8e6ee316729.mp4",
+          "octets": 3628179,
+          "mime": "video/mp4; codecs=\"avc1.640032\""
+        }
+      ],
+      "profil": {
+        "rendu": "3840x2160",
+        "encodage": "x264-crf18-tune-animation-v1"
+      },
+      "source": {
+        "fichier": "descente/au_hasard.py",
+        "scene": "LeReseauAuHasard",
+        "empreinte": "30b22df86e78",
+        "modifiee": "2026-09-20T11:47:00+00:00",
+        "manim": "0.21.0",
+        "rendu": "2026-09-20T11:56:39+00:00"
+      }
+    },
+    {
+      "id": "dix-valeurs-inegales",
+      "titre": "Dix valeurs, et elles ne sont pas égales",
+      "alt": "Le réseau s'efface et devient un décor très pâle ; seule sa colonne de sortie, à droite, garde ses dix ronds remplis, chacun portant son chiffre de zéro à neuf. De chaque rond part alors vers la droite une barre horizontale, du haut vers le bas, l'une après l'autre, et chacune s'arrête à sa propre longueur. Les longueurs sont visiblement inégales : la barre de la classe deux est plus de quatre fois plus longue que celle de la classe huit, alors qu'aucune n'a de raison de l'être. Les dix valeurs s'inscrivent ensuite en brique tout à droite, alignées les unes sous les autres : zéro virgule douze vingt et un, zéro virgule zéro huit quatre-vingt-cinq, zéro virgule vingt et un zéro six, zéro virgule dix quatre-vingt-quatorze, zéro virgule onze quarante-neuf, zéro virgule dix vingt et un, zéro virgule zéro huit vingt-cinq, zéro virgule zéro six cinquante, zéro virgule zéro quatre quatre-vingt-treize, zéro virgule zéro cinq cinquante-cinq. Une ligne verticale pointillée se pose alors en travers des barres, à la longueur zéro virgule un, celle qu'aurait chacune si le réseau répondait au hasard, et sa valeur s'inscrit sous elle. Cinq barres la dépassent, et leur contour s'épaissit pour qu'on les repère ; les cinq autres restent en deçà — le réseau ne penche donc pas dans un sens, il hésite. La barre de la classe sept, enfin, celle qui est la vraie réponse, passe à la brique avec sa valeur : elle est parmi les plus courtes.",
+      "notions": [
+        "geste : les dix sorties se déplient en barres depuis leurs ronds",
+        "loi de probabilité",
+        "simplexe",
+        "entropie croisée"
+      ],
+      "chapitres": null,
+      "licence": "CC BY-SA 4.0, N7-IA",
+      "empreinte": "b8e6ee316729",
+      "duree": 10.9,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "cadence": 30,
+      "poster": "/animations/dix-valeurs-inegales/b8e6ee316729.webp",
+      "rendus": [
+        {
+          "format": "mp4",
+          "src": "/animations/dix-valeurs-inegales/b8e6ee316729.mp4",
+          "octets": 1951568,
+          "mime": "video/mp4; codecs=\"avc1.640032\""
+        }
+      ],
+      "profil": {
+        "rendu": "3840x2160",
+        "encodage": "x264-crf18-tune-animation-v1"
+      },
+      "source": {
+        "fichier": "descente/au_hasard.py",
+        "scene": "DixValeursInegales",
+        "empreinte": "527b8dfad2ca",
+        "modifiee": "2026-09-20T11:47:00+00:00",
+        "manim": "0.21.0",
+        "rendu": "2026-09-20T11:57:40+00:00"
+      }
+    },
+    {
+      "id": "la-bille-passe-le-premier-creux",
+      "titre": "Une bille ne s'arrête pas au premier creux",
+      "alt": "Un repère se dessine, occupant presque tout l'écran ; l'axe horizontal porte le nom « un paramètre » à son extrémité droite, l'axe vertical le nom « le coût » en haut. Une courbe épaisse se trace alors de gauche à droite : elle descend depuis le haut de l'écran, creuse un premier vallon peu profond au tiers gauche, remonte en une bosse arrondie au milieu, creuse un second vallon nettement plus profond aux deux tiers, puis remonte vers la droite. Un cercle vide au trait de brique, de la taille d'une petite bille, vient se poser sur la pente de gauche, exactement tangent au tracé. Il se met à rouler : il descend, accélère, et au lieu de s'arrêter dans le premier vallon il le traverse en pleine vitesse, franchit la bosse du milieu et remonte haut sur la pente qui suit le second vallon. Il redescend, repasse le fond, remonte un peu de l'autre côté, et ses allers et retours se font de plus en plus courts jusqu'à ce qu'il s'immobilise au fond du second vallon, le plus profond. Un trait pointillé descend alors de la bille jusqu'à l'axe horizontal, pour marquer où elle s'est arrêtée : pas là où elle est passée la première fois.",
+      "notions": [
+        "geste : une bille roule le long d'une courbe et dépasse un creux",
+        "coupe du coût",
+        "minimum local",
+        "inertie"
+      ],
+      "chapitres": null,
+      "licence": "CC BY-SA 4.0, N7-IA",
+      "empreinte": "58caa6a292e7",
+      "duree": 18.33,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "cadence": 30,
+      "poster": "/animations/la-bille-passe-le-premier-creux/58caa6a292e7.webp",
+      "rendus": [
+        {
+          "format": "mp4",
+          "src": "/animations/la-bille-passe-le-premier-creux/58caa6a292e7.mp4",
+          "octets": 611344,
+          "mime": "video/mp4; codecs=\"avc1.640032\""
+        }
+      ],
+      "profil": {
+        "rendu": "3840x2160",
+        "encodage": "x264-crf18-tune-animation-v1"
+      },
+      "source": {
+        "fichier": "descente/bille.py",
+        "scene": "LaBillePasseLePremierCreux",
+        "empreinte": "40d0bf8d0355",
+        "modifiee": "2026-09-20T11:41:51+00:00",
+        "manim": "0.21.0",
+        "rendu": "2026-09-20T12:01:34+00:00"
+      }
+    },
+    {
+      "id": "le-pas-sarrete-au-premier-creux",
+      "titre": "La règle, elle, s'arrête au premier creux",
+      "alt": "La même courbe à deux vallons occupe l'écran, avec ses deux axes nommés. Un point plein de brique se pose sur la pente de gauche, exactement là où la bille avait été lâchée. Un segment de droite vient s'appuyer contre la courbe sous le point, dans le sens de la pente, puis s'efface, et le point saute vers la droite d'une longueur nette. La même chose recommence : une tangente, un saut. Les sauts sont d'abord longs, là où la courbe est raide, puis de plus en plus courts à mesure que la pente s'aplatit, et le point finit par ne plus bouger du tout. Il s'est arrêté au fond du PREMIER vallon, celui que la bille avait traversé sans s'y arrêter, et un trait pointillé descend de lui jusqu'à l'axe pour le marquer. Le second vallon, plus profond, est resté là-bas, intact. Le point se reporte alors sur la paroi de ce second vallon et recommence avec des sauts beaucoup plus longs : cette fois il enjambe le fond au lieu de l'atteindre, se retrouve sur la pente d'en face, repart dans l'autre sens et l'enjambe encore. Cinq sauts durant, il passe d'une paroi à l'autre sans jamais toucher le creux qu'il traverse, et il finit plus haut qu'il n'était parti.",
+      "notions": [
+        "geste : un point descend par pas discrets, de plus en plus courts",
+        "descente de gradient",
+        "minimum local",
+        "taux d'apprentissage"
+      ],
+      "chapitres": null,
+      "licence": "CC BY-SA 4.0, N7-IA",
+      "empreinte": "58caa6a292e7",
+      "duree": 17.8,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "cadence": 30,
+      "poster": "/animations/le-pas-sarrete-au-premier-creux/58caa6a292e7.webp",
+      "rendus": [
+        {
+          "format": "mp4",
+          "src": "/animations/le-pas-sarrete-au-premier-creux/58caa6a292e7.mp4",
+          "octets": 632401,
+          "mime": "video/mp4; codecs=\"avc1.640032\""
+        }
+      ],
+      "profil": {
+        "rendu": "3840x2160",
+        "encodage": "x264-crf18-tune-animation-v1"
+      },
+      "source": {
+        "fichier": "descente/bille.py",
+        "scene": "LePasSArreteAuPremierCreux",
+        "empreinte": "915b1e7fd452",
+        "modifiee": "2026-09-20T11:41:51+00:00",
+        "manim": "0.21.0",
+        "rendu": "2026-09-20T12:02:14+00:00"
+      }
+    },
+    {
+      "id": "le-gradient-par-ses-composantes",
+      "titre": "Une composante sur deux ne pèse rien",
+      "alt": "Un socle horizontal se dessine au milieu de l'écran, et une cote s'inscrit dessous : cent un mille sept cent soixante-dix composantes. C'est la taille du vecteur gradient. Une barre large monte alors depuis ce socle et ne s'arrête qu'en haut du cadre ; sa valeur s'inscrit au-dessus, zéro virgule un zéro zéro huit quatre : c'est la plus grande des cent un mille composantes. Une seconde barre monte juste à côté, à la même échelle, et elle s'arrête si bas qu'on la prendrait pour un épaississement du socle : c'est la composante médiane, la valeur qui partage le vecteur en deux moitiés égales. Sa valeur ne peut pas s'inscrire au-dessus d'elle, il n'y a pas la place : elle s'inscrit haut au-dessus, zéro virgule zéro zéro zéro deux quatre neuf trois cinq, reliée à sa barre par un mince trait d'appel qui descend jusqu'au socle. Une accolade de brique court enfin le long de la grande barre, du socle jusqu'à son sommet, et porte un seul nombre : quatre cent quatre. C'est par là qu'il faut multiplier la seconde barre pour obtenir la première, et la moitié des composantes du gradient sont plus petites encore que la seconde.",
+      "notions": [
+        "geste : deux barres à la même échelle, dont l'une est invisible",
+        "gradient",
+        "norme",
+        "inégalité des composantes"
+      ],
+      "chapitres": null,
+      "licence": "CC BY-SA 4.0, N7-IA",
+      "empreinte": "beb27dfe811d",
+      "duree": 8.1,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "cadence": 30,
+      "poster": "/animations/le-gradient-par-ses-composantes/beb27dfe811d.webp",
+      "rendus": [
+        {
+          "format": "mp4",
+          "src": "/animations/le-gradient-par-ses-composantes/beb27dfe811d.mp4",
+          "octets": 252694,
+          "mime": "video/mp4; codecs=\"avc1.640032\""
+        }
+      ],
+      "profil": {
+        "rendu": "3840x2160",
+        "encodage": "x264-crf18-tune-animation-v1"
+      },
+      "source": {
+        "fichier": "descente/gradient_vecteur.py",
+        "scene": "LeGradientParSesComposantes",
+        "empreinte": "e31a3129d676",
+        "modifiee": "2026-09-20T11:36:30+00:00",
+        "manim": "0.21.0",
+        "rendu": "2026-09-20T11:58:06+00:00"
+      }
+    },
+    {
+      "id": "trois-graines-trois-creux",
+      "titre": "Trois fois le même protocole, trois réponses",
+      "alt": "Un repère occupe l'écran, l'axe horizontal nommé « un paramètre », l'axe vertical « le coût ». Une courbe épaisse s'y trace, ondulante : trois creux séparés par deux bosses arrondies, et les trois creux sont sensiblement à la même hauteur, celui de droite à peine plus bas que celui du milieu, lui-même à peine plus bas que celui de gauche. Trois points pleins de brique se posent alors sur la courbe, à trois endroits éloignés les uns des autres. Ils se mettent à descendre tous les trois en même temps, chacun glissant vers le bas de la pente sous lui, d'abord vite puis de plus en plus lentement. Aucun ne rejoint les autres : chacun s'immobilise au fond du creux au-dessus duquel il se trouvait au départ. Sous chaque point s'inscrivent alors le nom de sa graine et la précision qu'elle a mesurée : graine zéro, zéro virgule neuf huit un quatre ; graine deux, zéro virgule neuf huit un six ; graine un, zéro virgule neuf huit deux trois. Les trois se ressemblent au quatrième chiffre. La courbe s'efface ensuite, et les trois solutions reparaissent comme trois points formant un triangle presque équilatéral, dont les trois côtés portent leur longueur mesurée : un virgule quatre zéro trois six, un virgule quatre zéro un zéro, un virgule trois neuf neuf un. Sous le triangle, un segment pointillé de même facture porte un virgule quatre un quatre deux, la valeur qu'aurait chaque côté si les trois solutions étaient exactement orthogonales : les trois côtés mesurés sont juste en dessous.",
+      "notions": [
+        "geste : trois points lâchés ensemble sur la même courbe",
+        "minimum local",
+        "initialisation",
+        "distance relative"
+      ],
+      "chapitres": null,
+      "licence": "CC BY-SA 4.0, N7-IA",
+      "empreinte": "a3d8d3fa0705",
+      "duree": 17.8,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "cadence": 30,
+      "poster": "/animations/trois-graines-trois-creux/a3d8d3fa0705.webp",
+      "rendus": [
+        {
+          "format": "mp4",
+          "src": "/animations/trois-graines-trois-creux/a3d8d3fa0705.mp4",
+          "octets": 768943,
+          "mime": "video/mp4; codecs=\"avc1.640032\""
+        }
+      ],
+      "profil": {
+        "rendu": "3840x2160",
+        "encodage": "x264-crf18-tune-animation-v1"
+      },
+      "source": {
+        "fichier": "descente/graines.py",
+        "scene": "TroisGrainesTroisCreux",
+        "empreinte": "1a2696ad5b44",
+        "modifiee": "2026-09-20T11:41:26+00:00",
+        "manim": "0.21.0",
+        "rendu": "2026-09-20T11:58:57+00:00"
+      }
+    },
+    {
+      "id": "le-lot-vise-a-cote-du-gradient",
+      "titre": "Un petit lot ne vise pas dans la bonne direction",
+      "alt": "Un vecteur d'encre part du bas de l'écran et monte vers la droite en pente raide, occupant presque toute la hauteur du cadre ; son nom s'inscrit à sa pointe : gradient complet. C'est la direction calculée sur la totalité des images, et il ne bougera plus de toute la scène. Un second vecteur, de brique et de même longueur, part du même point, mais dans une direction tout autre : il file vers la gauche en montant à peine, à peu près perpendiculaire au premier. Un arc mince relie les deux flèches près de leur origine, et deux mentions s'inscrivent à droite : lot de un, et quatre-vingt-quatre virgule neuf degrés. La mention change alors pour lot de huit, et le vecteur de brique pivote vers celui d'encre, l'arc se referme : soixante-huit virgule trois degrés. Le mouvement se répète trois fois. Lot de soixante-quatre : quarante virgule six degrés, le vecteur de brique s'est redressé et monte maintenant du même côté que celui d'encre. Lot de cinq cent douze : seize virgule sept degrés, l'arc n'est plus qu'un fragment. Lot de quatre mille quatre-vingt-seize : cinq virgule huit degrés, et les deux vecteurs sont presque confondus, l'arc réduit à un trait. Le vecteur de brique n'a jamais rejoint exactement celui d'encre.",
+      "notions": [
+        "geste : un vecteur pivote vers un autre à mesure que le lot grossit",
+        "gradient complet",
+        "mini-lot",
+        "angle entre deux vecteurs"
+      ],
+      "chapitres": null,
+      "licence": "CC BY-SA 4.0, N7-IA",
+      "empreinte": "4b0463c1b9d6",
+      "duree": 13.7,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "cadence": 30,
+      "poster": "/animations/le-lot-vise-a-cote-du-gradient/4b0463c1b9d6.webp",
+      "rendus": [
+        {
+          "format": "mp4",
+          "src": "/animations/le-lot-vise-a-cote-du-gradient/4b0463c1b9d6.mp4",
+          "octets": 488770,
+          "mime": "video/mp4; codecs=\"avc1.640032\""
+        }
+      ],
+      "profil": {
+        "rendu": "3840x2160",
+        "encodage": "x264-crf18-tune-animation-v1"
+      },
+      "source": {
+        "fichier": "descente/lot.py",
+        "scene": "LeLotViseACoteDuGradient",
+        "empreinte": "d2fb5aa33a73",
+        "modifiee": "2026-09-20T11:44:06+00:00",
+        "manim": "0.21.0",
+        "rendu": "2026-09-20T11:59:33+00:00"
+      }
+    },
+    {
+      "id": "la-norme-du-gradient-decroit",
+      "titre": "Le gradient rétrécit, et pas régulièrement",
+      "alt": "Un trait vertical se pose à gauche de l'écran : c'est l'origine commune de cinq flèches horizontales, empilées les unes sous les autres. La première pousse vers la droite et traverse presque toute la largeur du cadre ; à sa gauche s'inscrit « époque zéro », à sa droite sa longueur mesurée, zéro virgule zéro huit sept huit sept huit — c'est la norme du gradient au début de l'entraînement. La deuxième flèche pousse en dessous et s'arrête nettement plus tôt, à zéro virgule zéro cinq huit cinq trois trois, pour l'époque quatre. La troisième, celle de l'époque neuf, pousse à son tour et dépasse la deuxième : elle vaut zéro virgule zéro six cinq sept deux zéro, donc le gradient a repris de l'ampleur au lieu de continuer à décroître. Les deux dernières sont d'un autre ordre : celle de l'époque dix-neuf n'est plus qu'un trait court, zéro virgule zéro zéro deux cinq trois cinq, et celle de l'époque vingt-neuf est à peine visible à côté de l'origine, zéro virgule zéro zéro zéro huit trois trois. Une accolade de brique court enfin le long de la première flèche et porte un seul nombre, cent cinq : c'est par là que la norme du gradient a été divisée entre la première et la dernière époque mesurée.",
+      "notions": [
+        "geste : cinq flèches à la longueur mesurée, de la plus longue à presque rien",
+        "norme du gradient",
+        "convergence",
+        "époque"
+      ],
+      "chapitres": null,
+      "licence": "CC BY-SA 4.0, N7-IA",
+      "empreinte": "4eb3f0e0154a",
+      "duree": 9.5,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "cadence": 30,
+      "poster": "/animations/la-norme-du-gradient-decroit/4eb3f0e0154a.webp",
+      "rendus": [
+        {
+          "format": "mp4",
+          "src": "/animations/la-norme-du-gradient-decroit/4eb3f0e0154a.mp4",
+          "octets": 421081,
+          "mime": "video/mp4; codecs=\"avc1.640032\""
+        }
+      ],
+      "profil": {
+        "rendu": "3840x2160",
+        "encodage": "x264-crf18-tune-animation-v1"
+      },
+      "source": {
+        "fichier": "descente/norme.py",
+        "scene": "LaNormeDuGradientDecroit",
+        "empreinte": "a3670edd470b",
+        "modifiee": "2026-09-20T11:55:09+00:00",
+        "manim": "0.21.0",
+        "rendu": "2026-09-20T11:59:58+00:00"
+      }
+    },
+    {
+      "id": "descente-gradient-2d",
+      "titre": "La descente de gradient, vue de dessus",
+      "alt": "Une surface en cuvette est représentée par ses lignes de niveau, des ellipses concentriques allongées horizontalement. Un point part en haut à gauche. À chaque étape, une flèche de brique montre le gradient, toujours perpendiculaire à la ligne de niveau qu'il traverse, et le point avance dans la direction opposée. La trajectoire zigzague d'abord d'un flanc à l'autre de la vallée, parce que la pente est beaucoup plus raide en travers qu'en long, puis s'aligne sur le fond et ralentit : les flèches raccourcissent à mesure que la pente s'aplatit. Le point s'immobilise au centre, où le gradient est nul.",
+      "notions": [
+        "descente de gradient",
+        "lignes de niveau",
+        "taux d'apprentissage",
+        "optimisation"
+      ],
+      "chapitres": null,
+      "licence": "CC BY-SA 4.0, N7-IA",
+      "empreinte": "ccd4cb6b60b8",
+      "duree": 21.63,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "cadence": 30,
+      "poster": "/animations/descente-gradient-2d/ccd4cb6b60b8.webp",
+      "rendus": [
+        {
+          "format": "mp4",
+          "src": "/animations/descente-gradient-2d/ccd4cb6b60b8.mp4",
+          "octets": 1247925,
+          "mime": "video/mp4; codecs=\"avc1.640032\""
+        }
+      ],
+      "profil": {
+        "rendu": "3840x2160",
+        "encodage": "x264-crf18-tune-animation-v1"
+      },
+      "source": {
+        "fichier": "optimisation/descente_gradient.py",
+        "scene": "DescenteGradient2D",
+        "empreinte": "4f6880c4f0c3",
+        "modifiee": "2026-08-23T11:52:37+00:00",
+        "manim": "0.21.0",
+        "rendu": "2026-08-30T13:11:15+00:00"
+      }
+    },
+    {
+      "id": "la-perte-note-theta",
+      "titre": "La perte note chaque jeu de paramètres",
+      "alt": "Un plan porte la surface en mètres carrés en abscisse, graduée de vingt à soixante, et le prix en milliers d'euros en ordonnée, gradué de cent dix à cent quatre-vingt-dix. Deux ventes y sont posées : cinquante mètres carrés vendus deux cents, et trente mètres carrés vendus cent quinze. Une droite les traverse, et le biais b varie de cinq à quarante : la droite balaie tout le cadre, les deux écarts verticaux tracés en brique se referment puis se rouvrent, et un compteur donne la perte moyenne, trois cent soixante-deux virgule cinquante au départ, cinquante-six virgule vingt-cinq au plus bas, puis elle remonte. Les deux candidats sont ensuite cotés l'un après l'autre : thêta A, où b vaut vingt, passe sous le premier point et au-dessus du second, avec des écarts de dix et de cinq et une perte moyenne de soixante-deux virgule cinq ; thêta B, où b vaut vingt-deux virgule cinq, a deux écarts égaux de sept virgule cinq et une perte moyenne de cinquante-six virgule vingt-cinq. Les deux notes se lisent côte à côte, et la plus petite des deux est celle de thêta B.",
+      "notions": [
+        "fonction de perte",
+        "erreur quadratique",
+        "paramètres"
+      ],
+      "chapitres": null,
+      "licence": "CC BY-SA 4.0, N7-IA",
+      "empreinte": "50f1cb7f4a92",
+      "duree": 21.6,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "cadence": 30,
+      "poster": "/animations/la-perte-note-theta/50f1cb7f4a92.webp",
+      "rendus": [
+        {
+          "format": "mp4",
+          "src": "/animations/la-perte-note-theta/50f1cb7f4a92.mp4",
+          "octets": 1143205,
+          "mime": "video/mp4; codecs=\"avc1.640032\""
+        }
+      ],
+      "profil": {
+        "rendu": "3840x2160",
+        "encodage": "x264-crf18-tune-animation-v1"
+      },
+      "source": {
+        "fichier": "panorama/bases.py",
+        "scene": "LaPerteNoteTheta",
+        "empreinte": "2614c04c5f60",
+        "modifiee": "2026-09-17T15:37:12+00:00",
+        "manim": "0.21.0",
+        "rendu": "2026-09-17T15:48:04+00:00"
+      }
+    },
+    {
+      "id": "le-mot-nouvel",
+      "titre": "Le mot qui change tout : nouveau",
+      "alt": "Un plan porte la surface en mètres carrés en abscisse et le prix en milliers d'euros en ordonnée, avec mille points répartis le long d'une bande montante : les mille ventes passées, cotées N égale mille. À droite, un cadre nommé D porte ses colonnes surface, pièces et prix, quatre lignes reprises de quatre points du nuage, puis des points de suspension verticaux et la mention mille lignes. Sur les ventes qu'il recopie, le fichier ne se trompe jamais : les points passent au vert à mesure qu'un trait vertical parcourt le nuage, cinq coches vertes marquent les plus isolés, et une cote donne erreur égale zéro. Une vente nouvelle arrive ensuite, en brique, posée sur l'axe des abscisses à quatre-vingt-six mètres carrés et cotée quatre-vingt-six mètres carrés. Un curseur descend alors les lignes du fichier sans s'arrêter et sort par le bas ; une ligne neuve s'ouvre, quatre-vingt-six mètres carrés s'y inscrit en brique, et la case du prix reste vide, cernée d'un pointillé et barrée d'une croix. Une droite apprise, nommée y chapeau de x, traverse enfin le nuage, un pointillé monte de l'axe jusqu'à elle et un second part vers l'axe des prix, où la valeur proposée, trois cent quinze milliers d'euros, est cotée en brique.",
+      "notions": [
+        "généralisation",
+        "jeu de données",
+        "modèle",
+        "prédiction"
+      ],
+      "chapitres": null,
+      "licence": "CC BY-SA 4.0, N7-IA",
+      "empreinte": "297252da3b3c",
+      "duree": 30.93,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "cadence": 30,
+      "poster": "/animations/le-mot-nouvel/297252da3b3c.webp",
+      "rendus": [
+        {
+          "format": "mp4",
+          "src": "/animations/le-mot-nouvel/297252da3b3c.mp4",
+          "octets": 3929101,
+          "mime": "video/mp4; codecs=\"avc1.640032\""
+        }
+      ],
+      "profil": {
+        "rendu": "3840x2160",
+        "encodage": "x264-crf18-tune-animation-v1"
+      },
+      "source": {
+        "fichier": "panorama/fil.py",
+        "scene": "LeMotNouvel",
+        "empreinte": "20bd2f40fbf6",
+        "modifiee": "2026-09-20T11:41:54+00:00",
+        "manim": "0.21.0",
+        "rendu": "2026-09-20T11:47:51+00:00"
+      }
+    },
+    {
+      "id": "lappartement-devient-un-vecteur",
+      "titre": "Un appartement devient un vecteur",
+      "alt": "À gauche, le plan d'un appartement : un rectangle qu'une cloison percée d'une porte partage en deux pièces, chacune numérotée en brique, un et deux. Sous le plan se lisent ses deux grandeurs, cinquante mètres carrés et deux pièces. À droite, l'entrée x est une colonne de deux nombres entre crochets, d'abord vide. Les deux valeurs quittent le plan et viennent s'y ranger, cinquante sur la première ligne et deux sur la seconde, chacune en regard de son nom, x indice un et x indice deux. Le dessin disparaît alors, le vecteur grandit jusqu'à occuper le cadre, une accolade compte ses lignes et donne d égale deux, et l'écriture x égale cinquante point-virgule deux, appartenant à R deux, se pose dessous. Ce sont les deux nombres du plan, et ce sont les seuls qui restent de lui.",
+      "notions": [
+        "vecteur de caractéristiques",
+        "représentation des données",
+        "dimension"
+      ],
+      "chapitres": null,
+      "licence": "CC BY-SA 4.0, N7-IA",
+      "empreinte": "bdd10a65233b",
+      "duree": 17.1,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "cadence": 30,
+      "poster": "/animations/lappartement-devient-un-vecteur/bdd10a65233b.webp",
+      "rendus": [
+        {
+          "format": "mp4",
+          "src": "/animations/lappartement-devient-un-vecteur/bdd10a65233b.mp4",
+          "octets": 634745,
+          "mime": "video/mp4; codecs=\"avc1.640032\""
+        }
+      ],
+      "profil": {
+        "rendu": "3840x2160",
+        "encodage": "x264-crf18-tune-animation-v1"
+      },
+      "source": {
+        "fichier": "panorama/objets.py",
+        "scene": "LappartementDevientUnVecteur",
+        "empreinte": "7254d52794b8",
+        "modifiee": "2026-09-17T15:37:12+00:00",
+        "manim": "0.21.0",
+        "rendu": "2026-09-17T16:51:22+00:00"
+      }
+    },
+    {
+      "id": "la-somme-ponderee",
+      "titre": "La somme pondérée, quand w₁ tourne",
+      "alt": "Une barre verticale est faite de trois segments empilés, un par terme de la somme pondérée : le biais b, qui vaut vingt, en encre pâle tout en bas ; le terme w indice deux fois x indice deux, qui vaut vingt aussi, en encre au-dessus ; et le terme w indice un fois x indice un, en brique, tout en haut. Une échelle graduée de zéro à trois cents la longe à gauche, et la valeur z se lit en brique à hauteur du sommet de la barre. Le poids w indice un, écrit en brique à droite, varie de zéro virgule cinq à six : le segment de brique s'allonge d'autant, le sommet de la barre monte, et z va de soixante-cinq à trois cent quarante. La ligne du bas rappelle qu'une unité de plus sur w indice un déplace z de cinquante.",
+      "notions": [
+        "somme pondérée",
+        "poids",
+        "biais",
+        "neurone formel"
+      ],
+      "chapitres": null,
+      "licence": "CC BY-SA 4.0, N7-IA",
+      "empreinte": "bdd10a65233b",
+      "duree": 15.0,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "cadence": 30,
+      "poster": "/animations/la-somme-ponderee/bdd10a65233b.webp",
+      "rendus": [
+        {
+          "format": "mp4",
+          "src": "/animations/la-somme-ponderee/bdd10a65233b.mp4",
+          "octets": 601492,
+          "mime": "video/mp4; codecs=\"avc1.640032\""
+        }
+      ],
+      "profil": {
+        "rendu": "3840x2160",
+        "encodage": "x264-crf18-tune-animation-v1"
+      },
+      "source": {
+        "fichier": "panorama/objets.py",
+        "scene": "LaSommePonderee",
+        "empreinte": "be488b7d2d47",
+        "modifiee": "2026-09-17T15:37:12+00:00",
+        "manim": "0.21.0",
+        "rendu": "2026-09-20T11:24:38+00:00"
+      }
+    },
+    {
+      "id": "lecart-brut-se-compense",
+      "titre": "L'écart brut se compense, et ne mesure donc rien",
+      "alt": "Un axe horizontal gradué de moins dix à plus dix porte l'écart brut, nommé y chapeau moins y au bout de l'axe, et une verticale pointillée y marque le zéro. Trois pistes se lisent au-dessus de cet axe, étiquetées cinquante mètres carrés, trente mètres carrés, et moyenne. Pour le candidat thêta A, dont le biais b vaut vingt, la première piste porte une barre de brique qui va du zéro à moins dix, la deuxième une barre jusqu'à plus cinq, et la piste de la moyenne une barre jusqu'à moins deux virgule cinq. Le biais b varie ensuite de vingt à vingt-cinq, et les trois barres suivent : la première se raccourcit pendant que la seconde s'allonge, et la moyenne passe par zéro à b égale vingt-deux virgule cinq, la valeur de thêta B, alors que les deux écarts valent encore moins sept virgule cinq et plus sept virgule cinq. La piste de la moyenne est alors vide, un grand zéro s'y dessine, et une barre de brique le traverse pendant que les deux écarts du haut, épaissis, gardent leurs valeurs.",
+      "notions": [
+        "fonction de perte",
+        "écart brut",
+        "compensation des erreurs",
+        "critère de comparaison"
+      ],
+      "chapitres": null,
+      "licence": "CC BY-SA 4.0, N7-IA",
+      "empreinte": "09b09416f7f5",
+      "duree": 22.8,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "cadence": 30,
+      "poster": "/animations/lecart-brut-se-compense/09b09416f7f5.webp",
+      "rendus": [
+        {
+          "format": "mp4",
+          "src": "/animations/lecart-brut-se-compense/09b09416f7f5.mp4",
+          "octets": 1044880,
+          "mime": "video/mp4; codecs=\"avc1.640032\""
+        }
+      ],
+      "profil": {
+        "rendu": "3840x2160",
+        "encodage": "x264-crf18-tune-animation-v1"
+      },
+      "source": {
+        "fichier": "panorama/perte.py",
+        "scene": "LEcartBrutSeCompense",
+        "empreinte": "ccdbe7841202",
+        "modifiee": "2026-09-17T15:37:12+00:00",
+        "manim": "0.21.0",
+        "rendu": "2026-09-20T11:31:26+00:00"
+      }
+    },
+    {
+      "id": "la-nature-de-la-sortie",
+      "titre": "Ce qui change, c'est l'ensemble des sorties",
+      "alt": "Un axe vertical porte l'ensemble des sorties, et cet axe est relu trois fois. En régression, l'ensemble est écrit grand Y égale R, l'axe est gradué de cent à deux cent cinquante milliers d'euros, un curseur de brique le remonte et le redescend sans jamais s'arrêter, et le prix affiché à côté de lui défile de façon continue. En classification binaire, l'ensemble s'écrit grand Y égale l'ensemble zéro, un ; l'axe ne porte plus que ces deux graduations, et le curseur ne peut se poser qu'à ces deux endroits : il saute de l'un à l'autre d'un seul coup, sans rien traverser. En classification multi-classe, l'ensemble s'écrit grand Y égale l'ensemble A, B, et ainsi de suite jusqu'à G ; l'axe porte les sept étiquettes énergétiques, de G en bas à A en haut, et le curseur saute de barreau en barreau, sept arrêts, sans rien entre deux voisines.",
+      "notions": [
+        "régression",
+        "classification binaire",
+        "classification multi-classe",
+        "ensemble des sorties"
+      ],
+      "chapitres": null,
+      "licence": "CC BY-SA 4.0, N7-IA",
+      "empreinte": "bbab9aaceae8",
+      "duree": 32.5,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "cadence": 30,
+      "poster": "/animations/la-nature-de-la-sortie/bbab9aaceae8.webp",
+      "rendus": [
+        {
+          "format": "mp4",
+          "src": "/animations/la-nature-de-la-sortie/bbab9aaceae8.mp4",
+          "octets": 1043007,
+          "mime": "video/mp4; codecs=\"avc1.640032\""
+        }
+      ],
+      "profil": {
+        "rendu": "3840x2160",
+        "encodage": "x264-crf18-tune-animation-v1"
+      },
+      "source": {
+        "fichier": "panorama/typer.py",
+        "scene": "LaNatureDeLaSortie",
+        "empreinte": "2779af595cb8",
+        "modifiee": "2026-09-17T15:37:12+00:00",
+        "manim": "0.21.0",
+        "rendu": "2026-09-20T11:40:47+00:00"
+      }
+    },
+    {
+      "id": "un-neurone-lit-un-bord",
+      "titre": "Un détecteur posé à la main, et son score après chaque geste",
+      "alt": "À gauche, une grille de vingt-huit sur vingt-huit cases, entièrement blanche. À droite, trois colonnes de ronds reliées par un voile de traits gris ; un rond de la colonne du milieu est cerclé de rouge brique, et les traits qui l'atteignent ressortent de la même couleur. Trente-neuf cases de la grille passent au rouge, trois rangées de treize, formant une bande horizontale au tiers supérieur ; tout le reste demeure blanc. Un sept manuscrit vient se poser en gris sur la grille : sa barre du haut traverse la bande de part en part, une lueur court le long des traits rouges depuis la colonne de gauche et s'arrête au bord de la grille ; le rond cerclé se remplit, et le score vingt-trois virgule quatre s'inscrit à droite. Un un le remplace : son trait n'effleure la bande que d'une case, le rond reste presque vide, et cinq virgule zéro s'inscrit dessous. Puis un zéro, dont l'arc traverse largement la bande : vingt-cinq virgule huit, davantage que le sept. Une tache rectangulaire pleine se construit alors case par case, recouvre la bande et déborde tout autour ; le rond se remplit au maximum et son score, trente-neuf, dépasse les trois autres, qu'un cadre rouge vient souligner. Enfin cent trente-deux cases entourant la bande, une marge de trois cases tout autour, passent au bleu ardoise. Les quatre entrées repassent une à une : seul le sept garde un score positif, dix virgule six, et le rond ne s'allume plus que pour lui ; le un tombe à moins cinq virgule six, le zéro à moins neuf virgule huit, la tache à moins quatre-vingt-treize. Le cadre rouge se referme cette fois sur le sept.",
+      "notions": [
+        "détecteur de bord",
+        "poids posés à la main",
+        "poids négatif",
+        "somme pondérée",
+        "renversement d'un classement"
+      ],
+      "chapitres": null,
+      "licence": "CC BY-SA 4.0, N7-IA",
+      "empreinte": "3793ba2bc487",
+      "duree": 30.2,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "cadence": 30,
+      "poster": "/animations/un-neurone-lit-un-bord/3793ba2bc487.webp",
+      "rendus": [
+        {
+          "format": "mp4",
+          "src": "/animations/un-neurone-lit-un-bord/3793ba2bc487.mp4",
+          "octets": 5753087,
+          "mime": "video/mp4; codecs=\"avc1.640032\""
+        }
+      ],
+      "profil": {
+        "rendu": "3840x2160",
+        "encodage": "x264-crf18-tune-animation-v1"
+      },
+      "source": {
+        "fichier": "reseau/bord.py",
+        "scene": "UnNeuroneLitUnBord",
+        "empreinte": "81ea9c6f1cf5",
+        "modifiee": "2026-09-07T10:29:13+00:00",
+        "manim": "0.21.0",
+        "rendu": "2026-09-07T10:37:14+00:00"
+      }
+    },
+    {
+      "id": "relu-coupe",
+      "titre": "La ReLU éteint les neurones dont la préactivation est négative",
+      "alt": "Un réseau occupe toute la largeur de l'écran : à gauche une grille carrée où un sept manuscrit se forme case par case, puis trois colonnes de ronds reliées par une nappe de fils très pâles. Les cases encrées de la grille s'envolent une à une vers la première colonne, qui se remplit d'encre du haut vers le bas. Une vague parcourt alors la nappe et atteint la colonne du milieu : là, un rond sur trois environ se remplit d'encre, plus ou moins fort, et tous les autres restent des cercles vides, gris. Sur la droite, quatre valeurs s'inscrivent l'une après l'autre, chacune à la hauteur du rond qu'elle désigne : plus trois virgule six mille quatre cent cinquante-quatre pour le cinquième rond, plus quatre virgule quatre mille sept cent trente-huit pour le soixante-sixième, puis, en gris, moins six virgule sept mille huit cent quatre-vingt-quatorze pour le quatre-vingt-unième, et plus trois virgule quatre mille cinq cent quatre-vingt-trois pour le cent-quatorzième. Le compte s'inscrit en bas à droite : trente-cinq allumés, quatre-vingt-treize éteints. Tous les ronds restés gris s'effacent alors, la valeur grise disparaît avec eux, et les fils qui partaient d'eux s'en vont : la nappe se vide et il ne reste qu'un peigne clairsemé, celui des ronds encrés. Une dernière vague le parcourt jusqu'à la colonne de droite, où un seul rond s'allume.",
+      "notions": [
+        "ReLU",
+        "préactivation",
+        "activation",
+        "parcimonie de la couche cachée",
+        "geste : l'extinction sur le réseau"
+      ],
+      "chapitres": null,
+      "licence": "CC BY-SA 4.0, N7-IA",
+      "empreinte": "c59b910e3643",
+      "duree": 22.37,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "cadence": 30,
+      "poster": "/animations/relu-coupe/c59b910e3643.webp",
+      "rendus": [
+        {
+          "format": "mp4",
+          "src": "/animations/relu-coupe/c59b910e3643.mp4",
+          "octets": 6462005,
+          "mime": "video/mp4; codecs=\"avc1.640032\""
+        }
+      ],
+      "profil": {
+        "rendu": "3840x2160",
+        "encodage": "x264-crf18-tune-animation-v1"
+      },
+      "source": {
+        "fichier": "reseau/coupe.py",
+        "scene": "ReluCoupe",
+        "empreinte": "c64f8a8a0099",
+        "modifiee": "2026-09-06T18:58:53+00:00",
+        "manim": "0.21.0",
+        "rendu": "2026-09-07T10:33:56+00:00"
+      }
+    },
+    {
+      "id": "empiler-ne-change-rien",
+      "titre": "La couche du milieu disparaît, et les dix scores ne changent pas d'un chiffre",
+      "alt": "À gauche de l'écran, un sept manuscrit est dessiné case par case dans un carré quadrillé. À sa droite, trois colonnes de petits ronds sont reliées par deux nappes de traits très fins ; entre la colonne du milieu et la dernière, une case carrée vide, bordée de pointillés, marque un emplacement laissé libre. Les cases encrées du sept s'envolent une à une vers la première colonne, qui se remplit ; les traits s'illuminent en une vague qui va de la gauche vers la droite, la colonne du milieu s'assombrit, puis la dernière, et un cadre se referme sur le huitième de ses dix ronds. Dix nombres s'inscrivent alors dans la bande libre de droite, un par ligne, chacun en face du rond auquel il répond : un virgule zéro quatre trois deux tout en haut, treize virgule zéro six sept deux en face du rond encadré, et huit autres entre eux, dont trois négatifs. Les mots « deux couches » les coiffent. La colonne du milieu disparaît alors en rétrécissant, la case vide avec elle, et les deux nappes de traits n'en font plus qu'une, qui va tout droit de la première colonne à la dernière. Les dix nombres, eux, ne bougent pas. Le sept repasse dans ce réseau raccourci : ses cases s'envolent de nouveau, la première colonne se remplit, la vague traverse, la dernière s'allume. Dix nombres s'écrivent à côté des premiers, coiffés des mots « une seule ». Chiffre pour chiffre, les deux colonnes sont identiques.",
+      "notions": [
+        "couche sans activation",
+        "composée d'applications affines",
+        "paramétrage redondant",
+        "invariance des scores"
+      ],
+      "chapitres": null,
+      "licence": "CC BY-SA 4.0, N7-IA",
+      "empreinte": "bded88692cd1",
+      "duree": 25.3,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "cadence": 30,
+      "poster": "/animations/empiler-ne-change-rien/bded88692cd1.webp",
+      "rendus": [
+        {
+          "format": "mp4",
+          "src": "/animations/empiler-ne-change-rien/bded88692cd1.mp4",
+          "octets": 7670396,
+          "mime": "video/mp4; codecs=\"avc1.640032\""
+        }
+      ],
+      "profil": {
+        "rendu": "3840x2160",
+        "encodage": "x264-crf18-tune-animation-v1"
+      },
+      "source": {
+        "fichier": "reseau/empilement.py",
+        "scene": "EmpilerNeChangeRien",
+        "empreinte": "4dba89f5e1f5",
+        "modifiee": "2026-09-06T19:00:28+00:00",
+        "manim": "0.21.0",
+        "rendu": "2026-09-07T10:35:13+00:00"
+      }
+    },
+    {
+      "id": "le-gabarit-du-0",
+      "titre": "La ligne de poids du neurone 0 se replie en image, et deux vraies images s'y posent",
+      "alt": "Un réseau occupe le centre de l'écran : à gauche une colonne de ronds cotée sept cent quatre-vingt-quatre, à droite dix ronds numérotés de zéro à neuf, et entre les deux un faisceau de traits très pâles. Les seuls traits qui aboutissent au premier des dix ronds passent en brique et deviennent nets. Ils se rassemblent en une bande étroite au bas de l'écran, faite de cases brique et bleues, puis la bande se replie sur elle-même jusqu'à former un carré de vingt-huit sur vingt-huit cases qui vient se poser au milieu du faisceau. Le carré n'est pas du bruit : un anneau brique en fait le tour, un creux bleu en occupe le centre. Deux petits cadres brique s'y posent, l'un en haut à droite sur la case la plus forte, plus un virgule zéro trois neuf cinq, treizième ligne et vingt-cinquième colonne, l'autre en plein milieu sur la case la plus négative, moins un virgule quatre quatre cinq sept, seizième ligne et quinzième colonne ; leurs valeurs s'inscrivent à droite. Un zéro manuscrit apparaît sur la plaque de gauche, et la même image se pose en gris sombre par-dessus le carré : son encre suit l'anneau brique et laisse le creux bleu à découvert. Le score inscrit à droite vaut plus quatorze virgule zéro huit un trois. Un huit la remplace enfin, sur la plaque comme sur le carré, et son encre traverse cette fois le creux bleu du milieu : le score tombe à plus zéro virgule trois cinq six huit.",
+      "notions": [
+        "geste : une ligne de poids se replie en image",
+        "gabarit d'une classe",
+        "ligne de la matrice de poids",
+        "poids positif et poids négatif",
+        "score avant softmax"
+      ],
+      "chapitres": null,
+      "licence": "CC BY-SA 4.0, N7-IA",
+      "empreinte": "d11598050264",
+      "duree": 22.83,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "cadence": 30,
+      "poster": "/animations/le-gabarit-du-0/d11598050264.webp",
+      "rendus": [
+        {
+          "format": "mp4",
+          "src": "/animations/le-gabarit-du-0/d11598050264.mp4",
+          "octets": 3951310,
+          "mime": "video/mp4; codecs=\"avc1.640032\""
+        }
+      ],
+      "profil": {
+        "rendu": "3840x2160",
+        "encodage": "x264-crf18-tune-animation-v1"
+      },
+      "source": {
+        "fichier": "reseau/gabarit_zero.py",
+        "scene": "LeGabaritDuZero",
+        "empreinte": "2f3776a87b86",
+        "modifiee": "2026-09-06T17:16:27+00:00",
+        "manim": "0.21.0",
+        "rendu": "2026-09-07T10:34:33+00:00"
+      }
+    },
+    {
+      "id": "la-lumiere-traverse",
+      "titre": "Trois images de test traversent le réseau, et le cadre se referme chaque fois sur la sortie retenue",
+      "alt": "Des ronds reliés par un voile de traits très pâles occupent l'écran : trois colonnes de ronds vides alignées de gauche à droite, et contre la dernière les dix chiffres de zéro à neuf, un par rond. Un nombre est posé contre la première colonne, sept cent quatre-vingt-quatre, un autre sous la deuxième, cent vingt-huit : ni l'une ni l'autre ne montre tous ses ronds. À gauche, un carré quadrillé attend, vide. Un sept manuscrit s'y dessine, gris, case par case ; puis les cases encrées se détachent une à une et s'envolent vers la première colonne, chacune vers la hauteur qui lui revient, où elles s'effacent en arrivant. Une vague couleur brique parcourt alors les traits, de la gauche vers la droite, et la colonne du milieu s'assombrit inégalement : beaucoup de ronds y restent parfaitement vides. La vague repart et atteint la dernière colonne, où un seul rond devient franchement noir : celui du chiffre sept. Un cadre brique se referme sur lui, et un nombre s'inscrit dans la marge de droite, à sa hauteur — zéro virgule, sept neuf, puis un sept, presque exactement un. Tout s'éteint d'un coup. Un deux manuscrit remplace le sept, la traversée recommence, et le cadre se referme sur le chiffre deux. Tout s'éteint encore, un un manuscrit apparaît, la traversée recommence, et le cadre tombe sur le chiffre un. Pas un mot n'est écrit : on regarde la machine répondre, trois fois de suite.",
+      "notions": [
+        "geste : la lumière traverse",
+        "propagation avant",
+        "activation",
+        "couche de sortie"
+      ],
+      "chapitres": null,
+      "licence": "CC BY-SA 4.0, N7-IA",
+      "empreinte": "e07f1822b0d8",
+      "duree": 29.23,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "cadence": 30,
+      "poster": "/animations/la-lumiere-traverse/e07f1822b0d8.webp",
+      "rendus": [
+        {
+          "format": "mp4",
+          "src": "/animations/la-lumiere-traverse/e07f1822b0d8.mp4",
+          "octets": 10800094,
+          "mime": "video/mp4; codecs=\"avc1.640032\""
+        }
+      ],
+      "profil": {
+        "rendu": "3840x2160",
+        "encodage": "x264-crf18-tune-animation-v1"
+      },
+      "source": {
+        "fichier": "reseau/lumiere.py",
+        "scene": "LaLumiereTraverse",
+        "empreinte": "96aebfa6247e",
+        "modifiee": "2026-09-06T15:20:37+00:00",
+        "manim": "0.21.0",
+        "rendu": "2026-09-07T10:35:33+00:00"
+      }
+    },
+    {
+      "id": "le-reseau-melange",
+      "titre": "L'image se brouille, les colonnes de W se réordonnent, et les dix scores ne bougent pas",
+      "alt": "À gauche, une petite grille carrée porte un sept manuscrit en gris. Au centre, deux colonnes de ronds vides sont reliées par un voile de traits très pâles ; celle de droite compte dix ronds étiquetés de zéro à neuf, et celui du sept est noirci et cerclé de rouge. Tout à droite, dix nombres sont écrits l'un sous l'autre, chacun à la hauteur du rond qui lui répond, sous le mot « avant ». Les cases de la grille se mettent alors à bouger ensemble, chacune vers une autre place ; quand elles s'immobilisent, le sept a disparu et il ne reste qu'un semis de taches grises où aucune forme ne se reconnaît. Le voile de traits s'efface, et dix bandes horizontales de petits carrés rouges et bleus s'installent à sa place, une par rond de la colonne de droite, entre deux crochets ; des points de suspension y remplacent la plupart des carrés. Les carrés montrés glissent au-dehors et s'effacent, et d'autres arrivent en sens inverse pour prendre leur place. Les bandes disparaissent, le voile de traits revient, et les taches de la grille brouillée s'envolent une à une vers la colonne de gauche, qui se remplit d'un motif tout autre qu'au début. La lumière traverse, la colonne de droite s'allume exactement comme la première fois, et le même cadre rouge se referme sur le rond du sept. Dix nombres s'écrivent enfin sous le mot « après », à côté des premiers : ce sont les mêmes, chiffre pour chiffre.",
+      "notions": [
+        "geste : les colonnes sortent et rentrent par les points de suspension",
+        "matrice de permutation",
+        "invariance des scores",
+        "une ligne de W est un neurone, une colonne est un pixel",
+        "ce que l'aplatissement coûte"
+      ],
+      "chapitres": null,
+      "licence": "CC BY-SA 4.0, N7-IA",
+      "empreinte": "e6290189b99a",
+      "duree": 27.17,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "cadence": 30,
+      "poster": "/animations/le-reseau-melange/e6290189b99a.webp",
+      "rendus": [
+        {
+          "format": "mp4",
+          "src": "/animations/le-reseau-melange/e6290189b99a.mp4",
+          "octets": 6143439,
+          "mime": "video/mp4; codecs=\"avc1.640032\""
+        }
+      ],
+      "profil": {
+        "rendu": "3840x2160",
+        "encodage": "x264-crf18-tune-animation-v1"
+      },
+      "source": {
+        "fichier": "reseau/melange.py",
+        "scene": "LeReseauMelange",
+        "empreinte": "e44a850f2708",
+        "modifiee": "2026-09-06T19:00:28+00:00",
+        "manim": "0.21.0",
+        "rendu": "2026-09-07T10:34:17+00:00"
+      }
+    },
+    {
+      "id": "deux-4-et-leur-milieu",
+      "titre": "Deux images de 4, leur milieu, et les deux réponses que les deux modèles y lisent",
+      "alt": "Deux carrés quadrillés occupent le haut de l'écran, côte à côte, chacun portant un quatre manuscrit tracé en gris ; ce sont deux écritures très différentes du même chiffre, et le numéro de l'image est écrit au-dessus de chacune. À droite, plus petit, un réseau attend, éteint : une colonne de ronds vides pour les points de l'image, cotée sept cent quatre-vingt-quatre, une colonne de dix ronds pour les dix chiffres, et un voile de traits très pâles entre les deux. Un trait droit relie le bas des deux carrés. Un point brique posé à son extrémité gauche se met à glisser vers la droite, lentement. Sous le trait, un troisième carré quadrillé apparaît et se transforme à mesure : les traits du premier quatre s'effacent pendant que ceux du second se forment, et à mi-chemin les deux écritures se superposent en gris pâle, sans qu'aucune ne soit franche. Le point s'arrête trois fois — au départ, au milieu, à l'arrivée — et chaque fois la colonne de droite s'allume et un cadre se referme sur un rond : trois fois sur le quatre, et une ligne écrite en bas le redit. Une colonne de petits ronds s'insère alors au milieu du réseau, cotée cent vingt-huit, le point revient à son départ, et le même glissement recommence. Cette fois, au deuxième arrêt, le cadre ne se referme plus sur le quatre mais sur le neuf ; à l'arrivée il revient au quatre.",
+      "notions": [
+        "geste : un point glisse le long d'un segment",
+        "convexité",
+        "région de décision",
+        "interpolation de deux images"
+      ],
+      "chapitres": null,
+      "licence": "CC BY-SA 4.0, N7-IA",
+      "empreinte": "77b11d8b12d1",
+      "duree": 24.77,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "cadence": 30,
+      "poster": "/animations/deux-4-et-leur-milieu/77b11d8b12d1.webp",
+      "rendus": [
+        {
+          "format": "mp4",
+          "src": "/animations/deux-4-et-leur-milieu/77b11d8b12d1.mp4",
+          "octets": 4813939,
+          "mime": "video/mp4; codecs=\"avc1.640032\""
+        }
+      ],
+      "profil": {
+        "rendu": "3840x2160",
+        "encodage": "x264-crf18-tune-animation-v1"
+      },
+      "source": {
+        "fichier": "reseau/milieu.py",
+        "scene": "DeuxQuatreEtLeurMilieu",
+        "empreinte": "08cac2af860b",
+        "modifiee": "2026-09-06T18:36:33+00:00",
+        "manim": "0.21.0",
+        "rendu": "2026-09-07T10:36:44+00:00"
+      }
+    },
+    {
+      "id": "le-7-devient-784-nombres",
+      "titre": "Les cases du 7 quittent la grille et prennent leur rang dans la colonne de 784",
+      "alt": "Une grille de vingt-huit cases sur vingt-huit occupe le centre de l'écran ; un sept manuscrit y est dessiné, chaque case plus ou moins sombre selon l'encre qu'elle porte. Quatre cases s'entourent l'une après l'autre d'un cadre couleur brique, et la valeur de chacune s'inscrit à droite, l'une sous l'autre : deux cent vingt-deux, deux cent cinquante-quatre, soixante-sept, deux cent cinquante-cinq. La grille glisse alors vers la gauche en se réduisant, et une longue colonne de ronds vides se dresse à sa droite, du haut jusqu'au bas de l'image. Les quatre cases encadrées quittent la grille l'une après l'autre et filent vers leur hauteur dans cette colonne, où un trait brique marque leur arrivée ; chaque fois, une phrase s'écrit à côté : ligne neuf, colonne sept, rang deux cent trente et un ; ligne neuf, colonne huit, rang deux cent trente-deux ; ligne dix, colonne sept, rang deux cent cinquante-neuf ; ligne treize, colonne vingt, rang trois cent cinquante-six. Toutes les autres cases encrées s'envolent ensuite à leur tour, par paquets, du haut de la grille vers le bas, et chacune laisse une petite marque grise à sa hauteur le long de la colonne, qui se couvre peu à peu d'un pointillé serré. Le sept reste entier dans la grille : rien ne s'en efface. Une accolade se pose enfin le long de la colonne, et sous elle s'écrit sept cent quatre-vingt-quatre égale vingt-huit fois vingt-huit.",
+      "notions": [
+        "aplatissement",
+        "vec",
+        "rang d'un pixel",
+        "coordonnée d'un vecteur",
+        "geste : la grille qui se vide dans une colonne"
+      ],
+      "chapitres": null,
+      "licence": "CC BY-SA 4.0, N7-IA",
+      "empreinte": "1461760c6d75",
+      "duree": 20.93,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "cadence": 30,
+      "poster": "/animations/le-7-devient-784-nombres/1461760c6d75.webp",
+      "rendus": [
+        {
+          "format": "mp4",
+          "src": "/animations/le-7-devient-784-nombres/1461760c6d75.mp4",
+          "octets": 1461924,
+          "mime": "video/mp4; codecs=\"avc1.640032\""
+        }
+      ],
+      "profil": {
+        "rendu": "3840x2160",
+        "encodage": "x264-crf18-tune-animation-v1"
+      },
+      "source": {
+        "fichier": "reseau/sept_en_784.py",
+        "scene": "LeSeptDevient784Nombres",
+        "empreinte": "f1a728fa4ada",
+        "modifiee": "2026-09-06T19:17:22+00:00",
+        "manim": "0.21.0",
+        "rendu": "2026-09-07T10:32:27+00:00"
+      }
+    },
+    {
+      "id": "le-biais-ne-passe-par-rien",
+      "titre": "On pousse le biais, la somme suit d'autant",
+      "alt": "Le réseau pâlit, puis le troisième rond de la colonne de sortie et son étiquette passent au trait de brique. Dans la bande libre, à droite de ce neurone, deux barres verticales se dressent sur une même ligne de base : la première, celle du biais, est plate — elle vaut zéro ; la seconde, celle de la somme pondérée, monte aux trois quarts de la hauteur disponible. Sous chacune, son nom est composé. Un segment de brique pousse alors depuis la ligne sur la première barre, et au même instant un second segment de brique, exactement aussi long, pousse au sommet de la seconde. Les deux s'arrêtent ensemble ; un trait de brique marque le bout de chacun, et au-dessus de chaque trait s'inscrit la même valeur, plus zéro virgule trois mille. Pendant que les segments montent, le rond de sortie en brique s'assombrit.",
+      "notions": [
+        "biais",
+        "dérivée partielle",
+        "somme pondérée",
+        "proposition 3"
+      ],
+      "chapitres": null,
+      "licence": "CC BY-SA 4.0, N7-IA",
+      "empreinte": "ef72477a239c",
+      "duree": 9.2,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "cadence": 30,
+      "poster": "/animations/le-biais-ne-passe-par-rien/ef72477a239c.webp",
+      "rendus": [
+        {
+          "format": "mp4",
+          "src": "/animations/le-biais-ne-passe-par-rien/ef72477a239c.mp4",
+          "octets": 1500369,
+          "mime": "video/mp4; codecs=\"avc1.640032\""
+        }
+      ],
+      "profil": {
+        "rendu": "3840x2160",
+        "encodage": "x264-crf18-tune-animation-v1"
+      },
+      "source": {
+        "fichier": "retropropagation/biais.py",
+        "scene": "LeBiaisNePasseParRien",
+        "empreinte": "b0dc06eca1b8",
+        "modifiee": "2026-09-20T11:45:09+00:00",
+        "manim": "0.21.0",
+        "rendu": "2026-09-20T11:53:29+00:00"
+      }
+    },
+    {
+      "id": "proportionnel-a-lactivation",
+      "titre": "L'épaisseur suit l'activation, exactement",
+      "alt": "Le réseau pâlit. Quatre ronds apparaissent en colonne au centre droit du cadre, régulièrement espacés : ce sont quatre neurones cachés, tirés de la couche de cent vingt-huit. Les trois premiers sont remplis d'encre, de plus en plus pâle ; le quatrième est vide, son contour seul. À gauche de chacun s'inscrit son activation mesurée : un virgule cinq neuf zéro trois, un virgule quatre neuf huit un, un virgule trois neuf cinq zéro, et zéro virgule zéro zéro sept zéro. Le troisième rond de la colonne de sortie passe au trait de brique avec son étiquette. Quatre traits gris relient alors les quatre ronds à ce neurone, tous de la même finesse. Ils s'épaississent ensemble, chacun de la correction que son poids reçoit : le premier devient un ruban large, le deuxième et le troisième à peine moins, et le quatrième reste un cheveu qu'on distingue à peine du papier. Une valeur s'inscrit enfin à droite du neurone de sortie : moins zéro virgule sept cinq cinq quatre six un.",
+      "notions": [
+        "gradient des poids",
+        "proportionnalité",
+        "activation",
+        "proposition 4"
+      ],
+      "chapitres": null,
+      "licence": "CC BY-SA 4.0, N7-IA",
+      "empreinte": "0d8557012e86",
+      "duree": 10.8,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "cadence": 30,
+      "poster": "/animations/proportionnel-a-lactivation/0d8557012e86.webp",
+      "rendus": [
+        {
+          "format": "mp4",
+          "src": "/animations/proportionnel-a-lactivation/0d8557012e86.mp4",
+          "octets": 1749001,
+          "mime": "video/mp4; codecs=\"avc1.640032\""
+        }
+      ],
+      "profil": {
+        "rendu": "3840x2160",
+        "encodage": "x264-crf18-tune-animation-v1"
+      },
+      "source": {
+        "fichier": "retropropagation/poids.py",
+        "scene": "ProportionnelALactivation",
+        "empreinte": "7aaeed59fdd9",
+        "modifiee": "2026-09-20T11:47:13+00:00",
+        "manim": "0.21.0",
+        "rendu": "2026-09-20T11:54:16+00:00"
+      }
+    },
+    {
+      "id": "limage-cinq-traverse-le-reseau",
+      "titre": "L'image de travail traverse le réseau non entraîné",
+      "alt": "Sur la gauche, une grille de vingt-huit cases sur vingt-huit porte en gris l'image d'un deux manuscrit. Les cases encrées se détachent une à une et rejoignent, en glissant vers la droite, les rangs qui leur correspondent dans la première colonne du réseau ; les cases blanches ne bougent pas. La colonne s'assombrit alors, chaque rond à la valeur de son pixel. Une lueur de brique traverse le premier faisceau de la gauche vers la droite, et la colonne cachée s'allume à son tour, très inégalement : quelques ronds sont presque noirs, la plupart restent vides. Une seconde lueur traverse le second faisceau, et les dix ronds de la colonne de sortie se remplissent. À droite de chacun s'inscrit alors son activation mesurée, de zéro virgule zéro quatre six deux à zéro virgule deux quatre quatre cinq. Le rond de la classe deux, le plus sombre des dix, passe au trait de brique avec son étiquette, et sa valeur reste seule en brique sous les neuf autres.",
+      "notions": [
+        "propagation avant",
+        "activation",
+        "ReLU",
+        "réseau non entraîné"
+      ],
+      "chapitres": null,
+      "licence": "CC BY-SA 4.0, N7-IA",
+      "empreinte": "237a47f4a26a",
+      "duree": 12.4,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "cadence": 30,
+      "poster": "/animations/limage-cinq-traverse-le-reseau/237a47f4a26a.webp",
+      "rendus": [
+        {
+          "format": "mp4",
+          "src": "/animations/limage-cinq-traverse-le-reseau/237a47f4a26a.mp4",
+          "octets": 4443635,
+          "mime": "video/mp4; codecs=\"avc1.640032\""
+        }
+      ],
+      "profil": {
+        "rendu": "3840x2160",
+        "encodage": "x264-crf18-tune-animation-v1"
+      },
+      "source": {
+        "fichier": "retropropagation/reclame.py",
+        "scene": "LImageCinqTraverseLeReseau",
+        "empreinte": "c20c0ff67e45",
+        "modifiee": "2026-09-20T11:24:39+00:00",
+        "manim": "0.21.0",
+        "rendu": "2026-09-20T11:55:15+00:00"
+      }
+    },
+    {
+      "id": "ce-que-la-sortie-reclame",
+      "titre": "Le signal d'erreur, en dix barres signées",
+      "alt": "Le réseau pâlit et passe au second plan. Une ligne horizontale se trace au travers de l'écran, et dix barres verticales poussent depuis cette ligne, une par neurone de sortie. Neuf montent, très courtes, d'inégales longueurs ; la troisième descend, et elle descend jusqu'au bas du cadre, incomparablement plus longue que les neuf autres. Sa valeur s'inscrit à son extrémité : moins zéro virgule sept cinq cinq cinq. Les neuf barres courtes passent ensuite au brique et se déplacent l'une après l'autre au-dessus de la troisième, où elles s'empilent bout à bout en une seule colonne qui monte à mesure. Quand la neuvième se pose, un trait de brique marque le sommet de la pile, un second marque le bas de la barre descendante, et les deux sont à la même distance de la ligne. La valeur de la pile s'inscrit : plus zéro virgule sept cinq cinq cinq.",
+      "notions": [
+        "signal d'erreur",
+        "delta",
+        "proposition 2",
+        "vecteur par ses composantes"
+      ],
+      "chapitres": null,
+      "licence": "CC BY-SA 4.0, N7-IA",
+      "empreinte": "237a47f4a26a",
+      "duree": 11.7,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "cadence": 30,
+      "poster": "/animations/ce-que-la-sortie-reclame/237a47f4a26a.webp",
+      "rendus": [
+        {
+          "format": "mp4",
+          "src": "/animations/ce-que-la-sortie-reclame/237a47f4a26a.mp4",
+          "octets": 1695419,
+          "mime": "video/mp4; codecs=\"avc1.640032\""
+        }
+      ],
+      "profil": {
+        "rendu": "3840x2160",
+        "encodage": "x264-crf18-tune-animation-v1"
+      },
+      "source": {
+        "fichier": "retropropagation/reclame.py",
+        "scene": "CeQueLaSortieReclame",
+        "empreinte": "23e09c1b6858",
+        "modifiee": "2026-09-20T11:24:39+00:00",
+        "manim": "0.21.0",
+        "rendu": "2026-09-20T11:56:05+00:00"
+      }
+    },
+    {
+      "id": "la-porte-relu-ne-laisse-rien-passer",
+      "titre": "Cinquante-sept passent, soixante et onze sont coupées",
+      "alt": "Le réseau pâlit et rend ses cotes. Une ligne horizontale se trace au milieu du cadre, et cent vingt-huit barres très fines y poussent, une par neurone caché : un peigne serré, moitié au-dessus de la ligne, moitié en dessous, d'inégales longueurs, et pas une seule n'est nulle. Une cote de brique donne leur nombre : cent vingt-huit. Les barres des neurones allumés passent alors au brique, les autres restent à l'encre. Toutes les barres d'encre s'écrasent d'un coup sur la ligne et disparaissent, pendant que les barres de brique ne bougent pas : aucune ne se raccourcit, aucune ne change de sens. Le peigne est devenu clairsemé. Deux cotes s'inscrivent de part et d'autre de la ligne : cinquante-sept pour ce qui passe, soixante et onze pour ce qui est coupé.",
+      "notions": [
+        "ReLU",
+        "dérivée de la ReLU",
+        "signal d'erreur",
+        "couche cachée"
+      ],
+      "chapitres": null,
+      "licence": "CC BY-SA 4.0, N7-IA",
+      "empreinte": "c8cd1ccd49cd",
+      "duree": 11.7,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "cadence": 30,
+      "poster": "/animations/la-porte-relu-ne-laisse-rien-passer/c8cd1ccd49cd.webp",
+      "rendus": [
+        {
+          "format": "mp4",
+          "src": "/animations/la-porte-relu-ne-laisse-rien-passer/c8cd1ccd49cd.mp4",
+          "octets": 1823573,
+          "mime": "video/mp4; codecs=\"avc1.640032\""
+        }
+      ],
+      "profil": {
+        "rendu": "3840x2160",
+        "encodage": "x264-crf18-tune-animation-v1"
+      },
+      "source": {
+        "fichier": "retropropagation/remonter.py",
+        "scene": "LaPorteReluNeLaisseRienPasser",
+        "empreinte": "08e0e5528e04",
+        "modifiee": "2026-09-20T11:24:45+00:00",
+        "manim": "0.21.0",
+        "rendu": "2026-09-20T11:57:00+00:00"
+      }
+    },
+    {
+      "id": "dix-demandes-sur-un-meme-neurone",
+      "titre": "Dix demandes se posent bout à bout",
+      "alt": "Le réseau pâlit et rend ses cotes. Un rond isolé, plus grand que ceux du réseau et rempli d'encre presque noire, se pose à gauche du centre : c'est un neurone de la couche cachée, et son rang s'inscrit à côté de lui. Dix traits partent alors des dix ronds de la colonne de sortie et convergent tous vers lui. Ils sont d'abord de la même finesse, puis chacun prend l'épaisseur de la demande qu'il porte : deux sont nettement plus larges que les autres, aucun n'est nul. Les traits s'effacent, et dix barres signées poussent depuis une ligne horizontale, une par neurone de sortie : quatre montent, six descendent. Les dix barres se soulèvent alors l'une après l'autre, sans quitter leur place : chacune va se poser au bout de la précédente, et l'ensemble dessine un escalier. Il monte deux fois, jusqu'à une hauteur bien supérieure à la plus grande des dix barres, puis redescend marche après marche et s'arrête juste au-dessus de la ligne de départ. Un trait de brique marque le bout de la dernière marche, et sa valeur s'inscrit dessous : plus zéro virgule zéro zéro six quatre zéro deux.",
+      "notions": [
+        "transposée",
+        "somme des demandes",
+        "règle de la chaîne",
+        "proposition 6"
+      ],
+      "chapitres": null,
+      "licence": "CC BY-SA 4.0, N7-IA",
+      "empreinte": "afbdc54a3c25",
+      "duree": 15.2,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "cadence": 30,
+      "poster": "/animations/dix-demandes-sur-un-meme-neurone/afbdc54a3c25.webp",
+      "rendus": [
+        {
+          "format": "mp4",
+          "src": "/animations/dix-demandes-sur-un-meme-neurone/afbdc54a3c25.mp4",
+          "octets": 2508235,
+          "mime": "video/mp4; codecs=\"avc1.640032\""
+        }
+      ],
+      "profil": {
+        "rendu": "3840x2160",
+        "encodage": "x264-crf18-tune-animation-v1"
+      },
+      "source": {
+        "fichier": "retropropagation/somme.py",
+        "scene": "DixDemandesSurUnMemeNeurone",
+        "empreinte": "047597927bab",
+        "modifiee": "2026-09-20T12:01:53+00:00",
+        "manim": "0.21.0",
+        "rendu": "2026-09-20T12:03:15+00:00"
+      }
+    },
+    {
+      "id": "londe-revient-de-la-sortie",
+      "titre": "L'aller, puis le retour, sur le même réseau",
+      "alt": "Le réseau est allumé : la grille de l'image de travail à gauche, les trois colonnes remplies chacune à ses valeurs, la colonne cachée très inégalement. Une lueur de brique parcourt le premier faisceau de la gauche vers la droite, en cascade, puis le second, toujours vers la droite : c'est l'aller, et il va vite. Le réseau reste un instant immobile. Puis une lueur repart, du second faisceau cette fois, et elle va de la droite vers la gauche, plus lentement : elle quitte les dix ronds de sortie et gagne la colonne cachée. Elle s'arrête. Une seconde lueur repart du premier faisceau, toujours vers la gauche, et gagne la colonne d'entrée. Le même geste recommence une fois, dans le même ordre : de la sortie vers la couche cachée, puis de la couche cachée vers l'entrée. Rien d'autre ne bouge, aucun nombre ne s'écrit, et les activations ne changent pas.",
+      "notions": [
+        "propagation avant",
+        "rétropropagation",
+        "récurrence",
+        "sens du calcul"
+      ],
+      "chapitres": null,
+      "licence": "CC BY-SA 4.0, N7-IA",
+      "empreinte": "fdb001625e9c",
+      "duree": 14.63,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "cadence": 30,
+      "poster": "/animations/londe-revient-de-la-sortie/fdb001625e9c.webp",
+      "rendus": [
+        {
+          "format": "mp4",
+          "src": "/animations/londe-revient-de-la-sortie/fdb001625e9c.mp4",
+          "octets": 6853641,
+          "mime": "video/mp4; codecs=\"avc1.640032\""
+        }
+      ],
+      "profil": {
+        "rendu": "3840x2160",
+        "encodage": "x264-crf18-tune-animation-v1"
+      },
+      "source": {
+        "fichier": "retropropagation/synthese.py",
+        "scene": "LOndeRevientDeLaSortie",
+        "empreinte": "8ce6465b3bf7",
+        "modifiee": "2026-09-20T11:31:38+00:00",
+        "manim": "0.21.0",
+        "rendu": "2026-09-20T11:59:22+00:00"
+      }
+    },
+    {
+      "id": "necouter-quun-seul",
+      "titre": "Deux cents pas sur une image, et tout devient 2",
+      "alt": "La grille de l'image de travail apparaît à gauche, un deux manuscrit en gris sur vingt-huit cases sur vingt-huit, et le réseau derrière elle. La grille pâlit, et dix barres horizontales poussent depuis une ligne verticale tracée à droite des dix ronds de sortie, une par classe, chacune à la hauteur de son neurone et de son chiffre. Leurs longueurs sont très inégales : celle de la classe deux fait les sept dixièmes de l'espace libre, celles des classes zéro et cinq le huitième, les sept autres sont des moignons. Les neuf barres autres que celle de la classe deux se rétractent alors jusqu'à disparaître, pendant que celle de la classe deux s'allonge jusqu'au bout de l'espace libre et passe au brique. Sa valeur s'inscrit à son extrémité : dix mille. Les neuf autres barres ont entièrement disparu, et il ne reste qu'une seule barre en face des dix chiffres.",
+      "notions": [
+        "descente de gradient",
+        "un seul exemple",
+        "surapprentissage",
+        "précision de test"
+      ],
+      "chapitres": null,
+      "licence": "CC BY-SA 4.0, N7-IA",
+      "empreinte": "dfa91eae1e8b",
+      "duree": 12.9,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "cadence": 30,
+      "poster": "/animations/necouter-quun-seul/dfa91eae1e8b.webp",
+      "rendus": [
+        {
+          "format": "mp4",
+          "src": "/animations/necouter-quun-seul/dfa91eae1e8b.mp4",
+          "octets": 2213489,
+          "mime": "video/mp4; codecs=\"avc1.640032\""
+        }
+      ],
+      "profil": {
+        "rendu": "3840x2160",
+        "encodage": "x264-crf18-tune-animation-v1"
+      },
+      "source": {
+        "fichier": "retropropagation/un_exemple.py",
+        "scene": "NecouterQuUnSeul",
+        "empreinte": "47babe3167c3",
+        "modifiee": "2026-09-20T09:15:53+00:00",
+        "manim": "0.21.0",
+        "rendu": "2026-09-20T12:00:20+00:00"
+      }
+    },
+    {
+      "id": "variance-comme-distance",
+      "titre": "La variance, vue comme une aire",
+      "alt": "Huit observations sont posées sur un axe horizontal gradué. Un trait vertical marque leur moyenne. Pour chaque observation, un segment de brique relie le point à la moyenne : c'est son écart. Chaque segment se déplie ensuite en un carré dont il est le côté, de sorte qu'une observation deux fois plus loin produit un carré quatre fois plus grand. Les huit carrés se rassemblent et se fondent en un seul carré de même aire moyenne : c'est la variance. Le côté de ce carré final est mis en évidence : c'est l'écart-type, et il se mesure sur le même axe que les données de départ.",
+      "notions": [
+        "variance",
+        "écart-type",
+        "dispersion",
+        "statistiques"
+      ],
+      "chapitres": null,
+      "licence": "CC BY-SA 4.0, N7-IA",
+      "empreinte": "10e321077c10",
+      "duree": 17.9,
+      "largeur": 1920,
+      "hauteur": 1080,
+      "cadence": 30,
+      "poster": "/animations/variance-comme-distance/10e321077c10.webp",
+      "rendus": [
+        {
+          "format": "mp4",
+          "src": "/animations/variance-comme-distance/10e321077c10.mp4",
+          "octets": 688063,
+          "mime": "video/mp4; codecs=\"avc1.640032\""
+        }
+      ],
+      "profil": {
+        "rendu": "3840x2160",
+        "encodage": "x264-crf18-tune-animation-v1"
+      },
+      "source": {
+        "fichier": "statistiques/variance.py",
+        "scene": "VarianceCommeDistance",
+        "empreinte": "237174d9d86a",
+        "modifiee": "2026-08-22T08:42:46+00:00",
+        "manim": "0.21.0",
+        "rendu": "2026-08-30T15:15:23+00:00"
+      }
+    }
+  ],
+  "prevues": []
+}

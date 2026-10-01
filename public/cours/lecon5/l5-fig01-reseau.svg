@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="720" viewBox="0 0 1380 720">
+<rect width="1380" height="720" fill="#FFFFFF"/>
+<text x="60.0" y="70.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">le réseau du calcul à la main</text>
+<line x1="60.0" y1="84.0" x2="1360.0" y2="84.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<rect x="60.0" y="248.0" width="170.0" height="104.0" fill="#FFFFFF" stroke="#7E7972" stroke-width="2.4"/>
+<text x="145.0" y="288.7" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="middle">x</text>
+<text x="145.0" y="333.3" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#565049" text-anchor="middle">1,0</text>
+<circle cx="450.0" cy="300.0" r="58.00" fill="#FFFFFF" stroke="#14120F" stroke-width="2.6"/>
+<text x="450.0" y="311.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">a⁽¹⁾</text>
+<text x="450.0" y="414.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">ReLU</text>
+<circle cx="760.0" cy="300.0" r="58.00" fill="#FFFFFF" stroke="#14120F" stroke-width="2.6"/>
+<text x="760.0" y="311.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">a⁽²⁾</text>
+<text x="760.0" y="414.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">ReLU</text>
+<circle cx="1070.0" cy="300.0" r="58.00" fill="#FFFFFF" stroke="#14120F" stroke-width="2.6"/>
+<text x="1070.0" y="311.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">a⁽³⁾</text>
+<text x="1070.0" y="414.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">σ</text>
+<rect x="1240.0" y="248.0" width="120.0" height="104.0" fill="#FFFFFF" stroke="#14120F" stroke-width="2.4"/>
+<text x="1300.0" y="311.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">ℓ</text>
+<rect x="1240.0" y="438.0" width="120.0" height="104.0" fill="#FFFFFF" stroke="#7E7972" stroke-width="2.4"/>
+<text x="1300.0" y="478.7" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="middle">y</text>
+<text x="1300.0" y="523.3" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#565049" text-anchor="middle">1</text>
+<line x1="1300.0" y1="434.0" x2="1300.0" y2="368.4" stroke="#7E7972" stroke-width="2.2" data-role="filet"/><polygon points="1300.0,360.0 1304.7,371.1 1295.3,371.1" fill="#7E7972" data-role="filet"/>
+<line x1="242.0" y1="300.0" x2="370.9" y2="300.0" stroke="#14120F" stroke-width="2.4" data-role="filet"/><polygon points="380.0,300.0 368.0,305.1 368.0,294.9" fill="#14120F" data-role="filet"/>
+<text x="311.0" y="222.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#A8442A" text-anchor="middle">w⁽¹⁾ = 0,8</text>
+<text x="311.0" y="386.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#A8442A" text-anchor="middle">b⁽¹⁾ = 0,2</text>
+<line x1="520.0" y1="300.0" x2="680.9" y2="300.0" stroke="#14120F" stroke-width="2.4" data-role="filet"/><polygon points="690.0,300.0 678.0,305.1 678.0,294.9" fill="#14120F" data-role="filet"/>
+<text x="605.0" y="222.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#A8442A" text-anchor="middle">w⁽²⁾ = 1,5</text>
+<text x="605.0" y="386.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#A8442A" text-anchor="middle">b⁽²⁾ = −0,4</text>
+<line x1="830.0" y1="300.0" x2="990.9" y2="300.0" stroke="#14120F" stroke-width="2.4" data-role="filet"/><polygon points="1000.0,300.0 988.0,305.1 988.0,294.9" fill="#14120F" data-role="filet"/>
+<text x="915.0" y="222.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#A8442A" text-anchor="middle">w⁽³⁾ = 2,0</text>
+<text x="915.0" y="386.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#A8442A" text-anchor="middle">b⁽³⁾ = −0,5</text>
+<line x1="1128.0" y1="300.0" x2="1218.9" y2="300.0" stroke="#14120F" stroke-width="2.4" data-role="filet"/><polygon points="1228.0,300.0 1216.0,305.1 1216.0,294.9" fill="#14120F" data-role="filet"/>
+<line x1="60.0" y1="600.0" x2="1320.0" y2="600.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<rect x="60.0" y="636.0" width="24.0" height="24.0" fill="#A8442A"/>
+<text x="98.0" y="660.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#565049" text-anchor="start">ajustable</text>
+<rect x="313.4" y="636.0" width="24.0" height="24.0" fill="#7E7972"/>
+<text x="351.4" y="660.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#565049" text-anchor="start">fourni</text>
+<rect x="512.2" y="636.0" width="24.0" height="24.0" fill="#14120F"/>
+<text x="550.2" y="660.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#565049" text-anchor="start">calculé</text>
+</svg>

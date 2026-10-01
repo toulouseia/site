@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="620" viewBox="0 0 1380 620">
+<rect width="1380" height="620" fill="#FFFFFF"/>
+<text x="40.0" y="52.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">deux poids de la même ligne</text>
+<line x1="40.0" y1="68.0" x2="1340.0" y2="68.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<text x="60.0" y="190.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="600" fill="#14120F" text-anchor="start">W⁽²⁾₂,₉₂</text>
+<text x="60.0" y="234.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">a⁽¹⁾₉₂ = 1,5903</text>
+<rect x="400.0" y="166.0" width="380.0" height="48.0" fill="#2A5A78"/>
+<text x="800.0" y="202.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="700" fill="#2A5A78" text-anchor="start">−1,201409</text>
+<text x="60.0" y="380.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="600" fill="#14120F" text-anchor="start">W⁽²⁾₂,₆₂</text>
+<text x="60.0" y="424.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">a⁽¹⁾₆₂ = 0,0070</text>
+<rect x="400.0" y="356.0" width="2.0" height="48.0" fill="#2A5A78"/>
+<text x="421.7" y="392.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="700" fill="#2A5A78" text-anchor="start">−0,005255</text>
+<line x1="400.0" y1="140.0" x2="400.0" y2="440.0" stroke="#14120F" stroke-width="1.8"/>
+<line x1="1080.0" y1="166.0" x2="1094.0" y2="166.0" stroke="#A8442A" stroke-width="2.2" data-role="filet"/><line x1="1094.0" y1="166.0" x2="1094.0" y2="404.0" stroke="#A8442A" stroke-width="2.2" data-role="filet"/><line x1="1094.0" y1="404.0" x2="1080.0" y2="404.0" stroke="#A8442A" stroke-width="2.2" data-role="filet"/><line x1="1094.0" y1="285.0" x2="1108.0" y2="285.0" stroke="#A8442A" stroke-width="2.2" data-role="filet"/>
+<text x="1340.0" y="272.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="60" font-weight="700" fill="#A8442A" text-anchor="end">228,6 ×</text>
+<text x="1340.0" y="330.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#A8442A" text-anchor="end">d'écart</text>
+<line x1="40.0" y1="490.0" x2="1340.0" y2="490.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<text x="60.0" y="546.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="600" fill="#14120F" text-anchor="start">le rapport des deux activations</text>
+<text x="60.0" y="596.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">activations affichées arrondies</text>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Fil Atom écrit à la main pour les essais, sur le modèle du blog des
+     développeurs de NVIDIA. -->
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Essai Atom</title>
+<entry>
+<title type="html"><![CDATA[Faire tourner un agent sur une seule carte]]></title>
+<link rel="alternate" type="text/html" href="https://exemple.org/blog/agent-une-carte/" />
+<id>https://exemple.org/blog/?p=1</id>
+<updated>2026-09-23T22:55:03Z</updated>
+<published>2026-09-22T22:54:56Z</published>
+<category scheme="https://exemple.org/blog" term="Agentic AI / Generative AI" />
+<summary type="html"><![CDATA[<p>Un résumé en HTML dans du CDATA [&#8230;]</p>]]></summary>
+</entry>
+</feed>

@@ -1,0 +1,24 @@
+{
+  "empreinte": "d11598050264",
+  "duree": 22.83,
+  "largeur": 1920,
+  "hauteur": 1080,
+  "cadence": 30,
+  "poster": "/animations/le-gabarit-du-0/d11598050264.webp",
+  "rendus": [
+    {
+      "format": "mp4",
+      "src": "/animations/le-gabarit-du-0/d11598050264.mp4",
+      "octets": 3951310,
+      "mime": "video/mp4; codecs=\"avc1.640032\""
+    }
+  ],
+  "profil": {
+    "rendu": "3840x2160",
+    "encodage": "x264-crf18-tune-animation-v1"
+  },
+  "source": {
+    "manim": "0.21.0",
+    "rendu": "2026-09-07T10:34:33+00:00"
+  }
+}

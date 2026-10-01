@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="660" viewBox="0 0 1380 660">
+<rect width="1380" height="660" fill="#FFFFFF"/>
+<text x="60.0" y="60.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">(a) l'ordre des neurones</text>
+<text x="60.0" y="104.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">cachés</text>
+<line x1="60.0" y1="118.6" x2="580.0" y2="118.6" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<text x="740.0" y="60.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">(b) le même, permuté</text>
+<line x1="740.0" y1="74.0" x2="1260.0" y2="74.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<circle cx="280.0" cy="220.0" r="20.00" fill="#FFFFFF" stroke="#14120F" stroke-width="2.6"/>
+<text x="280.0" y="232.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#14120F" text-anchor="middle">1</text>
+<line x1="160.0" y1="290.0" x2="258.0" y2="220.0" stroke="#E4E1DC" stroke-width="1.4"/>
+<line x1="302.0" y1="220.0" x2="400.0" y2="290.0" stroke="#E4E1DC" stroke-width="1.4"/>
+<circle cx="280.0" cy="290.0" r="20.00" fill="#FFFFFF" stroke="#14120F" stroke-width="2.6"/>
+<text x="280.0" y="302.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#14120F" text-anchor="middle">2</text>
+<line x1="160.0" y1="290.0" x2="258.0" y2="290.0" stroke="#E4E1DC" stroke-width="1.4"/>
+<line x1="302.0" y1="290.0" x2="400.0" y2="290.0" stroke="#E4E1DC" stroke-width="1.4"/>
+<circle cx="280.0" cy="360.0" r="20.00" fill="#FFFFFF" stroke="#14120F" stroke-width="2.6"/>
+<text x="280.0" y="372.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#14120F" text-anchor="middle">3</text>
+<line x1="160.0" y1="290.0" x2="258.0" y2="360.0" stroke="#E4E1DC" stroke-width="1.4"/>
+<line x1="302.0" y1="360.0" x2="400.0" y2="290.0" stroke="#E4E1DC" stroke-width="1.4"/>
+<circle cx="280.0" cy="430.0" r="20.00" fill="#FFFFFF" stroke="#14120F" stroke-width="2.6"/>
+<text x="280.0" y="442.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#14120F" text-anchor="middle">4</text>
+<line x1="160.0" y1="290.0" x2="258.0" y2="430.0" stroke="#E4E1DC" stroke-width="1.4"/>
+<line x1="302.0" y1="430.0" x2="400.0" y2="290.0" stroke="#E4E1DC" stroke-width="1.4"/>
+<circle cx="150.0" cy="290.0" r="16.00" fill="#FFFFFF" stroke="#7E7972" stroke-width="2.2"/>
+<circle cx="410.0" cy="290.0" r="16.00" fill="#FFFFFF" stroke="#7E7972" stroke-width="2.2"/>
+<circle cx="960.0" cy="220.0" r="20.00" fill="#FFFFFF" stroke="#A8442A" stroke-width="2.6"/>
+<text x="960.0" y="232.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="middle">3</text>
+<line x1="840.0" y1="290.0" x2="938.0" y2="220.0" stroke="#E4E1DC" stroke-width="1.4"/>
+<line x1="982.0" y1="220.0" x2="1080.0" y2="290.0" stroke="#E4E1DC" stroke-width="1.4"/>
+<circle cx="960.0" cy="290.0" r="20.00" fill="#FFFFFF" stroke="#A8442A" stroke-width="2.6"/>
+<text x="960.0" y="302.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="middle">1</text>
+<line x1="840.0" y1="290.0" x2="938.0" y2="290.0" stroke="#E4E1DC" stroke-width="1.4"/>
+<line x1="982.0" y1="290.0" x2="1080.0" y2="290.0" stroke="#E4E1DC" stroke-width="1.4"/>
+<circle cx="960.0" cy="360.0" r="20.00" fill="#FFFFFF" stroke="#A8442A" stroke-width="2.6"/>
+<text x="960.0" y="372.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="middle">4</text>
+<line x1="840.0" y1="290.0" x2="938.0" y2="360.0" stroke="#E4E1DC" stroke-width="1.4"/>
+<line x1="982.0" y1="360.0" x2="1080.0" y2="290.0" stroke="#E4E1DC" stroke-width="1.4"/>
+<circle cx="960.0" cy="430.0" r="20.00" fill="#FFFFFF" stroke="#A8442A" stroke-width="2.6"/>
+<text x="960.0" y="442.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="middle">2</text>
+<line x1="840.0" y1="290.0" x2="938.0" y2="430.0" stroke="#E4E1DC" stroke-width="1.4"/>
+<line x1="982.0" y1="430.0" x2="1080.0" y2="290.0" stroke="#E4E1DC" stroke-width="1.4"/>
+<circle cx="830.0" cy="290.0" r="16.00" fill="#FFFFFF" stroke="#7E7972" stroke-width="2.2"/>
+<circle cx="1090.0" cy="290.0" r="16.00" fill="#FFFFFF" stroke="#7E7972" stroke-width="2.2"/>
+<text x="120.0" y="560.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">coût</text>
+<text x="120.0" y="604.5" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#14120F" text-anchor="start">0,07606964</text>
+<text x="800.0" y="560.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">coût</text>
+<text x="800.0" y="604.5" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="start">0,07606964</text>
+<text x="1320.0" y="560.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="end">distance des deux θ</text>
+<text x="1320.0" y="604.5" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="end">1,4148</text>
+</svg>

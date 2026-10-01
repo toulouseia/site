@@ -1,0 +1,17 @@
+{
+  // La redirection de l'ancien nom. Elle vit sur l'ancien compte Cloudflare
+  // (celui de contact@n7-ia.fr), où la zone n7-ia.fr est restée, et remplace
+  // le programme « n7-ia » qui y servait le site. À envoyer avec :
+  //   npx wrangler deploy -c wrangler.redirection.jsonc
+  // depuis une connexion wrangler sur l'ancien compte.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "n7-ia",
+  "account_id": "d0505fb301ea0eac85e8cd49a907a5db",
+  "main": "redirection/n7-ia.fr.js",
+  "compatibility_date": "2026-08-01",
+  "workers_dev": false,
+  "routes": [
+    { "pattern": "n7-ia.fr", "custom_domain": true },
+    { "pattern": "www.n7-ia.fr", "custom_domain": true }
+  ]
+}

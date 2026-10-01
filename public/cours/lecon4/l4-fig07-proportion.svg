@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="820" viewBox="0 0 1380 820">
+<rect width="1380" height="820" fill="#FFFFFF"/>
+<text x="40.0" y="52.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">quatre poids de la ligne 2</text>
+<line x1="40.0" y1="68.0" x2="1340.0" y2="68.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<text x="60.0" y="150.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">j</text>
+<text x="300.0" y="150.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="end">a⁽¹⁾ⱼ</text>
+<text x="640.0" y="150.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="end">∂ℓ/∂W⁽²⁾₂,ⱼ</text>
+<text x="1340.0" y="150.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="end">le quotient</text>
+<line x1="60.0" y1="168.0" x2="1340.0" y2="168.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<text x="60.0" y="236.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="start">92</text>
+<text x="300.0" y="236.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="end">1,5903</text>
+<text x="640.0" y="236.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#2A5A78" text-anchor="end">−1,201409</text>
+<text x="1340.0" y="236.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="end">−0,755461</text>
+<rect x="700.0" y="208.0" width="280.0" height="22.0" fill="#2A5A78"/>
+<rect x="700.0" y="234.0" width="280.0" height="10.0" fill="#D2CEC8"/>
+<text x="60.0" y="334.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="start">13</text>
+<text x="300.0" y="334.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="end">1,4981</text>
+<text x="640.0" y="334.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#2A5A78" text-anchor="end">−1,131760</text>
+<text x="1340.0" y="334.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="end">−0,755461</text>
+<rect x="700.0" y="306.0" width="263.8" height="22.0" fill="#2A5A78"/>
+<rect x="700.0" y="332.0" width="263.8" height="10.0" fill="#D2CEC8"/>
+<text x="60.0" y="432.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="start">61</text>
+<text x="300.0" y="432.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="end">1,3950</text>
+<text x="640.0" y="432.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#2A5A78" text-anchor="end">−1,053837</text>
+<text x="1340.0" y="432.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="end">−0,755461</text>
+<rect x="700.0" y="404.0" width="245.6" height="22.0" fill="#2A5A78"/>
+<rect x="700.0" y="430.0" width="245.6" height="10.0" fill="#D2CEC8"/>
+<text x="60.0" y="530.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="start">62</text>
+<text x="300.0" y="530.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="end">0,0070</text>
+<text x="640.0" y="530.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#2A5A78" text-anchor="end">−0,005255</text>
+<text x="1340.0" y="530.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="end">−0,755461</text>
+<rect x="700.0" y="502.0" width="1.2" height="22.0" fill="#2A5A78"/>
+<rect x="700.0" y="528.0" width="1.2" height="10.0" fill="#D2CEC8"/>
+<line x1="60.0" y1="580.0" x2="1340.0" y2="580.0" stroke="#14120F" stroke-width="1.6" data-role="filet"/>
+<text x="60.0" y="648.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="60" font-weight="700" fill="#A8442A" text-anchor="start">δ₂ = −0,755461</text>
+<text x="1340.0" y="648.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="end">le même sur les quatre lignes</text>
+<text x="60.0" y="740.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="700" fill="#14120F" text-anchor="start">∂ℓ/∂W⁽²⁾₂,ⱼ = δ₂ · a⁽¹⁾ⱼ</text>
+</svg>

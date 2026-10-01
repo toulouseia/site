@@ -1,0 +1,14 @@
+{
+  // Le programme serveur, vérifié à part. « types » ne cite que les types de la
+  // plateforme Cloudflare, engendrés par `npx wrangler types` : aucun type de
+  // navigateur n'entre ici, et rien de ce fichier ne remonte dans l'application.
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "lib": ["esnext"],
+    "types": [],
+    "jsx": "preserve",
+    "plugins": []
+  },
+  "include": ["./**/*.ts", "../worker-configuration.d.ts"],
+  "exclude": []
+}

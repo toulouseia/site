@@ -1,0 +1,24 @@
+{
+  "empreinte": "297252da3b3c",
+  "duree": 30.93,
+  "largeur": 1920,
+  "hauteur": 1080,
+  "cadence": 30,
+  "poster": "/animations/le-mot-nouvel/297252da3b3c.webp",
+  "rendus": [
+    {
+      "format": "mp4",
+      "src": "/animations/le-mot-nouvel/297252da3b3c.mp4",
+      "octets": 3929101,
+      "mime": "video/mp4; codecs=\"avc1.640032\""
+    }
+  ],
+  "profil": {
+    "rendu": "3840x2160",
+    "encodage": "x264-crf18-tune-animation-v1"
+  },
+  "source": {
+    "manim": "0.21.0",
+    "rendu": "2026-09-20T11:47:51+00:00"
+  }
+}

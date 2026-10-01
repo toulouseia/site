@@ -1,0 +1,48 @@
+{
+  "name": "toulouseia-application",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "dev:api": "wrangler dev --local --var OU:local",
+    "verifier:schema": "python3 outils/verifier-schema.py",
+    "types": "wrangler types",
+    "verifier:api": "wrangler types && tsc --noEmit -p worker/tsconfig.json",
+    "verifier:connexion": "./outils/verifier-connexion.sh",
+    "secrets": "./outils/poser-secrets.sh",
+    "veille:recolter": "node outils/veille/recolter.mjs",
+    "veille:composer": "node outils/veille/composer.mjs",
+    "veille:verifier": "node outils/veille/verifier.mjs",
+    "veille:essais": "node --test outils/veille/*.test.mjs",
+    "build": "next build && node outils/corriger-segments.mjs",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "verifier": "node outils/verifier-contenu.mjs && python animations/manifeste.py --verifier",
+    "animations": "python animations/manifeste.py",
+    "animations:rendre": "python animations/rendre.py",
+    "predeploy": "node outils/arbre-propre.mjs",
+    "deploy": "npm run build && wrangler deploy",
+    "deploy:apercu": "npm run build && wrangler versions upload"
+  },
+  "dependencies": {
+    "hono": "^4.13.8",
+    "katex": "^0.18.9",
+    "next": "^16.3.5",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/katex": "^0.16.8",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "^16.3.5",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "wrangler": "^4.131.2"
+  }
+}

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="560" viewBox="0 0 1380 560">
+<rect width="1380" height="560" fill="#FFFFFF"/>
+<text x="60.0" y="60.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">ce que le chapitre 2 a</text>
+<text x="60.0" y="104.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">construit</text>
+<line x1="60.0" y1="118.6" x2="620.0" y2="118.6" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<text x="740.0" y="60.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">ce qu'aucun chapitre n'a dit</text>
+<line x1="740.0" y1="74.0" x2="1300.0" y2="74.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<rect x="200.0" y="220.0" width="300.0" height="170.0" fill="none" stroke="#14120F" stroke-width="2.6"/>
+<text x="350.0" y="320.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="700" fill="#14120F" text-anchor="middle">f<tspan font-size="33.3" dy="11.8">θ</tspan><tspan font-size="49" dy="-11.8"></tspan></text>
+<line x1="80.0" y1="305.0" x2="183.7" y2="305.0" stroke="#7E7972" stroke-width="2.4" data-role="filet"/><polygon points="190.0,305.0 181.7,308.5 181.7,301.5" fill="#7E7972" data-role="filet"/>
+<text x="80.0" y="190.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">une image</text>
+<line x1="510.0" y1="305.0" x2="613.7" y2="305.0" stroke="#7E7972" stroke-width="2.4" data-role="filet"/><polygon points="620.0,305.0 611.7,308.5 611.7,301.5" fill="#7E7972" data-role="filet"/>
+<text x="620.0" y="190.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="end">un chiffre</text>
+<line x1="350.0" y1="470.0" x2="350.0" y2="406.3" stroke="#14120F" stroke-width="2.6" data-role="filet"/><polygon points="350.0,400.0 353.5,408.3 346.5,408.3" fill="#14120F" data-role="filet"/>
+<text x="350.0" y="515.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#14120F" text-anchor="middle">θ</text>
+<rect x="880.0" y="220.0" width="300.0" height="170.0" fill="none" stroke="#A8442A" stroke-width="2.6"/>
+<text x="1030.0" y="320.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="middle">?</text>
+<line x1="760.0" y1="305.0" x2="863.7" y2="305.0" stroke="#7E7972" stroke-width="2.4" data-role="filet"/><polygon points="870.0,305.0 861.7,308.5 861.7,301.5" fill="#7E7972" data-role="filet"/>
+<text x="760.0" y="190.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">le jeu</text>
+<line x1="1030.0" y1="400.0" x2="1030.0" y2="463.7" stroke="#A8442A" stroke-width="2.6" data-role="filet"/><polygon points="1030.0,470.0 1026.5,461.7 1033.5,461.7" fill="#A8442A" data-role="filet"/>
+<text x="1030.0" y="515.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="middle">θ</text>
+</svg>

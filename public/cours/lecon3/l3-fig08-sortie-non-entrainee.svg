@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="620" viewBox="0 0 1380 620">
+<rect width="1380" height="620" fill="#FFFFFF"/>
+<text x="60.0" y="60.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">les dix sorties de la graine 0</text>
+<line x1="60.0" y1="74.0" x2="760.0" y2="74.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<rect x="112.0" y="319.7" width="76.0" height="150.3" fill="#ADA8A0"/>
+<text x="150.0" y="514.5" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#7E7972" text-anchor="middle">0</text>
+<rect x="230.0" y="361.0" width="76.0" height="109.0" fill="#ADA8A0"/>
+<text x="268.0" y="514.5" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#7E7972" text-anchor="middle">1</text>
+<rect x="348.0" y="210.7" width="76.0" height="259.3" fill="#ADA8A0"/>
+<text x="386.0" y="514.5" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#7E7972" text-anchor="middle">2</text>
+<rect x="466.0" y="335.3" width="76.0" height="134.7" fill="#ADA8A0"/>
+<text x="504.0" y="514.5" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#7E7972" text-anchor="middle">3</text>
+<rect x="584.0" y="328.5" width="76.0" height="141.5" fill="#ADA8A0"/>
+<text x="622.0" y="514.5" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#7E7972" text-anchor="middle">4</text>
+<rect x="702.0" y="344.2" width="76.0" height="125.8" fill="#ADA8A0"/>
+<text x="740.0" y="514.5" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#7E7972" text-anchor="middle">5</text>
+<rect x="820.0" y="368.5" width="76.0" height="101.5" fill="#ADA8A0"/>
+<text x="858.0" y="514.5" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#7E7972" text-anchor="middle">6</text>
+<rect x="938.0" y="389.9" width="76.0" height="80.1" fill="#A8442A"/>
+<text x="976.0" y="514.5" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="middle">7</text>
+<rect x="1056.0" y="409.3" width="76.0" height="60.7" fill="#ADA8A0"/>
+<text x="1094.0" y="514.5" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#7E7972" text-anchor="middle">8</text>
+<rect x="1174.0" y="401.6" width="76.0" height="68.4" fill="#ADA8A0"/>
+<text x="1212.0" y="514.5" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#7E7972" text-anchor="middle">9</text>
+<line x1="100.0" y1="470.0" x2="1300.0" y2="470.0" stroke="#14120F" stroke-width="2.4"/>
+<line x1="100.0" y1="346.9" x2="1300.0" y2="346.9" stroke="#2A5A78" stroke-width="2.6" stroke-dasharray="10 7"/>
+<text x="1300.0" y="330.9" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#2A5A78" text-anchor="end">1 / 10</text>
+<text x="150.0" y="559.1" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#A8442A" text-anchor="start">la vraie classe</text>
+<text x="1300.0" y="559.1" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="end">0,0650</text>
+</svg>

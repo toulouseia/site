@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="790" viewBox="0 0 1380 790">
+<rect width="1380" height="790" fill="#FFFFFF"/>
+<text x="40.0" y="52.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">le signe du poids décide du sens</text>
+<line x1="40.0" y1="68.0" x2="1340.0" y2="68.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<text x="60.0" y="150.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">j</text>
+<text x="420.0" y="150.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="end">W⁽²⁾₂,ⱼ</text>
+<text x="820.0" y="150.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="end">δ₂ · W⁽²⁾₂,ⱼ</text>
+<text x="1340.0" y="150.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="end">l'activation doit</text>
+<line x1="60.0" y1="168.0" x2="1340.0" y2="168.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<text x="60.0" y="240.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="start">1</text>
+<text x="420.0" y="240.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#A8442A" text-anchor="end">+0,2363</text>
+<text x="820.0" y="240.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#2A5A78" text-anchor="end">−0,178491</text>
+<text x="1340.0" y="240.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#2A5A78" text-anchor="end">monter</text>
+<line x1="900.0" y1="230.0" x2="900.0" y2="200.4" stroke="#2A5A78" stroke-width="2.4" data-role="filet"/><polygon points="900.0,192.0 904.7,203.1 895.3,203.1" fill="#2A5A78" data-role="filet"/>
+<text x="60.0" y="338.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="start">4</text>
+<text x="420.0" y="338.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#A8442A" text-anchor="end">+0,0640</text>
+<text x="820.0" y="338.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#2A5A78" text-anchor="end">−0,048331</text>
+<text x="1340.0" y="338.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#2A5A78" text-anchor="end">monter</text>
+<line x1="900.0" y1="328.0" x2="900.0" y2="298.4" stroke="#2A5A78" stroke-width="2.4" data-role="filet"/><polygon points="900.0,290.0 904.7,301.1 895.3,301.1" fill="#2A5A78" data-role="filet"/>
+<text x="60.0" y="436.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="start">2</text>
+<text x="420.0" y="436.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#2A5A78" text-anchor="end">−0,0420</text>
+<text x="820.0" y="436.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#A8442A" text-anchor="end">+0,031698</text>
+<text x="1340.0" y="436.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="end">descendre</text>
+<line x1="900.0" y1="426.0" x2="900.0" y2="455.6" stroke="#A8442A" stroke-width="2.4" data-role="filet"/><polygon points="900.0,464.0 895.3,453.0 904.7,453.0" fill="#A8442A" data-role="filet"/>
+<text x="60.0" y="534.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="start">7</text>
+<text x="420.0" y="534.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#2A5A78" text-anchor="end">−0,0232</text>
+<text x="820.0" y="534.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#A8442A" text-anchor="end">+0,017562</text>
+<text x="1340.0" y="534.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="end">descendre</text>
+<line x1="900.0" y1="524.0" x2="900.0" y2="553.6" stroke="#A8442A" stroke-width="2.4" data-role="filet"/><polygon points="900.0,562.0 895.3,551.0 904.7,551.0" fill="#A8442A" data-role="filet"/>
+<line x1="60.0" y1="604.0" x2="1340.0" y2="604.0" stroke="#14120F" stroke-width="1.6" data-role="filet"/>
+<text x="60.0" y="674.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="60" font-weight="700" fill="#2A5A78" text-anchor="start">δ₂ = −0,755461</text>
+<text x="1340.0" y="674.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="end">le même sur les quatre lignes</text>
+<text x="1340.0" y="734.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="end">seul le poids change</text>
+</svg>

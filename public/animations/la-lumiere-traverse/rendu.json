@@ -1,0 +1,24 @@
+{
+  "empreinte": "e07f1822b0d8",
+  "duree": 29.23,
+  "largeur": 1920,
+  "hauteur": 1080,
+  "cadence": 30,
+  "poster": "/animations/la-lumiere-traverse/e07f1822b0d8.webp",
+  "rendus": [
+    {
+      "format": "mp4",
+      "src": "/animations/la-lumiere-traverse/e07f1822b0d8.mp4",
+      "octets": 10800094,
+      "mime": "video/mp4; codecs=\"avc1.640032\""
+    }
+  ],
+  "profil": {
+    "rendu": "3840x2160",
+    "encodage": "x264-crf18-tune-animation-v1"
+  },
+  "source": {
+    "manim": "0.21.0",
+    "rendu": "2026-09-07T10:35:33+00:00"
+  }
+}

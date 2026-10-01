@@ -1,0 +1,20 @@
+# La pile de rendu. Elle n'est necessaire QUE pour lancer `rendre.py` :
+# `manifeste.py` n'a besoin que de la bibliotheque standard.
+#
+#   python -m venv animations/.venv
+#   animations/.venv/Scripts/activate       (Windows)
+#   source animations/.venv/bin/activate    (macOS, Linux)
+#   pip install -r animations/requirements.txt
+#
+# Depuis ManimCE 0.21.0, pip suffit pour Manim lui-meme : PyAV embarque ses
+# propres bibliotheques ffmpeg, pycairo et manimpango publient des roues
+# binaires. Restent DEUX choses hors pip :
+#
+#   1. une distribution LaTeX, parce que nos scenes utilisent MathTex ;
+#   2. les EXECUTABLES ffmpeg et ffprobe, que `rendre.py` appelle pour
+#      reduire, reencoder et sonder le rendu (les bibliotheques de PyAV ne
+#      fournissent pas ces commandes).
+#
+# Voir README.md pour la liste des paquets TeX et les commandes d'installation.
+
+manim>=0.21,<0.22

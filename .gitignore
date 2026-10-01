@@ -1,0 +1,77 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# cloudflare — le dossier de travail de l'outil de mise en ligne
+.wrangler/
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# les images produites par outils/capture.mjs — elles se refabriquent en une commande
+/captures/
+
+# les types de la plateforme Cloudflare — 15 000 lignes engendrées par
+# `npm run types`, qui changent à chaque version de l'outil : on les refabrique,
+# on ne les versionne pas
+/worker-configuration.d.ts
+
+# le relevé de `outils/mesurer-temps-api.sh distant`
+/mesure-api.jsonl
+
+# Le repertoire de travail du rendu Manim : Manim y depose ses fichiers
+# intermediaires, `rendre.py` l'efface a la fin. Il ne survit pas a un rendu
+# reussi, mais il survit a un rendu interrompu.
+/animations/.rendus/
+/animations/.venv/
+
+# Ce qui est telecharge ne se versionne pas : MNIST se retelecharge en une
+# commande, et onze megaoctets de donnees brutes n'ont rien a faire dans un
+# depot dont tout le reste est du texte.
+/cours/.donnees/
+
+# sorties temporaires de Manim
+/media/
+/animations/media/
+
+# les secrets que `wrangler dev` lit en local ; en ligne ils se posent avec
+# `wrangler secret put`, jamais dans un fichier
+.dev.vars*
+
+# veille : les récoltes des lettres, matière de travail, pas contenu du site
+/recoltes/

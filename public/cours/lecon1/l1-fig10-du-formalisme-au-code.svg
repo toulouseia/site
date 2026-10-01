@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="830" viewBox="0 0 1380 830">
+<rect width="1380" height="830" fill="#FFFFFF"/>
+<text x="40.0" y="40.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">chaque symbole a son nom dans le code</text>
+<line x1="40.0" y1="50.0" x2="1340.0" y2="50.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<text x="60.0" y="96.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">le formalisme</text>
+<text x="700.0" y="96.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">le code</text>
+<line x1="60.0" y1="110.0" x2="1320.0" y2="110.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<line x1="660.0" y1="118.0" x2="660.0" y2="780.0" stroke="#D2CEC8" stroke-width="1.5"/>
+<text x="60.0" y="162.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="600" fill="#14120F" text-anchor="start"><tspan dy="0.00" font-size="49">z = ∑ w</tspan><tspan dy="11.76" font-size="33.3">i</tspan><tspan dy="-11.76" font-size="49"> x</tspan><tspan dy="11.76" font-size="33.3">i</tspan><tspan dy="-11.76" font-size="49"> + b</tspan></text>
+<text x="700.0" y="158.0" font-family="'Cascadia Mono',Consolas,'SF Mono',ui-monospace,monospace" font-size="33" fill="#14120F" xml:space="preserve">z&#160;=&#160;b</text>
+<text x="700.0" y="202.0" font-family="'Cascadia Mono',Consolas,'SF Mono',ui-monospace,monospace" font-size="33" fill="#14120F" xml:space="preserve">for&#160;i&#160;in&#160;range(d):</text>
+<text x="700.0" y="246.0" font-family="'Cascadia Mono',Consolas,'SF Mono',ui-monospace,monospace" font-size="33" fill="#14120F" xml:space="preserve">&#160;&#160;&#160;&#160;z&#160;+=&#160;w[i]&#160;*&#160;x[i]</text>
+<line x1="60.0" y1="306.0" x2="1320.0" y2="306.0" stroke="#E4E1DC" stroke-width="1.2" data-role="filet"/>
+<text x="60.0" y="332.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="600" fill="#14120F" text-anchor="start"><tspan dy="0.00" font-size="49">ŷ = z</tspan></text>
+<text x="700.0" y="328.0" font-family="'Cascadia Mono',Consolas,'SF Mono',ui-monospace,monospace" font-size="33" fill="#14120F" xml:space="preserve">y_hat&#160;=&#160;z</text>
+<line x1="60.0" y1="418.0" x2="1320.0" y2="418.0" stroke="#E4E1DC" stroke-width="1.2" data-role="filet"/>
+<text x="60.0" y="444.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="600" fill="#14120F" text-anchor="start"><tspan dy="0.00" font-size="49">ℓ = (ŷ − y)²</tspan></text>
+<text x="700.0" y="440.0" font-family="'Cascadia Mono',Consolas,'SF Mono',ui-monospace,monospace" font-size="33" fill="#14120F" xml:space="preserve">loss&#160;=&#160;(y_hat&#160;-&#160;y)&#160;**&#160;2</text>
+<line x1="60.0" y1="530.0" x2="1320.0" y2="530.0" stroke="#E4E1DC" stroke-width="1.2" data-role="filet"/>
+<text x="60.0" y="556.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="49" font-weight="600" fill="#14120F" text-anchor="start"><tspan dy="0.00" font-size="49">ℒ = (1 ⁄ N) ∑ ℓ</tspan></text>
+<text x="700.0" y="552.0" font-family="'Cascadia Mono',Consolas,'SF Mono',ui-monospace,monospace" font-size="33" fill="#14120F" xml:space="preserve">total&#160;=&#160;0.0</text>
+<text x="700.0" y="596.0" font-family="'Cascadia Mono',Consolas,'SF Mono',ui-monospace,monospace" font-size="33" fill="#14120F" xml:space="preserve">for&#160;x,&#160;y&#160;in&#160;D:</text>
+<text x="700.0" y="640.0" font-family="'Cascadia Mono',Consolas,'SF Mono',ui-monospace,monospace" font-size="33" fill="#14120F" xml:space="preserve">&#160;&#160;&#160;&#160;total&#160;+=&#160;perte(x,&#160;y)</text>
+<text x="700.0" y="684.0" font-family="'Cascadia Mono',Consolas,'SF Mono',ui-monospace,monospace" font-size="33" fill="#14120F" xml:space="preserve">total&#160;/&#160;N</text>
+</svg>

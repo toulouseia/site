@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Fil écrit à la main pour les essais, sur le modèle de celui d'ANITI :
+     balises en minuscules, lien écrit <link href="">…</link>, une entrée sans
+     date. -->
+<rss version="2.0">
+<channel>
+<item>
+<title>Une séance technique en replay</title>
+<link href="">https://exemple.org/2026/09/10/replay/</link>
+<pubdate>Thu, 10 Sep 2026 08:46:44 +0000</pubdate>
+<category><![CDATA[Actualités]]></category>
+<description><![CDATA[10 septembre <p><a href="https://exemple.org/2026/09/10/replay/">Source</a></p>]]></description>
+</item>
+<item>
+<title>Une entrée sans date</title>
+<link href="">https://exemple.org/sans-date/</link>
+</item>
+</channel>
+</rss>

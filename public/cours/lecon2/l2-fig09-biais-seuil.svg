@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="600" viewBox="0 0 1380 600">
+<rect width="1380" height="600" fill="#FFFFFF"/>
+<text x="40.0" y="40.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">le même axe, gradué deux fois</text>
+<line x1="40.0" y1="54.0" x2="1340.0" y2="54.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<line x1="170.0" y1="250.0" x2="1290.0" y2="250.0" stroke="#14120F" stroke-width="2.2"/>
+<text x="170.0" y="150.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="start">z = w ᵀ x</text>
+<line x1="787.8" y1="200.0" x2="787.8" y2="280.0" stroke="#A8442A" stroke-width="2.6" data-role="filet"/>
+<text x="773.8" y="194.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="end">s = 23,4000</text>
+<circle cx="787.8" cy="250.0" r="7.00" fill="#14120F"/>
+<line x1="787.8" y1="258.0" x2="787.8" y2="320.6" stroke="#7E7972" stroke-width="1.2" data-role="filet"/>
+<text x="787.8" y="336.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">+23,4000</text>
+<line x1="787.8" y1="242.0" x2="787.8" y2="185.4" stroke="#7E7972" stroke-width="1.2" data-role="filet"/>
+<text x="801.8" y="179.4" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">test n°0</text>
+<circle cx="333.6" cy="250.0" r="7.00" fill="#ADA8A0"/>
+<line x1="333.6" y1="258.0" x2="333.6" y2="276.0" stroke="#7E7972" stroke-width="1.2" data-role="filet"/>
+<text x="333.6" y="292.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="middle">+5,0039</text>
+<line x1="333.6" y1="242.0" x2="333.6" y2="230.0" stroke="#7E7972" stroke-width="1.2" data-role="filet"/>
+<text x="333.6" y="224.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">test n°2</text>
+<circle cx="848.4" cy="250.0" r="7.00" fill="#14120F"/>
+<line x1="848.4" y1="258.0" x2="848.4" y2="276.0" stroke="#7E7972" stroke-width="1.2" data-role="filet"/>
+<text x="848.4" y="292.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">+25,8549</text>
+<line x1="848.4" y1="242.0" x2="848.4" y2="230.0" stroke="#7E7972" stroke-width="1.2" data-role="filet"/>
+<text x="848.4" y="224.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">test n°3</text>
+<circle cx="1173.0" cy="250.0" r="7.00" fill="#14120F"/>
+<line x1="1173.0" y1="258.0" x2="1173.0" y2="320.6" stroke="#7E7972" stroke-width="1.2" data-role="filet"/>
+<text x="1173.0" y="336.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">+39,0000</text>
+<line x1="1173.0" y1="242.0" x2="1173.0" y2="185.4" stroke="#7E7972" stroke-width="1.2" data-role="filet"/>
+<text x="1173.0" y="179.4" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">tache large</text>
+<line x1="170.0" y1="430.0" x2="1290.0" y2="430.0" stroke="#14120F" stroke-width="2.2"/>
+<text x="170.0" y="330.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="start">z + b,  b = −s</text>
+<line x1="787.8" y1="380.0" x2="787.8" y2="460.0" stroke="#A8442A" stroke-width="2.6" data-role="filet"/>
+<text x="773.8" y="374.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="end">0</text>
+<circle cx="787.8" cy="430.0" r="7.00" fill="#14120F"/>
+<line x1="787.8" y1="438.0" x2="787.8" y2="500.6" stroke="#7E7972" stroke-width="1.2" data-role="filet"/>
+<text x="787.8" y="516.5" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">+0,0000</text>
+<circle cx="333.6" cy="430.0" r="7.00" fill="#ADA8A0"/>
+<line x1="333.6" y1="438.0" x2="333.6" y2="456.0" stroke="#7E7972" stroke-width="1.2" data-role="filet"/>
+<text x="333.6" y="472.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="middle">−18,3961</text>
+<circle cx="848.4" cy="430.0" r="7.00" fill="#14120F"/>
+<line x1="848.4" y1="438.0" x2="848.4" y2="456.0" stroke="#7E7972" stroke-width="1.2" data-role="filet"/>
+<text x="848.4" y="472.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">+2,4549</text>
+<circle cx="1173.0" cy="430.0" r="7.00" fill="#14120F"/>
+<line x1="1173.0" y1="438.0" x2="1173.0" y2="500.6" stroke="#7E7972" stroke-width="1.2" data-role="filet"/>
+<text x="1173.0" y="516.5" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">+15,6000</text>
+<line x1="787.8" y1="352.0" x2="787.8" y2="396.0" stroke="#ADA8A0" stroke-width="1.4" stroke-dasharray="5 5"/>
+<text x="1320.0" y="380.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="end">translation de b = −23,4000</text>
+<line x1="60.0" y1="540.0" x2="1320.0" y2="540.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<text x="60.0" y="578.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="start">w ᵀ x &gt; s   ⟺   w ᵀ x + b &gt; 0</text>
+<text x="1320.0" y="578.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="end">le seuil change de place et de signe</text>
+</svg>

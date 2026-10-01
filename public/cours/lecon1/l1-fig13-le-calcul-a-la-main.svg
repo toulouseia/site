@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="640" viewBox="0 0 1380 640">
+<rect width="1380" height="640" fill="#FFFFFF"/>
+<text x="40.0" y="40.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">le calcul, terme à terme</text>
+<line x1="40.0" y1="50.0" x2="1340.0" y2="50.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<text x="60.0" y="84.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="start">50 m² · 2 p.</text>
+<text x="60.0" y="128.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">3 × 50 + 10 × 2 + b = 20</text>
+<rect x="120.0" y="146.6" width="795.0" height="36.0" fill="#E4E1DC" stroke="#ADA8A0" stroke-width="1.2"/>
+<rect x="915.0" y="146.6" width="106.0" height="36.0" fill="#E4E1DC" stroke="#ADA8A0" stroke-width="1.2"/>
+<rect x="1021.0" y="146.6" width="106.0" height="36.0" fill="#E4E1DC" stroke="#ADA8A0" stroke-width="1.2"/>
+<line x1="120.0" y1="206.6" x2="1180.0" y2="206.6" stroke="#ADA8A0" stroke-width="1.6" data-role="filet"/>
+<line x1="120.0" y1="201.6" x2="120.0" y2="211.6" stroke="#ADA8A0" stroke-width="1.6" data-role="filet"/>
+<text x="120.0" y="230.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">0</text>
+<line x1="385.0" y1="201.6" x2="385.0" y2="211.6" stroke="#ADA8A0" stroke-width="1.6" data-role="filet"/>
+<text x="385.0" y="230.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">50</text>
+<line x1="650.0" y1="201.6" x2="650.0" y2="211.6" stroke="#ADA8A0" stroke-width="1.6" data-role="filet"/>
+<text x="650.0" y="230.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">100</text>
+<line x1="915.0" y1="201.6" x2="915.0" y2="211.6" stroke="#ADA8A0" stroke-width="1.6" data-role="filet"/>
+<text x="915.0" y="230.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">150</text>
+<line x1="1180.0" y1="201.6" x2="1180.0" y2="211.6" stroke="#ADA8A0" stroke-width="1.6" data-role="filet"/>
+<text x="1180.0" y="230.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">200</text>
+<line x1="1180.0" y1="130.6" x2="1180.0" y2="212.6" stroke="#A8442A" stroke-width="2.0" stroke-dasharray="5 5" data-role="filet"/>
+<text x="1180.0" y="84.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#A8442A" text-anchor="middle">prix observé 200</text>
+<line x1="1127.0" y1="164.6" x2="1180.0" y2="164.6" stroke="#A8442A" stroke-width="3.0" data-role="filet"/>
+<text x="1153.5" y="128.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="middle">écart 10</text>
+<text x="1194.0" y="174.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#14120F" text-anchor="start">= 190</text>
+<text x="60.0" y="264.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="start">30 m² · 1 p.</text>
+<text x="60.0" y="308.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">3 × 30 + 10 × 1 + b = 20</text>
+<rect x="120.0" y="326.6" width="477.0" height="36.0" fill="#E4E1DC" stroke="#ADA8A0" stroke-width="1.2"/>
+<rect x="597.0" y="326.6" width="53.0" height="36.0" fill="#E4E1DC" stroke="#ADA8A0" stroke-width="1.2"/>
+<rect x="650.0" y="326.6" width="106.0" height="36.0" fill="#E4E1DC" stroke="#ADA8A0" stroke-width="1.2"/>
+<line x1="120.0" y1="386.6" x2="1180.0" y2="386.6" stroke="#ADA8A0" stroke-width="1.6" data-role="filet"/>
+<line x1="120.0" y1="381.6" x2="120.0" y2="391.6" stroke="#ADA8A0" stroke-width="1.6" data-role="filet"/>
+<text x="120.0" y="410.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">0</text>
+<line x1="385.0" y1="381.6" x2="385.0" y2="391.6" stroke="#ADA8A0" stroke-width="1.6" data-role="filet"/>
+<text x="385.0" y="410.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">50</text>
+<line x1="650.0" y1="381.6" x2="650.0" y2="391.6" stroke="#ADA8A0" stroke-width="1.6" data-role="filet"/>
+<text x="650.0" y="410.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">100</text>
+<line x1="915.0" y1="381.6" x2="915.0" y2="391.6" stroke="#ADA8A0" stroke-width="1.6" data-role="filet"/>
+<text x="915.0" y="410.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">150</text>
+<line x1="1180.0" y1="381.6" x2="1180.0" y2="391.6" stroke="#ADA8A0" stroke-width="1.6" data-role="filet"/>
+<text x="1180.0" y="410.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">200</text>
+<line x1="729.5" y1="310.6" x2="729.5" y2="392.6" stroke="#A8442A" stroke-width="2.0" stroke-dasharray="5 5" data-role="filet"/>
+<text x="729.5" y="264.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#A8442A" text-anchor="middle">prix observé 115</text>
+<line x1="729.5" y1="344.6" x2="756.0" y2="344.6" stroke="#A8442A" stroke-width="3.0" data-role="filet"/>
+<text x="742.8" y="308.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="middle">écart 5</text>
+<text x="1194.0" y="354.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#14120F" text-anchor="start">= 120</text>
+<line x1="60.0" y1="424.0" x2="1320.0" y2="424.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<rect x="150.0" y="462.0" width="150.0" height="150.0" fill="#FFFFFF" stroke="#A8442A" stroke-width="2.0"/>
+<text x="225.0" y="545.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="middle">100</text>
+<rect x="410.0" y="537.0" width="75.0" height="75.0" fill="#FFFFFF" stroke="#A8442A" stroke-width="2.0"/>
+<text x="447.5" y="582.5" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="middle">25</text>
+<text x="60.0" y="456.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">l'écart, au carré</text>
+<text x="700.0" y="520.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#14120F" text-anchor="start">la note : la moyenne des deux aires</text>
+<text x="700.0" y="566.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="start">(100 + 25) ⁄ 2 = 62,5</text>
+</svg>

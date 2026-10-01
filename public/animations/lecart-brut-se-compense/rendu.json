@@ -1,0 +1,24 @@
+{
+  "empreinte": "09b09416f7f5",
+  "duree": 22.8,
+  "largeur": 1920,
+  "hauteur": 1080,
+  "cadence": 30,
+  "poster": "/animations/lecart-brut-se-compense/09b09416f7f5.webp",
+  "rendus": [
+    {
+      "format": "mp4",
+      "src": "/animations/lecart-brut-se-compense/09b09416f7f5.mp4",
+      "octets": 1044880,
+      "mime": "video/mp4; codecs=\"avc1.640032\""
+    }
+  ],
+  "profil": {
+    "rendu": "3840x2160",
+    "encodage": "x264-crf18-tune-animation-v1"
+  },
+  "source": {
+    "manim": "0.21.0",
+    "rendu": "2026-09-20T11:31:26+00:00"
+  }
+}

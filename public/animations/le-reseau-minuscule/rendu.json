@@ -1,0 +1,24 @@
+{
+  "empreinte": "63d67892ed65",
+  "duree": 12.9,
+  "largeur": 1920,
+  "hauteur": 1080,
+  "cadence": 30,
+  "poster": "/animations/le-reseau-minuscule/63d67892ed65.webp",
+  "rendus": [
+    {
+      "format": "mp4",
+      "src": "/animations/le-reseau-minuscule/63d67892ed65.mp4",
+      "octets": 614194,
+      "mime": "video/mp4; codecs=\"avc1.640032\""
+    }
+  ],
+  "profil": {
+    "rendu": "3840x2160",
+    "encodage": "x264-crf18-tune-animation-v1"
+  },
+  "source": {
+    "manim": "0.21.0",
+    "rendu": "2026-09-20T11:48:03+00:00"
+  }
+}

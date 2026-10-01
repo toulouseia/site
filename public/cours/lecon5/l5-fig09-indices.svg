@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="940" viewBox="0 0 1380 940">
+<rect width="1380" height="940" fill="#FFFFFF"/>
+<text x="60.0" y="70.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">la ligne arrive, la colonne part</text>
+<line x1="60.0" y1="84.0" x2="1360.0" y2="84.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<line x1="256.0" y1="300.0" x2="534.0" y2="350.0" stroke="#ADA8A0" stroke-width="1.2" stroke-opacity="0.55"/>
+<line x1="256.0" y1="300.0" x2="534.0" y2="450.0" stroke="#ADA8A0" stroke-width="1.2" stroke-opacity="0.55"/>
+<line x1="256.0" y1="300.0" x2="534.0" y2="550.0" stroke="#ADA8A0" stroke-width="1.2" stroke-opacity="0.55"/>
+<line x1="256.0" y1="300.0" x2="534.0" y2="650.0" stroke="#ADA8A0" stroke-width="1.2" stroke-opacity="0.55"/>
+<line x1="256.0" y1="400.0" x2="534.0" y2="350.0" stroke="#ADA8A0" stroke-width="1.2" stroke-opacity="0.55"/>
+<line x1="256.0" y1="400.0" x2="534.0" y2="450.0" stroke="#ADA8A0" stroke-width="1.2" stroke-opacity="0.55"/>
+<line x1="256.0" y1="400.0" x2="534.0" y2="550.0" stroke="#ADA8A0" stroke-width="1.2" stroke-opacity="0.55"/>
+<line x1="256.0" y1="400.0" x2="534.0" y2="650.0" stroke="#ADA8A0" stroke-width="1.2" stroke-opacity="0.55"/>
+<line x1="256.0" y1="500.0" x2="534.0" y2="350.0" stroke="#ADA8A0" stroke-width="1.2" stroke-opacity="0.55"/>
+<line x1="256.0" y1="500.0" x2="534.0" y2="450.0" stroke="#A8442A" stroke-width="3.2"/>
+<line x1="256.0" y1="500.0" x2="534.0" y2="550.0" stroke="#ADA8A0" stroke-width="1.2" stroke-opacity="0.55"/>
+<line x1="256.0" y1="500.0" x2="534.0" y2="650.0" stroke="#ADA8A0" stroke-width="1.2" stroke-opacity="0.55"/>
+<line x1="256.0" y1="600.0" x2="534.0" y2="350.0" stroke="#ADA8A0" stroke-width="1.2" stroke-opacity="0.55"/>
+<line x1="256.0" y1="600.0" x2="534.0" y2="450.0" stroke="#ADA8A0" stroke-width="1.2" stroke-opacity="0.55"/>
+<line x1="256.0" y1="600.0" x2="534.0" y2="550.0" stroke="#ADA8A0" stroke-width="1.2" stroke-opacity="0.55"/>
+<line x1="256.0" y1="600.0" x2="534.0" y2="650.0" stroke="#ADA8A0" stroke-width="1.2" stroke-opacity="0.55"/>
+<line x1="256.0" y1="700.0" x2="534.0" y2="350.0" stroke="#ADA8A0" stroke-width="1.2" stroke-opacity="0.55"/>
+<line x1="256.0" y1="700.0" x2="534.0" y2="450.0" stroke="#ADA8A0" stroke-width="1.2" stroke-opacity="0.55"/>
+<line x1="256.0" y1="700.0" x2="534.0" y2="550.0" stroke="#ADA8A0" stroke-width="1.2" stroke-opacity="0.55"/>
+<line x1="256.0" y1="700.0" x2="534.0" y2="650.0" stroke="#ADA8A0" stroke-width="1.2" stroke-opacity="0.55"/>
+<circle cx="230.0" cy="300.0" r="20.00" fill="#FFFFFF" stroke="#7E7972" stroke-width="2.6"/>
+<text x="180.0" y="311.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="end">1</text>
+<circle cx="230.0" cy="400.0" r="20.00" fill="#FFFFFF" stroke="#7E7972" stroke-width="2.6"/>
+<text x="180.0" y="411.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="end">2</text>
+<circle cx="230.0" cy="500.0" r="20.00" fill="#FFFFFF" stroke="#A8442A" stroke-width="2.6"/>
+<text x="180.0" y="511.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#A8442A" text-anchor="end">3</text>
+<circle cx="230.0" cy="600.0" r="20.00" fill="#FFFFFF" stroke="#7E7972" stroke-width="2.6"/>
+<text x="180.0" y="611.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="end">4</text>
+<circle cx="230.0" cy="700.0" r="20.00" fill="#FFFFFF" stroke="#7E7972" stroke-width="2.6"/>
+<text x="180.0" y="711.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="end">5</text>
+<circle cx="560.0" cy="350.0" r="20.00" fill="#FFFFFF" stroke="#7E7972" stroke-width="2.6"/>
+<text x="610.0" y="361.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">1</text>
+<circle cx="560.0" cy="450.0" r="20.00" fill="#FFFFFF" stroke="#A8442A" stroke-width="2.6"/>
+<text x="610.0" y="461.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#A8442A" text-anchor="start">2</text>
+<circle cx="560.0" cy="550.0" r="20.00" fill="#FFFFFF" stroke="#7E7972" stroke-width="2.6"/>
+<text x="610.0" y="561.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">3</text>
+<circle cx="560.0" cy="650.0" r="20.00" fill="#FFFFFF" stroke="#7E7972" stroke-width="2.6"/>
+<text x="610.0" y="661.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">4</text>
+<text x="230.0" y="250.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">couche l − 1</text>
+<text x="560.0" y="250.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">couche l</text>
+<text x="230.0" y="790.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="middle">j = 3</text>
+<text x="560.0" y="790.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="middle">i = 2</text>
+<text x="797.5" y="356.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">W₁₁</text>
+<text x="912.5" y="356.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">W₁₂</text>
+<text x="1027.5" y="356.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">W₁₃</text>
+<text x="1142.5" y="356.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">W₁₄</text>
+<text x="1257.5" y="356.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">W₁₅</text>
+<text x="797.5" y="446.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">W₂₁</text>
+<text x="912.5" y="446.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">W₂₂</text>
+<text x="1027.5" y="446.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#A8442A" text-anchor="middle">W₂₃</text>
+<text x="1142.5" y="446.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">W₂₄</text>
+<text x="1257.5" y="446.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">W₂₅</text>
+<text x="797.5" y="536.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">W₃₁</text>
+<text x="912.5" y="536.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">W₃₂</text>
+<text x="1027.5" y="536.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">W₃₃</text>
+<text x="1142.5" y="536.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">W₃₄</text>
+<text x="1257.5" y="536.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">W₃₅</text>
+<text x="797.5" y="626.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">W₄₁</text>
+<text x="912.5" y="626.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">W₄₂</text>
+<text x="1027.5" y="626.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">W₄₃</text>
+<text x="1142.5" y="626.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">W₄₄</text>
+<text x="1257.5" y="626.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">W₄₅</text>
+<line x1="720.0" y1="300.0" x2="720.0" y2="660.0" stroke="#14120F" stroke-width="2.4" data-role="filet"/>
+<line x1="720.0" y1="300.0" x2="742.0" y2="300.0" stroke="#14120F" stroke-width="2.4" data-role="filet"/>
+<line x1="720.0" y1="660.0" x2="742.0" y2="660.0" stroke="#14120F" stroke-width="2.4" data-role="filet"/>
+<line x1="1335.0" y1="300.0" x2="1335.0" y2="660.0" stroke="#14120F" stroke-width="2.4" data-role="filet"/>
+<line x1="1335.0" y1="300.0" x2="1313.0" y2="300.0" stroke="#14120F" stroke-width="2.4" data-role="filet"/>
+<line x1="1335.0" y1="660.0" x2="1313.0" y2="660.0" stroke="#14120F" stroke-width="2.4" data-role="filet"/>
+<text x="797.5" y="275.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">1</text>
+<text x="912.5" y="275.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">2</text>
+<text x="1027.5" y="275.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">3</text>
+<text x="1142.5" y="275.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">4</text>
+<text x="1257.5" y="275.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">5</text>
+<text x="690.0" y="356.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="end">1</text>
+<text x="690.0" y="446.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="end">2</text>
+<text x="690.0" y="536.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="end">3</text>
+<text x="690.0" y="626.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="end">4</text>
+<text x="720.0" y="740.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">i : la ligne, l'arrivée</text>
+<text x="720.0" y="784.5" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">j : la colonne, le départ</text>
+<line x1="60.0" y1="840.0" x2="1320.0" y2="840.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<text x="60.0" y="900.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#14120F" text-anchor="start">(4 × 5)(5 × 1) → 4 × 1</text>
+</svg>

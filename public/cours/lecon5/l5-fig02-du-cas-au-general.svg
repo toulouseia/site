@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="700" viewBox="0 0 1380 700">
+<rect width="1380" height="700" fill="#FFFFFF"/>
+<text x="60.0" y="70.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">deux couches, et ReLU</text>
+<line x1="60.0" y1="84.0" x2="660.0" y2="84.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<text x="760.0" y="70.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">L couches, et φ</text>
+<line x1="760.0" y1="84.0" x2="1320.0" y2="84.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<rect x="190.0" y="170.0" width="300.0" height="104.0" fill="#FFFFFF" stroke="#14120F" stroke-width="2.4"/>
+<text x="340.0" y="210.7" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">x</text>
+<text x="340.0" y="255.3" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#565049" text-anchor="middle">1,0</text>
+<rect x="190.0" y="344.0" width="300.0" height="104.0" fill="#FFFFFF" stroke="#14120F" stroke-width="2.4"/>
+<text x="340.0" y="384.7" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">a⁽¹⁾</text>
+<text x="340.0" y="429.3" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#565049" text-anchor="middle">1,000000</text>
+<line x1="340.0" y1="278.0" x2="340.0" y2="320.9" stroke="#7E7972" stroke-width="2.4" data-role="filet"/><polygon points="340.0,330.0 334.9,318.0 345.1,318.0" fill="#7E7972" data-role="filet"/>
+<text x="366.0" y="314.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">ReLU</text>
+<rect x="190.0" y="518.0" width="300.0" height="104.0" fill="#FFFFFF" stroke="#14120F" stroke-width="2.4"/>
+<text x="340.0" y="558.7" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">a⁽²⁾</text>
+<text x="340.0" y="603.3" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#565049" text-anchor="middle">1,100000</text>
+<line x1="340.0" y1="452.0" x2="340.0" y2="494.9" stroke="#7E7972" stroke-width="2.4" data-role="filet"/><polygon points="340.0,504.0 334.9,492.0 345.1,492.0" fill="#7E7972" data-role="filet"/>
+<text x="366.0" y="488.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">ReLU</text>
+<rect x="890.0" y="170.0" width="300.0" height="104.0" fill="#FFFFFF" stroke="#14120F" stroke-width="2.4"/>
+<text x="1040.0" y="233.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">a⁽ˡ⁻¹⁾</text>
+<rect x="890.0" y="344.0" width="300.0" height="104.0" fill="#FFFFFF" stroke="#14120F" stroke-width="2.4"/>
+<text x="1040.0" y="407.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">a⁽ˡ⁾</text>
+<line x1="1040.0" y1="278.0" x2="1040.0" y2="320.9" stroke="#7E7972" stroke-width="2.4" data-role="filet"/><polygon points="1040.0,330.0 1034.9,318.0 1045.1,318.0" fill="#7E7972" data-role="filet"/>
+<text x="1066.0" y="314.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">φ</text>
+<rect x="890.0" y="518.0" width="300.0" height="104.0" fill="#FFFFFF" stroke="#14120F" stroke-width="2.4"/>
+<text x="1040.0" y="581.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">a⁽ᴸ⁾</text>
+<line x1="1040.0" y1="452.0" x2="1040.0" y2="494.9" stroke="#7E7972" stroke-width="2.4" data-role="filet"/><polygon points="1040.0,504.0 1034.9,492.0 1045.1,492.0" fill="#7E7972" data-role="filet"/>
+<text x="1066.0" y="488.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">φ</text>
+<circle cx="970.0" cy="465.0" r="5.00" fill="#ADA8A0"/><circle cx="970.0" cy="483.0" r="5.00" fill="#ADA8A0"/><circle cx="970.0" cy="501.0" r="5.00" fill="#ADA8A0"/>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="470" viewBox="0 0 1380 470">
+<rect width="1380" height="470" fill="#FFFFFF"/>
+<rect x="420.0" y="70.0" width="260.0" height="260.0" fill="#E4E1DC" stroke="#14120F" stroke-width="2.6"/>
+<line x1="550.0" y1="70.0" x2="550.0" y2="330.0" stroke="#14120F" stroke-width="1.8"/>
+<line x1="420.0" y1="200.0" x2="680.0" y2="200.0" stroke="#14120F" stroke-width="1.8"/>
+<text x="485.0" y="142.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="middle">100</text>
+<text x="615.0" y="142.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="middle">100</text>
+<text x="615.0" y="272.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="middle">100</text>
+<rect x="420.0" y="200.0" width="130.0" height="130.0" fill="none" stroke="#A8442A" stroke-width="3.0"/>
+<text x="485.0" y="272.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="middle">100</text>
+<line x1="420.0" y1="354.0" x2="550.0" y2="354.0" stroke="#A8442A" stroke-width="2.4" data-role="filet"/>
+<text x="485.0" y="374.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#A8442A" text-anchor="middle">10</text>
+<line x1="420.0" y1="388.0" x2="680.0" y2="388.0" stroke="#14120F" stroke-width="2.4" data-role="filet"/>
+<text x="550.0" y="408.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="middle">20</text>
+<text x="420.0" y="48.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">le côté double, l'aire quadruple</text>
+<text x="740.0" y="192.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="start">20² = 400</text>
+<text x="740.0" y="226.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#A8442A" text-anchor="start">= 4 × 10²</text>
+</svg>

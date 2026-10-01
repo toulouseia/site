@@ -1,0 +1,24 @@
+{
+  "empreinte": "77b11d8b12d1",
+  "duree": 24.77,
+  "largeur": 1920,
+  "hauteur": 1080,
+  "cadence": 30,
+  "poster": "/animations/deux-4-et-leur-milieu/77b11d8b12d1.webp",
+  "rendus": [
+    {
+      "format": "mp4",
+      "src": "/animations/deux-4-et-leur-milieu/77b11d8b12d1.mp4",
+      "octets": 4813939,
+      "mime": "video/mp4; codecs=\"avc1.640032\""
+    }
+  ],
+  "profil": {
+    "rendu": "3840x2160",
+    "encodage": "x264-crf18-tune-animation-v1"
+  },
+  "source": {
+    "manim": "0.21.0",
+    "rendu": "2026-09-07T10:36:44+00:00"
+  }
+}

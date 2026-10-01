@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="500" viewBox="0 0 1380 500">
+<rect width="1380" height="500" fill="#FFFFFF"/>
+<text x="40.0" y="40.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">y relevé, ŷ prédit, et ce qui les sépare</text>
+<line x1="40.0" y1="50.0" x2="1340.0" y2="50.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<line x1="110.0" y1="440.0" x2="730.0" y2="440.0" stroke="#14120F" stroke-width="2.4"/>
+<line x1="110.0" y1="110.0" x2="110.0" y2="440.0" stroke="#14120F" stroke-width="2.4"/>
+<text x="730.0" y="484.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="end">surface (m²)</text>
+<text x="128.0" y="84.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">prix (k€)</text>
+<line x1="110.0" y1="503.4" x2="730.0" y2="90.0" stroke="#14120F" stroke-width="3.2"/>
+<line x1="110.0" y1="188.2" x2="530.7" y2="188.2" stroke="#ADA8A0" stroke-width="1.6" stroke-dasharray="5 5"/>
+<line x1="530.7" y1="440.0" x2="530.7" y2="188.2" stroke="#ADA8A0" stroke-width="1.6" stroke-dasharray="5 5"/>
+<line x1="530.7" y1="188.2" x2="530.7" y2="222.9" stroke="#A8442A" stroke-width="4.0" data-role="filet"/>
+<circle cx="530.7" cy="188.2" r="8.0" fill="#14120F"/>
+<circle cx="530.7" cy="222.9" r="7.0" fill="#A8442A"/>
+<text x="514.7" y="162.2" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="end">y − ŷ = 16</text>
+<text x="790.0" y="110.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">sur cet appartement</text>
+<line x1="790.0" y1="120.0" x2="1340.0" y2="120.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<text x="790.0" y="160.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">le modèle</text>
+<text x="1340.0" y="160.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="end">ŷ = 3,4 x + 14</text>
+<text x="790.0" y="204.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">surface</text>
+<text x="1340.0" y="204.6" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="end">50 m²</text>
+<text x="790.0" y="249.1" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">y, relevé chez</text>
+<text x="790.0" y="293.7" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">le notaire</text>
+<text x="1340.0" y="249.1" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="end">200 k€</text>
+<text x="790.0" y="338.2" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">ŷ, ce que le</text>
+<text x="790.0" y="382.8" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">modèle dit</text>
+<text x="1340.0" y="338.2" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="end">184 k€</text>
+<line x1="790.0" y1="400.0" x2="1340.0" y2="400.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<text x="790.0" y="434.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">l'écart</text>
+<text x="1340.0" y="434.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="end">16</text>
+<text x="790.0" y="478.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#14120F" text-anchor="start">y est un fait, ŷ un avis</text>
+</svg>

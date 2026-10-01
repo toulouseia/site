@@ -1,0 +1,24 @@
+{
+  "empreinte": "bded88692cd1",
+  "duree": 25.3,
+  "largeur": 1920,
+  "hauteur": 1080,
+  "cadence": 30,
+  "poster": "/animations/empiler-ne-change-rien/bded88692cd1.webp",
+  "rendus": [
+    {
+      "format": "mp4",
+      "src": "/animations/empiler-ne-change-rien/bded88692cd1.mp4",
+      "octets": 7670396,
+      "mime": "video/mp4; codecs=\"avc1.640032\""
+    }
+  ],
+  "profil": {
+    "rendu": "3840x2160",
+    "encodage": "x264-crf18-tune-animation-v1"
+  },
+  "source": {
+    "manim": "0.21.0",
+    "rendu": "2026-09-07T10:35:13+00:00"
+  }
+}

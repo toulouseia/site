@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="620" viewBox="0 0 1380 620">
+<rect width="1380" height="620" fill="#FFFFFF"/>
+<text x="60.0" y="60.0" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="600" fill="#7E7972" text-anchor="start">l'angle tombe, et le calcul monte</text>
+<line x1="60.0" y1="74.0" x2="820.0" y2="74.0" stroke="#D2CEC8" stroke-width="1.5" data-role="filet"/>
+<polyline points="260.0,217.0 490.0,272.2 720.0,364.4 950.0,444.4 1180.0,480.7" fill="none" stroke="#14120F" stroke-width="3.4" stroke-linejoin="round"/>
+<circle cx="260.0" cy="217.0" r="9.00" fill="#14120F"/>
+<text x="260.0" y="172.4" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="middle">84,9°</text>
+<circle cx="490.0" cy="272.2" r="9.00" fill="#14120F"/>
+<text x="490.0" y="227.7" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="middle">68,3°</text>
+<circle cx="720.0" cy="364.4" r="9.00" fill="#14120F"/>
+<text x="720.0" y="319.9" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="middle">40,6°</text>
+<circle cx="950.0" cy="444.4" r="9.00" fill="#14120F"/>
+<text x="950.0" y="399.9" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="middle">16,7°</text>
+<circle cx="1180.0" cy="480.7" r="9.00" fill="#14120F"/>
+<text x="1180.0" y="436.2" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="700" fill="#A8442A" text-anchor="middle">5,8°</text>
+<line x1="220.0" y1="500.0" x2="1240.0" y2="500.0" stroke="#14120F" stroke-width="2.4"/>
+<line x1="260.0" y1="500.0" x2="260.0" y2="510.0" stroke="#7E7972" stroke-width="1.8"/>
+<text x="260.0" y="554.5" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">1</text>
+<line x1="490.0" y1="500.0" x2="490.0" y2="510.0" stroke="#7E7972" stroke-width="1.8"/>
+<text x="490.0" y="554.5" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">8</text>
+<line x1="720.0" y1="500.0" x2="720.0" y2="510.0" stroke="#7E7972" stroke-width="1.8"/>
+<text x="720.0" y="554.5" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">64</text>
+<line x1="950.0" y1="500.0" x2="950.0" y2="510.0" stroke="#7E7972" stroke-width="1.8"/>
+<text x="950.0" y="554.5" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">512</text>
+<line x1="1180.0" y1="500.0" x2="1180.0" y2="510.0" stroke="#7E7972" stroke-width="1.8"/>
+<text x="1180.0" y="554.5" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="middle">4 096</text>
+<text x="220.0" y="589.1" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="33" font-weight="400" fill="#7E7972" text-anchor="start">images par pas</text>
+</svg>
