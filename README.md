@@ -3,13 +3,30 @@
 C'est ici que le travail continue. Les dix propositions de `../atelier-ecrans/`
 sont une archive ; celle-ci est le point de départ.
 
+## Contribuer : c'est ce dépôt qu'on modifie
+
+**Ce dépôt — `toulouseia/site` — est la maison de l'application.** On le clone,
+on y travaille, on y pousse. Rien d'autre à installer, aucun autre dépôt à
+récupérer.
+
+Le gros dépôt privé de l'association (`toulouseia/toulouseia`) ne contient plus
+les fichiers de l'application : il garde seulement un lien vers une version
+précise de celui-ci. Ce lien, c'est l'affaire de l'association, pas la vôtre —
+vous n'avez jamais à y toucher.
+
+Donc, concrètement : **clonez `toulouseia/site`** (la commande ci-dessous),
+faites vos modifications, enregistrez-les et poussez-les **ici**. C'est tout.
+Si vous aviez déjà récupéré l'ancien gros dépôt pour travailler sur
+l'application, laissez-le de côté et repartez du clone ci-dessous : votre
+travail passé est déjà dans ce dépôt-ci.
+
 ## La faire tourner : trois commandes
 
 Il faut **Node 22 ou plus récent**. Pour le vérifier : `node -v`.
 
 ```bash
-git clone git@github.com:toulouseia/toulouseia.git
-cd toulouseia/app/application
+git clone git@github.com:toulouseia/site.git
+cd site
 npm install     # une dizaine de secondes, une seule fois
 npm run dev
 ```
