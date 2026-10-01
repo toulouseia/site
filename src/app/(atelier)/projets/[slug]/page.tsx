@@ -4,7 +4,12 @@ import { FicheProjet } from "@/composants/projets/FicheProjet";
 
 export async function generateStaticParams() {
   const slugs = await listerSlugsProjets();
-  return slugs.map((slug) => ({ slug }));
+  // `output: export` exige au moins une route fabriquée d'avance. Quand plus
+  // aucun projet n'est écrit dans le code — ils vivent tous en base, servis par
+  // `/projets/fiche?p=` — on fabrique une page sentinelle qui rend « introuvable »
+  // (`obtenirProjet` renvoie null pour ce nom court). La contrainte est
+  // satisfaite, et aucune vraie adresse n'y mène.
+  return slugs.length ? slugs.map((slug) => ({ slug })) : [{ slug: "_" }];
 }
 
 export async function generateMetadata({
