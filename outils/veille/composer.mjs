@@ -103,7 +103,8 @@ const estRelais = (source) => RELAIS.has(source) || source.startsWith("TLDR");
  */
 export function ligneSource(sujet) {
   const sources = [...new Set(sujet.reprises.map((r) => r.source))];
-  const relais = sources.filter(estRelais);
+  // Les lettres TLDR sont une seule rédaction : on les crédite une fois.
+  const relais = [...new Set(sources.filter(estRelais).map((x) => (x.startsWith("TLDR") ? "TLDR" : x)))];
   const direct = sources.some((x) => !estRelais(x) && x !== "à la main");
   return direct || !relais.length ? editeur(sujet.lien) : `${editeur(sujet.lien)} · via ${relais.join(" et ")}`;
 }

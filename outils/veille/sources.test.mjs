@@ -195,11 +195,15 @@ test("Les cases cochées : numéros de la récolte et adresses ajoutées à la m
 test("La ligne source : « via » seulement quand on ne l'a pas lu à la source", () => {
   const lien = "https://openai.com/index/un-modele";
   assert.equal(ligneSource({ lien, reprises: [{ source: "OpenAI" }, { source: "TLDR AI" }] }), "openai.com");
-  assert.equal(ligneSource({ lien, reprises: [{ source: "TLDR AI" }] }), "openai.com · via TLDR AI");
+  assert.equal(ligneSource({ lien, reprises: [{ source: "TLDR AI" }] }), "openai.com · via TLDR");
   assert.equal(
     ligneSource({ lien, reprises: [{ source: "TLDR AI" }, { source: "Hacker News" }] }),
-    "openai.com · via TLDR AI et Hacker News",
+    "openai.com · via TLDR et Hacker News",
   );
   assert.equal(ligneSource({ lien, reprises: [{ source: "à la main" }] }), "openai.com");
-  assert.equal(ligneSource({ lien, reprises: [{ source: "TLDR DevOps" }] }), "openai.com · via TLDR DevOps");
+  assert.equal(ligneSource({ lien, reprises: [{ source: "TLDR DevOps" }] }), "openai.com · via TLDR");
+  assert.equal(
+    ligneSource({ lien, reprises: [{ source: "Hacker News" }, { source: "TLDR AI" }, { source: "TLDR Dev" }] }),
+    "openai.com · via Hacker News et TLDR",
+  );
 });
