@@ -2,11 +2,10 @@
 // source change de format, c'est ici que ça casse en premier : reproduire le
 // nouveau format dans `essais/`, ajouter un essai, réparer `sources.mjs`.
 //
-// Les exemples des fils et des API sont écrits à la main sur le modèle des
-// vrais : aucun texte d'une source n'est recopié dans le dépôt. Seul TLDR AI
-// est un vrai numéro, parce que son découpage dépend du détail de sa page. Il
-// faudra le remplacer par un exemple écrit à la main si le dépôt devient
-// public.
+// Les exemples sont tous écrits à la main sur le modèle des vrais : aucun
+// texte d'une source n'est recopié dans le dépôt, qui est public. La page de
+// TLDR AI reprend le gabarit exact de tldr.tech, balise pour balise, parce que
+// son découpage en dépend.
 //
 //   npm run veille:essais
 
@@ -117,20 +116,25 @@ test("GitHub : les dépôts d'IA, sans les autres", () => {
   assert.equal(sujets[0].lien, "https://github.com/org/agent");
 });
 
-test("TLDR AI : les sujets du 22 septembre 2026, sans les encarts payés", () => {
-  const sujets = decouperPageTldr(lire("tldr-ai-2026-09-22.html"), "2026-09-22");
-  assert.equal(sujets.length, 22);
+test("TLDR AI : les sujets d'un numéro, sans les encarts payés", () => {
+  const sujets = decouperPageTldr(lire("tldr-ai-exemple.html"), "2026-09-22");
+  assert.equal(sujets.length, 10);
   const payes = sujets.filter((s) => s.sponsor);
-  // Trois « (Sponsor) » et une offre d'emploi de TLDR elle-même.
-  assert.equal(payes.length, 4);
+  // Deux « (Sponsor) », dont un aux liens échappés deux fois, et une offre
+  // d'emploi de TLDR elle-même, qui n'est pas marquée.
+  assert.equal(payes.length, 3);
   assert.ok(payes.some((s) => s.titre.includes("at TLDR")));
-  const grok = sujets.find((s) => s.titre === "Introducing Grok 4.7");
-  assert.equal(grok.lien, "https://x.ai/news/grok-4-7");
-  assert.equal(grok.rubrique, "Headlines & Launches");
-  assert.equal(grok.indice, "3 min de lecture");
-  assert.equal(grok.origine, "https://tldr.tech/ai/2026-09-22");
+  const modele = sujets.find((s) => s.titre === "Un modèle de langage ouvert de 7 milliards de paramètres");
+  assert.equal(modele.lien, "https://exemple.org/modele-ouvert/");
+  assert.equal(modele.rubrique, "Headlines & Launches");
+  assert.equal(modele.indice, "3 min de lecture");
+  assert.equal(modele.origine, "https://tldr.tech/ai/2026-09-22");
+  assert.match(modele.resume, /^Un laboratoire publie un modèle de langage ouvert\. Le modèle tient/);
+  assert.equal(sujets.find((s) => s.lien.includes("outil-agent")).indice, "dépôt GitHub");
+  // Un titre échappé deux fois se lit quand même.
+  assert.ok(sujets.some((s) => s.titre === "Un routage de modèles à <1% de surcoût"));
   assert.ok(sujets.every((s) => !/utm_/.test(s.lien)));
-  assert.ok(sujets.every((s) => !/\(\d+ minute read\)|\(Sponsor\)/.test(s.titre)));
+  assert.ok(sujets.every((s) => !/\(\d+ minute read\)|\(Sponsor\)|\(GitHub Repo\)/.test(s.titre)));
 });
 
 test("Les autres lettres TLDR : seulement ce qui parle vraiment d'IA", () => {
@@ -138,16 +142,17 @@ test("Les autres lettres TLDR : seulement ce qui parle vraiment d'IA", () => {
   assert.ok(surtoutIA("Model Optimizer", "A library to quantize models and speed up inference on GPUs."));
   // Une seule mention en passant ne suffit pas.
   assert.ok(!surtoutIA("AMD Becomes the Fourth US Chipmaker to Reach a $1 Trillion Valuation", "Demand for AI chips pushed the stock up."));
-  const tout = decouperPageTldr(lire("tldr-ai-2026-09-22.html"), "2026-09-22");
-  const dev = decouperPageTldr(lire("tldr-ai-2026-09-22.html"), "2026-09-22", { cle: "dev", nom: "TLDR Dev" });
+  const tout = decouperPageTldr(lire("tldr-ai-exemple.html"), "2026-09-22");
+  const dev = decouperPageTldr(lire("tldr-ai-exemple.html"), "2026-09-22", { cle: "dev", nom: "TLDR Dev" });
   assert.ok(dev.length > 0 && dev.length < tout.length);
+  assert.ok(!dev.some((s) => s.titre.startsWith("Le prix de l'électricité")));
+  assert.ok(!dev.some((s) => s.titre.startsWith("Une base de données")));
   assert.ok(dev.every((s) => s.source === "TLDR Dev" && s.origine === "https://tldr.tech/dev/2026-09-22"));
 });
 
 test("TLDR AI : le fil donne les dates des numéros", () => {
-  const jours = decouperFilTldr(lire("tldr-ai-fil.xml"));
-  assert.equal(jours[0], "2026-09-22");
-  assert.ok(jours.every((j) => /^\d{4}-\d{2}-\d{2}$/.test(j)));
+  const jours = decouperFilTldr(lire("tldr-ai-fil-exemple.xml"));
+  assert.deepEqual(jours, ["2026-09-22", "2026-09-21", "2026-09-18"]);
 });
 
 test("Les liens perdent leurs marqueurs et se reconnaissent d'une source à l'autre", () => {

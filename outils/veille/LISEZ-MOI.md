@@ -5,12 +5,13 @@ première : on y repère ce qui est sorti, on choisit, et on écrit nos propres
 lignes. On ne recopie pas leurs textes.
 
 Un numéro est un fichier du dépôt, `src/donnees/numeros/numero-NN.ts`. Il n'y a
-ni base de données ni écran d'administration, comme décidé le 15 septembre 2026
-dans `docs/DECISION-ARCHITECTURE-SERVEUR.md`.
+ni base de données ni écran d'administration, comme décidé le 15 septembre 2026.
+La décision est écrite dans `docs/DECISION-ARCHITECTURE-SERVEUR.md` de l'ancien
+dépôt, `toulouseia/toulouseia`.
 
 ## Écrire un numéro, en quatre commandes
 
-Toutes se lancent depuis `app/application/`.
+Toutes se lancent depuis la racine du dépôt.
 
 **1. Récolter.** Le script lit les sources des sept derniers jours et écarte
 les encarts payés.
@@ -131,10 +132,16 @@ Si la récolte affiche un échec ou « aucun sujet reconnu », suivez ces étape
 2. Ajoutez un essai dans `sources.test.mjs`.
 3. Réparez `sources.mjs` jusqu'à ce que `npm run veille:essais` passe.
 
-Les exemples des fils et des API sont écrits à la main : aucun texte d'une
-source n'y est recopié. Seul l'exemple de TLDR AI est un vrai numéro. C'est
-acceptable tant que le dépôt est privé ; il faudra le remplacer par un exemple
-écrit à la main avant de rendre le dépôt public.
+Les exemples sont tous écrits à la main : aucun texte d'une source n'y est
+recopié, et le dépôt est public. Celui de TLDR AI reprend le gabarit exact de
+la page, balise pour balise, avec un contenu inventé. Un nouvel exemple se fait
+de la même façon, jamais en enregistrant une vraie page.
+
+## Publier sans terminal
+
+Un projet pour publier depuis GitHub, sans Claude Code ni terminal, avec des
+vagues automatiques, est décrit dans `SPEC-PUBLICATION.md`. C'est une
+proposition : rien n'en est encore construit.
 
 ## Politesse
 

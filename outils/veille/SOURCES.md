@@ -18,14 +18,16 @@ Chaque verdict porte sur cinq usages :
    sur le site et sur les affiches Instagram.
 3. **Premier jet par Claude** : le résumé de la source part chez Claude pour
    un premier jet, relu ensuite ligne à ligne.
-4. **Copie dans le dépôt** : un vrai numéro garde un exemple pour les essais.
+4. **Copie dans le dépôt** : garder une vraie page de la source parmi les
+   exemples des essais. Le dépôt étant public, la réponse est « non » pour
+   toutes : les exemples sont écrits à la main.
 5. **Le nom** : on cite la source ou l'entreprise, par exemple « via TLDR AI ».
 
 ## Le résumé
 
 | source | lecture automatique | nos lignes et un lien | premier jet par Claude | copie dans le dépôt |
 |---|---|---|---|---|
-| TLDR, toutes les lettres | oui | oui | oui | dépôt privé seulement |
+| TLDR, toutes les lettres | oui | oui | oui | exemple écrit à la main |
 | AlphaSignal | **non** | à la main seulement | non | **non** |
 | OpenAI | oui, par le fil RSS | oui | oui | exemple écrit à la main |
 | Anthropic | non, à la main | oui | oui | non |
@@ -65,9 +67,10 @@ InfoSec et IT pour leurs seuls sujets d'IA. Les mêmes conditions valent pour
 toutes. Marketing, Crypto, Fintech, Design, Founders et Product sont écartées
 parce qu'elles parlent trop peu d'IA.
 
-**À retenir** : le seul vrai numéro gardé dans `essais/` est acceptable tant que
-le dépôt est privé. Il faudra le remplacer par un exemple écrit à la main avant
-de rendre le dépôt public.
+**À retenir** : le dépôt est public, donc aucun vrai numéro n'y est gardé.
+L'exemple de `essais/` reprend le gabarit de la page avec un contenu inventé.
+Un vrai numéro de TLDR AI a figuré dans les essais du 23 septembre au
+2 octobre 2026 ; il reste dans le premier commit de ce dépôt.
 
 ## AlphaSignal
 
