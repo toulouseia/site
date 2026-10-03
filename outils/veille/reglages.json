@@ -1,7 +1,7 @@
 {
   "depot": "toulouseia/site",
   "etiquette": "vague-veille",
-  "curateurs": ["sami-ennedoui"],
+  "curateurs": ["sami-ennedoui", "samirkema"],
   "vagues_manuelles": {
     "actif": true,
     "jours": ["lundi", "jeudi"],
