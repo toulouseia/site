@@ -1,0 +1,8 @@
+[Unit]
+Description=Veille : toutes les cinq minutes, lire les tickets des vagues
+
+[Timer]
+OnCalendar=*:0/5
+
+[Install]
+WantedBy=timers.target

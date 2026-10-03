@@ -1,6 +1,6 @@
 # La veille se publie sans Claude Code : spécification
 
-État : **proposition**. Rien de ce qui suit n'est une décision figée. Chaque automatisme est un réglage qu'on peut couper,
+État : les vagues manuelles sont construites, voir « Publier depuis GitHub » dans `LISEZ-MOI.md`. Le serveur met en ligne lui-même après une fusion, sans action GitHub, derrière la garde du déploiement. Les vagues automatiques restent une **proposition**. Rien de ce qui suit n'est une décision figée. Chaque automatisme est un réglage qu'on peut couper,
 et aucun ne démarre en publication réelle.
 
 ## Ce qu'on veut

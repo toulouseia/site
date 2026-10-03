@@ -1,0 +1,9 @@
+[Unit]
+Description=Veille : chaque heure, voir si une vague est prévue
+
+[Timer]
+OnCalendar=hourly
+RandomizedDelaySec=120
+
+[Install]
+WantedBy=timers.target

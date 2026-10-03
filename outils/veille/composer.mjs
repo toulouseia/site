@@ -25,6 +25,7 @@
 //   npm run veille:verifier
 
 import { spawnSync } from "node:child_process";
+import { tmpdir } from "node:os";
 import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import { basename, dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -157,7 +158,8 @@ ${JSON.stringify(
   2,
 )}`;
   console.log(`Premier jet demandé à Claude pour ${sujets.length} sujets…`);
-  const r = spawnSync("claude", ["-p", "--model", "sonnet"], {
+  const r = spawnSync("claude", ["-p", "--model", "sonnet", "--tools", ""], {
+    cwd: tmpdir(),
     input: consigne,
     encoding: "utf8",
     maxBuffer: 16 * 1024 * 1024,

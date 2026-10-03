@@ -1,0 +1,16 @@
+{
+  "depot": "toulouseia/site",
+  "etiquette": "vague-veille",
+  "curateurs": ["sami-ennedoui"],
+  "vagues_manuelles": {
+    "actif": true,
+    "jours": ["lundi", "jeudi"],
+    "heure": 8,
+    "sujets_dans_le_ticket": 60
+  },
+  "apercu": true,
+  "deployer_apres_fusion": true,
+  "vagues_auto": {
+    "mode": "arret"
+  }
+}

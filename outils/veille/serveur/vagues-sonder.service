@@ -1,0 +1,12 @@
+[Unit]
+Description=Veille : lire les commandes des tickets et les fusions
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/vagues
+EnvironmentFile=%h/.config/veille/github.env
+EnvironmentFile=%h/.config/veille/cloudflare.env
+EnvironmentFile=%h/.config/veille/claude.env
+Environment=VEILLE_CLONE_JETABLE=1
+Environment=PATH=%h/.local/bin:/usr/local/bin:/usr/bin:/bin
+ExecStart=/usr/bin/flock -n %h/.cache/vagues.lock /usr/bin/node outils/veille/vagues.mjs sonder

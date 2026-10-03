@@ -154,11 +154,53 @@ recopié, et le dépôt est public. Celui de TLDR AI reprend le gabarit exact de
 la page, balise pour balise, avec un contenu inventé. Un nouvel exemple se fait
 de la même façon, jamais en enregistrant une vraie page.
 
-## Publier sans terminal
+## Publier depuis GitHub
 
-Un projet pour publier depuis GitHub, sans Claude Code ni terminal, avec des
-vagues automatiques, est décrit dans `SPEC-PUBLICATION.md`. C'est une
-proposition : rien n'en est encore construit.
+Les vagues manuelles se font sans terminal, dans un navigateur.
+
+1. Les jours prévus dans `reglages.json`, un serveur récolte les sources et
+   ouvre un ticket « Vague du AAAA-MM-JJ », avec l'étiquette `vague-veille`.
+   Le ticket liste les sujets les mieux classés, avec des cases à cocher.
+2. Un curateur coche les sujets à garder, directement dans le ticket. Le
+   premier coché fait la une. Un sujet lu ailleurs s'ajoute dans un
+   commentaire, sur une ligne `- [x] https://adresse-de-l-article`.
+3. Il écrit `/publier` en commentaire, seul sur sa ligne. Le serveur passe
+   toutes les cinq minutes. Il répond par une fusée sous le commentaire quand
+   la commande est faite.
+4. Le serveur rédige un premier jet avec Claude et ouvre une demande de
+   fusion. Elle donne la liste des entrées, le résultat de la vérification et,
+   quand c'est possible, l'adresse d'un aperçu que les visiteurs ne voient pas.
+5. Le curateur relit et corrige chaque ligne dans l'onglet « Files changed »,
+   puis fusionne. Le serveur met le site en ligne, le dit dans la demande et
+   ferme le ticket.
+
+Les autres commandes : `/tout` ajoute en commentaire les sujets qui ne tiennent
+pas dans le ticket, `/abandon` ferme le ticket sans rien produire. Le serveur
+n'écoute que les comptes listés dans `curateurs`.
+
+Sous une commande, des yeux veulent dire que le serveur s'en occupe, une fusée
+qu'il a fini, une mine perplexe qu'il a échoué et pourquoi. Si les yeux restent
+plus d'une demi-heure, le serveur s'est arrêté en route : écrivez la commande
+dans un nouveau commentaire. Une seule vague attend sa fusion à la fois : tant
+qu'une demande de fusion de vague est ouverte, `/publier` refuse les autres et
+dit laquelle fusionner ou fermer.
+
+Tout se règle dans `reglages.json`, sur `main` :
+
+| réglage | effet |
+|---|---|
+| `curateurs` | les comptes GitHub dont le serveur suit les commandes |
+| `vagues_manuelles.actif` | `false` arrête l'ouverture des tickets |
+| `vagues_manuelles.jours`, `heure` | quand le ticket s'ouvre, à l'heure de Paris, pas avant 2 h |
+| `vagues_manuelles.sujets_dans_le_ticket` | combien de sujets le ticket montre d'emblée |
+| `apercu` | `false` : pas d'aperçu dans la demande de fusion |
+| `deployer_apres_fusion` | `false` : après une fusion, la mise en ligne se fait à la main |
+
+La mise en ligne après fusion passe par la même garde que la mise en ligne à
+la main : si d'autres pages que la veille changent, rien ne part, et le
+serveur le dit dans la demande. Installer le serveur est décrit dans
+`serveur/INSTALLER.md`. Les vagues automatiques sont décrites dans
+`SPEC-PUBLICATION.md` et ne sont pas construites.
 
 ## Politesse
 
