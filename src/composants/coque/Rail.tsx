@@ -1,12 +1,13 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useSyncExternalStore } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Lockup } from "@/composants/base/Marque";
 import { Icone } from "@/composants/base/Icone";
 import { cx } from "@/lib/format";
 import { chargerProjets } from "@/donnees/distant";
+import { entreesDeLaSemaine } from "@/lib/semaine";
 import { DESTINATIONS, estActif } from "./navigation";
 import { useMoi } from "./moi";
 import { Portrait } from "./Portrait";
@@ -20,7 +21,15 @@ import { Portrait } from "./Portrait";
  * du profil dit « Se connecter » à qui ne l'est pas, et le nom à qui l'est ;
  * tant qu'on ne sait pas, elle existe sans rien affirmer.
  */
-export function Rail({ compteurs }: { compteurs: Record<string, number> }) {
+const sansAbonnement = () => () => undefined;
+
+export function Rail({
+  compteurs,
+  datesVeille,
+}: {
+  compteurs: Record<string, number>;
+  datesVeille: string[];
+}) {
   const pathname = usePathname();
 
   // Le compteur « projets » se calcule à la compilation, sur les seuls projets
@@ -40,10 +49,18 @@ export function Rail({ compteurs }: { compteurs: Record<string, number> }) {
     });
     return () => controle.abort();
   }, []);
-  const compteursVus =
-    projetsBase === null
-      ? compteurs
-      : { ...compteurs, projets: (compteurs.projets ?? 0) + projetsBase };
+  const veilleDuJour = useSyncExternalStore(
+    sansAbonnement,
+    () => entreesDeLaSemaine(datesVeille, Date.now()),
+    () => null,
+  );
+  const compteursVus: Record<string, number> = {
+    ...compteurs,
+    ...(projetsBase === null
+      ? {}
+      : { projets: (compteurs.projets ?? 0) + projetsBase }),
+    ...(veilleDuJour === null ? {} : { veille: veilleDuJour }),
+  };
 
   return (
     <nav
@@ -75,12 +92,16 @@ export function Rail({ compteurs }: { compteurs: Record<string, number> }) {
                 <Icone nom={d.icone} className="h-4 w-4 shrink-0" />
                 <span className="t-corps-f text-[0.875rem]">{d.nom}</span>
                 <span
+                  title={d.cle === "veille" ? "Entrées des 7 derniers jours" : undefined}
                   className={cx(
                     "t-cote ml-auto text-[0.75rem]",
                     actif ? "text-brique-nuit" : "text-brique",
                   )}
                 >
                   {String(compteursVus[d.cle] ?? 0).padStart(2, "0")}
+                  {d.cle === "veille" ? (
+                    <span className="sr-only"> entrées ces 7 derniers jours</span>
+                  ) : null}
                 </span>
               </Link>
             </li>

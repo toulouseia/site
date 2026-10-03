@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 import { Coque } from "@/composants/coque/Coque";
-import { compterTout } from "@/donnees/api";
+import { compterTout, datesVeille } from "@/donnees/api";
 
 export default async function LayoutAtelier({
   children,
@@ -8,5 +8,10 @@ export default async function LayoutAtelier({
   children: ReactNode;
 }) {
   const compteurs = await compterTout();
-  return <Coque compteurs={compteurs}>{children}</Coque>;
+  const dates = await datesVeille();
+  return (
+    <Coque compteurs={compteurs} datesVeille={dates}>
+      {children}
+    </Coque>
+  );
 }

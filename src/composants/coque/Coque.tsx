@@ -13,15 +13,17 @@ import { FournisseurMoi } from "./moi";
  */
 export function Coque({
   compteurs,
+  datesVeille,
   children,
 }: {
   compteurs: Record<string, number>;
+  datesVeille: string[];
   children: ReactNode;
 }) {
   return (
     <FournisseurMoi>
       <div className="lg:flex lg:h-dvh lg:overflow-hidden">
-        <Rail compteurs={compteurs} />
+        <Rail compteurs={compteurs} datesVeille={datesVeille} />
         <div
           className="min-w-0 flex-1 lg:h-full lg:overflow-hidden"
           style={{ paddingBottom: "0" }}

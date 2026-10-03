@@ -11,6 +11,7 @@ import { PERSONNES } from "./personnes";
 import { PROJETS } from "./projets";
 import { RESSOURCES, SEANCES } from "./ressources";
 import { NUMEROS } from "./veille";
+import { entreesDeLaSemaine } from "../lib/semaine";
 import { ANNALES, OUTILS, REPONSES_AGENT } from "./outils";
 import type {
   Annale,
@@ -180,12 +181,16 @@ export async function listerAnnales(): Promise<Annale[]> {
   );
 }
 
+export async function datesVeille(): Promise<string[]> {
+  return (await listerNumeros()).flatMap((n) => n.entrees.map(() => n.date));
+}
+
 /** Les compteurs du rail de navigation. */
 export async function compterTout(): Promise<Record<string, number>> {
   return {
     projets: PROJETS.length,
     ressources: RESSOURCES.length,
-    veille: (await listerNumeros()).length,
+    veille: entreesDeLaSemaine(await datesVeille(), Date.now()),
     outils: OUTILS.length,
   };
 }

@@ -16,24 +16,20 @@ const MISES: { cle: Mise; nom: string }[] = [
 ];
 
 export function Veille({ numeros }: { numeros: Numero[] }) {
-  const [numeroId, setNumeroId] = useState(numeros[0].id);
-  const numero = numeros.find((n) => n.id === numeroId) ?? numeros[0];
-  const [entreeId, setEntreeId] = useState(numeros[0].uneId);
-  const entree =
-    numero.entrees.find((e) => e.id === entreeId) ?? numero.entrees[0];
+  const fil = numeros.flatMap((n) =>
+    n.entrees.map((e) => ({ numero: n, entree: e, cle: `${n.id}/${e.id}` })),
+  );
+  const [cle, setCle] = useState(fil[0].cle);
+  const choix = fil.find((x) => x.cle === cle) ?? fil[0];
+  const { numero, entree } = choix;
 
   const [mise, setMise] = useState<Mise>("une");
   const [sombre, setSombre] = useState(false);
   const [ouvert, setOuvert] = useState(false);
   const [copie, setCopie] = useState(false);
 
-  function choisirNumero(n: Numero) {
-    setNumeroId(n.id);
-    setEntreeId(n.uneId);
-  }
-
   function texte(e: Entree) {
-    return `${e.titre}\n${e.valeur}\n\n${e.pourquoi}\nSource : ${e.source}${e.lien ? `\n${e.lien}` : ""}\n\nToulouse IA · veille nº ${String(numero.numero).padStart(2, "0")} · ${dateLongue(numero.date)}`;
+    return `${e.titre}\n${e.valeur}\n\n${e.pourquoi}\nSource : ${e.source}${e.lien ? `\n${e.lien}` : ""}\n\nToulouse IA · veille · ${dateLongue(numero.date)}`;
   }
 
   const planche = (
@@ -44,70 +40,44 @@ export function Veille({ numeros }: { numeros: Numero[] }) {
         <div className="hidden h-12 items-center gap-3 border-b border-filet px-4 lg:flex">
           <Etq ton="encre">Veille</Etq>
           <span className="t-cote text-[0.75rem] text-brique">
-            {numero.entrees.length}
+            {String(fil.length).padStart(2, "0")}
           </span>
           <span className="t-tech text-[0.6875rem] text-gris-58">
-            entrées · {dateLongue(numero.date)}
+            entrées · la dernière le {dateLongue(numeros[0].date)}
           </span>
-        </div>
-
-        <div className="no-scrollbar flex items-center gap-1.5 overflow-x-auto border-b border-filet px-3 py-2 lg:px-4">
-          {numeros.map((n) => (
-            <button
-              key={n.id}
-              type="button"
-              aria-pressed={n.id === numero.id}
-              onClick={() => choisirNumero(n)}
-              className="puce"
-            >
-              Nº {String(n.numero).padStart(2, "0")}
-              <span
-                className={cx(
-                  "t-tech text-[0.6875rem]",
-                  n.id === numero.id ? "text-nuit-72" : "text-gris-40",
-                )}
-              >
-                {dateCourte(n.date)}
-              </span>
-            </button>
-          ))}
         </div>
       </div>
 
       <div className="lg:min-h-0 lg:flex-1 lg:overflow-y-auto">
         <ul>
-          {numero.entrees.map((e) => {
-            const actif = e.id === entree.id;
+          {fil.map(({ numero: n, entree: e, cle: c }) => {
+            const actif = c === choix.cle;
             return (
-              <li key={e.id}>
+              <li
+                key={c}
+                className={cx(
+                  "bande group relative border-b border-filet",
+                  actif ? "bg-sombre text-papier" : "bg-papier hover:bg-gris-04",
+                )}
+              >
+                <span
+                  aria-hidden
+                  className={cx(
+                    "absolute top-0 left-0 h-full w-[2px] transition-opacity duration-100",
+                    actif
+                      ? "bg-papier opacity-100"
+                      : "bg-brique opacity-0 group-hover:opacity-100",
+                  )}
+                />
                 <button
                   type="button"
                   onClick={() => {
-                    setEntreeId(e.id);
+                    setCle(c);
                     setOuvert(true);
                   }}
                   aria-current={actif ? "true" : undefined}
-                  style={{
-                    ["--fond" as string]: actif
-                      ? "var(--color-sombre)"
-                      : "#fff",
-                  }}
-                  className={cx(
-                    "bande group relative block w-full border-b border-filet px-3 py-2 text-left lg:px-4 lg:py-2.5",
-                    actif
-                      ? "bg-sombre text-papier"
-                      : "bg-papier hover:bg-gris-04",
-                  )}
+                  className="block w-full px-3 pt-2 text-left lg:px-4 lg:pt-2.5"
                 >
-                  <span
-                    aria-hidden
-                    className={cx(
-                      "absolute top-0 left-0 h-full w-[2px] transition-opacity duration-100",
-                      actif
-                        ? "bg-papier opacity-100"
-                        : "bg-brique opacity-0 group-hover:opacity-100",
-                    )}
-                  />
                   <span className="flex items-baseline gap-2">
                     <span
                       className={cx(
@@ -121,7 +91,7 @@ export function Veille({ numeros }: { numeros: Numero[] }) {
                     <span className="t-titre min-w-0 flex-1 text-[0.9375rem] leading-[1.3]">
                       {e.titre}
                     </span>
-                    {e.id === numero.uneId ? (
+                    {n.id === numeros[0].id && e.id === n.uneId ? (
                       <span
                         className={cx(
                           "t-etq shrink-0",
@@ -150,15 +120,32 @@ export function Veille({ numeros }: { numeros: Numero[] }) {
                   >
                     {e.pourquoi}
                   </span>
-                  <span
-                    className={cx(
-                      "t-tech mt-1 block text-[0.6875rem]",
-                      actif ? "text-nuit-55" : "text-gris-40",
-                    )}
-                  >
-                    {e.source}
-                  </span>
                 </button>
+                <div className="px-3 pb-1 lg:px-4 lg:pb-1.5">
+                  {e.lien ? (
+                    <a
+                      href={e.lien}
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      className={cx(
+                        "t-tech inline-flex min-h-6 items-center gap-1 py-1 text-[0.6875rem] underline decoration-1 underline-offset-2 hover:no-underline",
+                        actif ? "text-nuit-72" : "text-gris-72 hover:text-encre",
+                      )}
+                    >
+                      Lire l&apos;article · {e.source}
+                      <Icone nom="sortie" className="h-3 w-3 shrink-0" />
+                    </a>
+                  ) : (
+                    <span
+                      className={cx(
+                        "t-tech inline-block py-1 text-[0.6875rem]",
+                        actif ? "text-nuit-72" : "text-gris-72",
+                      )}
+                    >
+                      {e.source}
+                    </span>
+                  )}
+                </div>
               </li>
             );
           })}
@@ -261,8 +248,8 @@ export function Veille({ numeros }: { numeros: Numero[] }) {
             {entree.titre}
           </p>
           <p className="t-tech mt-1 text-[0.6875rem] text-gris-58">
-            {NOM_TYPE_ENTREE[entree.type]} · nº{" "}
-            {String(numero.numero).padStart(2, "0")} · {entree.source}
+            {NOM_TYPE_ENTREE[entree.type]} · {dateCourte(numero.date)} ·{" "}
+            {entree.source}
           </p>
           {entree.lien ? (
             <a
@@ -271,7 +258,7 @@ export function Veille({ numeros }: { numeros: Numero[] }) {
               rel="noreferrer noopener"
               className="cmd cmd-trait cmd-s mt-3"
             >
-              Ouvrir la source
+              Lire l&apos;article
               <Icone nom="sortie" className="h-3.5 w-3.5" />
             </a>
           ) : null}

@@ -4,7 +4,7 @@ import { EcranVide } from "@/composants/base/EcranVide";
 
 export const metadata = {
   title: "Veille — Toulouse IA",
-  description: "Les numéros de la veille de l'association.",
+  description: "Ce qui est sorti en IA, choisi et résumé par l'association, avec le lien vers chaque article.",
 };
 
 export default async function PageVeille() {
