@@ -61,6 +61,12 @@ export function jour(brut) {
  * `utm_*` et `lid`. Les sponsors de TLDR ont des `&amp;` échappés deux fois,
  * d'où le double décodage.
  */
+export const estMarqueur = (cle, valeur = "") =>
+  /^(source|ref|via)$/i.test(cle)
+    ? /^(tldr[a-z-]*|newsletter|email|rss|hn|hackernews|alphasignal|substack|twitter|linkedin|reddit)$/i.test(valeur) ||
+      /^([a-z0-9-]+\.)+[a-z]{2,}$/i.test(valeur)
+    : /^(utm_.*|lid|ref_src|ref_url|referrer|mc_cid|mc_eid|fbclid|gclid|dclid|msclkid|igshid|_hsenc|_hsmi|mkt_tok|oly_enc_id|oly_anon_id|vero_id|ck_subscriber_id)$/i.test(cle);
+
 export function nettoyerLien(brut) {
   const s = decoder(decoder(brut.trim()));
   let u;
@@ -70,7 +76,7 @@ export function nettoyerLien(brut) {
     return s;
   }
   for (const cle of [...u.searchParams.keys()]) {
-    if (/^utm_/i.test(cle) || cle === "lid") u.searchParams.delete(cle);
+    if (estMarqueur(cle, u.searchParams.get(cle) ?? "")) u.searchParams.delete(cle);
   }
   u.hash = u.hash === "#" ? "" : u.hash;
   return u.toString();
@@ -130,6 +136,21 @@ function balise(bloc, ...noms) {
 }
 
 /** Les entrées d'un fil : [{ titre, lien, parution, resume, categories }]. */
+const AVIS =
+  /(\?\s*$)|\b(opinion|op-ed|essay|thoughts on|hot take|my take|manifesto|predictions?|future of|doom(er)?|apocalyp\w*|extinction|terrif\w*|scary|fear\w*|panic|bubble|hype|is dead|the end of|tribune|l'avenir de|la fin de|peur|menace)\b/i;
+const CONCRET =
+  /\b(show hn|introducing|launch(es|ed)?|release[sd]?|open[- ]sourc\w*|v\d+(\.\d+)+|how (we|to|i)|guide|tutorial|deep dive|under the hood|walkthrough|benchmark\w*|explained|technical report|tutoriel|lance|publie)\b/i;
+
+const VITRINE =
+  /\b(boosts?|saves?|grows?|completes?|frees up|cuts?|scales?)\b.*\bwith (chatgpt|codex|gpt|claude|gemini|copilot)|\b(reimagin\w*|customer stor\w*|case study|success story)\b/i;
+
+export function tonDuSujet(titre, lien = "") {
+  if (VITRINE.test(titre)) return "vitrine";
+  if (AVIS.test(titre)) return "avis";
+  if (CONCRET.test(titre) || /^https:\/\/(github\.com|huggingface\.co)\//.test(lien)) return "concret";
+  return "";
+}
+
 export function decouperFil(xml) {
   const blocs = [...xml.matchAll(/<(item|entry)\b[^>]*>([\s\S]*?)<\/\1>/gi)].map((m) => m[2]);
   return blocs

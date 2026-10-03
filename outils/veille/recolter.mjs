@@ -38,6 +38,7 @@ import {
   sujetsDuFil,
   tldrFil,
   tldrPage,
+  tonDuSujet,
 } from "./sources.mjs";
 
 const RACINE = dirname(dirname(dirname(fileURLToPath(import.meta.url))));
@@ -217,12 +218,18 @@ const FAMILLES = [
 
 /**
  * L'ordre de la liste : d'abord ce que plusieurs sources ont repris, puis une
- * section par famille de sources, du plus récent au plus ancien. Les numéros
+ * section par famille de sources. Dans chaque section, les faits concrets
+ * passent avant le reste, les avis et les vitrines commerciales en dernier, puis du plus
+ * récent au plus ancien. Les numéros
  * `s001`, `s002`… suivent cet ordre.
  */
 function ordonner(sujets) {
-  const recent = (a, b) => b.parution.localeCompare(a.parution);
-  const plusieurs = sujets.filter((s) => nbSources(s) > 1).sort((a, b) => nbSources(b) - nbSources(a) || recent(a, b));
+  const rang = { concret: 0, "": 1, avis: 2, vitrine: 2 };
+  for (const s of sujets) s.ton = tonDuSujet(s.titre, s.lien);
+  const recent = (a, b) => rang[a.ton] - rang[b.ton] || b.parution.localeCompare(a.parution);
+  const plusieurs = sujets
+    .filter((s) => nbSources(s) > 1)
+    .sort((a, b) => rang[a.ton] - rang[b.ton] || nbSources(b) - nbSources(a) || b.parution.localeCompare(a.parution));
   const groupes = plusieurs.length ? [{ titre: "Repris par plusieurs sources", sujets: plusieurs }] : [];
   for (const f of FAMILLES) {
     const de = sujets.filter((s) => s.famille === f.cle && !plusieurs.includes(s)).sort(recent);
@@ -252,7 +259,7 @@ function enMarkdown(groupes, { depuis, aujourdhui, bilan }) {
   ];
   const bloc = (s) => {
     const indices = [...new Set(s.reprises.map((r) => r.indice).filter(Boolean))];
-    const tete = [editeur(s.lien), ...indices].filter(Boolean).join(" · ");
+    const tete = [editeur(s.lien), ...indices, { avis: "avis ou spéculation ?", vitrine: "vitrine commerciale ?" }[s.ton] ?? ""].filter(Boolean).join(" · ");
     const reprises = s.reprises
       .map((r) => `${r.source} ${r.parution.slice(8, 10)}/${r.parution.slice(5, 7)}${r.rubrique ? ` (${r.rubrique})` : ""}`)
       .join(", ");

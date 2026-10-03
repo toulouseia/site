@@ -72,6 +72,23 @@ refuse aussi un identifiant en double, un type inconnu et un lien qui garde des
 marqueurs de suivi. Elle prévient quand une ligne est trop longue pour
 l'affiche. Ensuite, on committe et on met en ligne comme d'habitude.
 
+## Ce qu'on garde, ce qu'on écarte
+
+On garde les faits. Un nouvel outil, un dépôt GitHub qui sert vraiment, un
+modèle sorti, un billet qui explique en détail comment une chose marche, un
+papier dont l'apport peut se dire à quelqu'un qui n'est pas spécialiste.
+
+On écarte les annonces vides, les textes qui font peur, les avis qui ne mènent
+nulle part et la spéculation sur l'avenir.
+
+La récolte aide à trier. Dans chaque section, les sujets concrets passent en
+tête : un lancement, une version, un guide, un dépôt GitHub, un modèle sur
+Hugging Face. Elle range en fin de section et marque d'un « avis ou
+spéculation ? » les titres en forme de question ou qui parlent d'avenir, de
+peur ou de bulle. Elle marque d'un « vitrine commerciale ? » les témoignages
+de clients d'un éditeur. Ce ne sont que des indices tirés du titre : c'est la
+personne qui coche qui décide. Le premier jet de Claude suit la même règle.
+
 ## Les champs d'une entrée
 
 | champ | ce qu'on y écrit |

@@ -135,7 +135,12 @@ function rediger(sujets) {
 - "valeur" : la valeur brute, un chiffre, une capacité ou un nom. 70 signes au plus. Exemples de ton : « −40 % sur le prix, même qualité annoncée », « Un contexte de 500 000 jetons ».
 - "pourquoi" : une ligne, 120 signes au plus, qui dit pourquoi un étudiant en IA à Toulouse y prêterait attention.
 
+Ce que la veille garde : des faits. Un outil ou un dépôt qu'on peut utiliser, un modèle sorti, un billet qui explique comment une chose marche, un papier dont l'apport se dit en mots simples. Ce qu'elle évite : les annonces vides, la peur, les avis qui ne mènent nulle part, la spéculation sur l'avenir.
+
 Règles :
+- "pourquoi" dit ce qu'on peut en faire ou ce qu'on y apprend, concrètement. Pas de jugement sur l'avenir de l'IA, pas de dramatisation.
+- Pour un papier, "valeur" et "pourquoi" disent son apport en mots simples, compréhensibles sans être spécialiste du domaine.
+- Si un sujet n'est qu'un avis, une prédiction ou un texte alarmiste, tu écris "${A_ECRIRE}" dans "valeur" et "pourquoi" : un humain décidera.
 - Tu n'écris que ce que dit le résumé fourni. Tu n'ajoutes aucun fait, aucun chiffre, aucune date. Si le résumé ne permet pas d'écrire un champ, tu écris "${A_ECRIRE}".
 - Un chiffre annoncé par l'éditeur reste « annoncé » : tu ne le présentes pas comme vérifié.
 - Français simple, phrases courtes, pas de tiret long (—) ni de tiret moyen (–), pas d'emoji, pas de point d'exclamation.

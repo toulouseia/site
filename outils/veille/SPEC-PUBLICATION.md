@@ -113,6 +113,8 @@ le ticket sans rien produire.
    - un sujet repris par au moins deux maisons, les lettres TLDR comptant pour
      une seule, ou lu directement dans le fil d'un labo ;
    - rien de déjà paru dans un numéro précédent, reconnu par l'adresse ;
+   - rien de marqué « avis ou spéculation » ni « vitrine commerciale » par la
+     récolte ;
    - au plus `entrees_max` sujets, les plus repris d'abord.
 3. Rédaction par `claude -p`, avec la consigne actuelle du composeur.
 4. Contrôle par un second `claude -p`, qui ne voit que la ligne rédigée et le

@@ -26,6 +26,7 @@ import {
   parleIA,
   sujetsDuFil,
   surtoutIA,
+  tonDuSujet,
 } from "./sources.mjs";
 import { cochesDe, devinerType, ligneSource } from "./composer.mjs";
 
@@ -158,6 +159,12 @@ test("TLDR AI : le fil donne les dates des numéros", () => {
 test("Les liens perdent leurs marqueurs et se reconnaissent d'une source à l'autre", () => {
   assert.equal(nettoyerLien("https://x.ai/news/grok-4-7?utm_source=a&amp;utm_campaign=b&amp;lid=c"), "https://x.ai/news/grok-4-7");
   assert.equal(nettoyerLien("https://www.youtube.com/watch?v=abc&amp;utm_source=x"), "https://www.youtube.com/watch?v=abc");
+  assert.equal(nettoyerLien("https://exemple.org/billet?source=tldr&amp;ref=newsletter&amp;id=7"), "https://exemple.org/billet?id=7");
+  assert.equal(nettoyerLien("https://github.com/org/depot/blob/x.md?ref=main"), "https://github.com/org/depot/blob/x.md?ref=main");
+  assert.equal(nettoyerLien("https://github.com/org/depot/blob/x.md?ref=v1.2.3"), "https://github.com/org/depot/blob/x.md?ref=v1.2.3");
+  assert.equal(nettoyerLien("https://exemple.org/aide?source=feedback-form"), "https://exemple.org/aide?source=feedback-form");
+  assert.equal(nettoyerLien("https://exemple.org/billet?source=tldrnewsletter"), "https://exemple.org/billet");
+  assert.equal(nettoyerLien("https://exemple.org/billet?ref=news.ycombinator.com"), "https://exemple.org/billet");
   assert.equal(cleDeLien("https://www.github.com/google/ax/"), cleDeLien("https://github.com/google/ax"));
   assert.equal(cleDeLien("https://twitter.com/a/status/1"), cleDeLien("https://x.com/a/status/1"));
   assert.equal(cleDeLien("https://arxiv.org/pdf/2609.21032v2"), cleDeLien("https://arxiv.org/abs/2609.21032"));
@@ -206,4 +213,15 @@ test("La ligne source : « via » seulement quand on ne l'a pas lu à la source"
     ligneSource({ lien, reprises: [{ source: "Hacker News" }, { source: "TLDR AI" }, { source: "TLDR Dev" }] }),
     "openai.com · via Hacker News et TLDR",
   );
+});
+
+test("Le ton d'un sujet : les faits devant, les avis et la spéculation derrière", () => {
+  assert.equal(tonDuSujet("Introducing Grok 4.7"), "concret");
+  assert.equal(tonDuSujet("How we cut inference costs by half"), "concret");
+  assert.equal(tonDuSujet("org/agent", "https://github.com/org/agent"), "concret");
+  assert.equal(tonDuSujet("Is AI coding a bubble?"), "avis");
+  assert.equal(tonDuSujet("The future of work after AGI"), "avis");
+  assert.equal(tonDuSujet("Proaction boosts sales 60% and saves 75+ hours with Codex"), "vitrine");
+  assert.equal(tonDuSujet("How Albertsons Companies is reimagining retail from the inside out"), "vitrine");
+  assert.equal(tonDuSujet("Lignes directrices sur l'intelligence artificielle"), "");
 });

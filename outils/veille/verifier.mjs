@@ -18,6 +18,7 @@
 import { readFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
+import { estMarqueur } from "./sources.mjs";
 import { A_ECRIRE, DOSSIER_NUMEROS, TYPES, numerosPresents } from "./composer.mjs";
 
 const RACINE = dirname(dirname(dirname(fileURLToPath(import.meta.url))));
@@ -83,8 +84,9 @@ for (const p of presents) {
         erreurs.push(`${ici} : le lien « ${e.lien} » n'est pas une adresse`);
       }
       if (u && u.protocol !== "https:") erreurs.push(`${ici} : le lien n'est pas en https`);
-      if (u && [...u.searchParams.keys()].some((k) => /^utm_/i.test(k) || k === "lid")) {
-        erreurs.push(`${ici} : le lien garde un marqueur de suivi (utm_…, lid)`);
+      const marqueurs = u ? [...u.searchParams.entries()].filter(([k, v]) => estMarqueur(k, v)).map(([k]) => k) : [];
+      if (marqueurs.length) {
+        erreurs.push(`${ici} : le lien garde un marqueur de suivi (${marqueurs.join(", ")})`);
       }
     }
   }
