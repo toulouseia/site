@@ -78,6 +78,12 @@ On garde les faits. Un nouvel outil, un dépôt GitHub qui sert vraiment, un
 modèle sorti, un billet qui explique en détail comment une chose marche, un
 papier dont l'apport peut se dire à quelqu'un qui n'est pas spécialiste.
 
+De temps en temps, on garde aussi le récit d'un projet : un journal de bord ou
+un retour d'expérience où une équipe raconte comment elle a construit quelque
+chose, ce qui a marché et ce qui a raté. Ces billets montrent comment un projet
+se monte, et donnent envie de lancer le sien. La récolte les marque d'un
+« récit de projet » et les place en tête de leur section. Un par vague suffit.
+
 On écarte les annonces vides, les textes qui font peur, les avis qui ne mènent
 nulle part et la spéculation sur l'avenir.
 

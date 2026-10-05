@@ -141,12 +141,16 @@ const AVIS =
 const CONCRET =
   /\b(show hn|introducing|launch(es|ed)?|release[sd]?|open[- ]sourc\w*|v\d+(\.\d+)+|how (we|to|i)|guide|tutorial|deep dive|under the hood|walkthrough|benchmark\w*|explained|technical report|tutoriel|lance|publie)\b/i;
 
+const RECIT =
+  /\b(developer diary|dev diary|field notes|lessons? (learned|from)|what (we|i) learned|how (we|i) built|(we|i) built|building (a|an|our)\b|from scratch|post-?mortem|retrospective|behind the scenes|build log|journal de bord|retour d'expérience|comment (nous avons|j'ai) (construit|fait))/i;
+
 const VITRINE =
   /\b(boosts?|saves?|grows?|completes?|frees up|cuts?|scales?)\b.*\bwith (chatgpt|codex|gpt|claude|gemini|copilot)|\b(reimagin\w*|customer stor\w*|case study|success story)\b/i;
 
 export function tonDuSujet(titre, lien = "") {
   if (VITRINE.test(titre)) return "vitrine";
   if (AVIS.test(titre)) return "avis";
+  if (RECIT.test(titre)) return "recit";
   if (CONCRET.test(titre) || /^https:\/\/(github\.com|huggingface\.co)\//.test(lien)) return "concret";
   return "";
 }

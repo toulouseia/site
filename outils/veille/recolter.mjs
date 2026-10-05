@@ -224,7 +224,7 @@ const FAMILLES = [
  * `s001`, `s002`… suivent cet ordre.
  */
 function ordonner(sujets) {
-  const rang = { concret: 0, "": 1, avis: 2, vitrine: 2 };
+  const rang = { recit: 0, concret: 0, "": 1, avis: 2, vitrine: 2 };
   for (const s of sujets) s.ton = tonDuSujet(s.titre, s.lien);
   const recent = (a, b) => rang[a.ton] - rang[b.ton] || b.parution.localeCompare(a.parution);
   const plusieurs = sujets
@@ -259,7 +259,7 @@ function enMarkdown(groupes, { depuis, aujourdhui, bilan }) {
   ];
   const bloc = (s) => {
     const indices = [...new Set(s.reprises.map((r) => r.indice).filter(Boolean))];
-    const tete = [editeur(s.lien), ...indices, { avis: "avis ou spéculation ?", vitrine: "vitrine commerciale ?" }[s.ton] ?? ""].filter(Boolean).join(" · ");
+    const tete = [editeur(s.lien), ...indices, { recit: "récit de projet", avis: "avis ou spéculation ?", vitrine: "vitrine commerciale ?" }[s.ton] ?? ""].filter(Boolean).join(" · ");
     const reprises = s.reprises
       .map((r) => `${r.source} ${r.parution.slice(8, 10)}/${r.parution.slice(5, 7)}${r.rubrique ? ` (${r.rubrique})` : ""}`)
       .join(", ");

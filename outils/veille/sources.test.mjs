@@ -219,6 +219,8 @@ test("Le ton d'un sujet : les faits devant, les avis et la spéculation derrièr
   assert.equal(tonDuSujet("Introducing Grok 4.7"), "concret");
   assert.equal(tonDuSujet("How we cut inference costs by half"), "concret");
   assert.equal(tonDuSujet("org/agent", "https://github.com/org/agent"), "concret");
+  assert.equal(tonDuSujet("Building a RAG Pipeline for Semantic Code Search: A Developer Diary and Field Notes"), "recit");
+  assert.equal(tonDuSujet("What we learned running agents in production for a year"), "recit");
   assert.equal(tonDuSujet("Is AI coding a bubble?"), "avis");
   assert.equal(tonDuSujet("The future of work after AGI"), "avis");
   assert.equal(tonDuSujet("Proaction boosts sales 60% and saves 75+ hours with Codex"), "vitrine");
