@@ -8,8 +8,8 @@
     "heure": 8,
     "sujets_dans_le_ticket": 60
   },
-  "apercu": true,
-  "deployer_apres_fusion": true,
+  "apercu": false,
+  "deployer_apres_fusion": false,
   "vagues_auto": {
     "mode": "arret"
   }

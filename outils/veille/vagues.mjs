@@ -302,7 +302,7 @@ const ACTIONS = {
     const aEcrire = ts.split(A_ECRIRE).length - 1;
     const mise = reglages.deployer_apres_fusion
       ? "Une fois la demande fusionnée, le serveur met le site en ligne et ferme la vague."
-      : "Une fois la demande fusionnée, la mise en ligne se fait à la main.";
+      : "Une fois la demande fusionnée, GitHub met le site en ligne. Le serveur le signale ici et ferme la vague.";
     const corps = [
       `Vague #${ticket.number}, ${titres.length} entrées, nº ${numero}.`,
       "",
@@ -314,7 +314,7 @@ const ACTIONS = {
       "",
       "Pour changer l'ordre, déplacez les entrées. Pour changer la une, modifiez `uneId`.",
       "",
-      apercu ? `Aperçu, à une adresse non listée que seuls ceux qui ont le lien connaissent : ${apercu}` : "Pas d'aperçu pour cette vague.",
+      apercu ? `Aperçu, à une adresse non listée que seuls ceux qui ont le lien connaissent : ${apercu}` : reglages.apercu ? "Pas d'aperçu pour cette vague." : "GitHub postera le lien d'aperçu en commentaire, quelques minutes après l'ouverture.",
       "",
       "Vérification :",
       "",
@@ -349,7 +349,7 @@ async function traiterLesFusions(ctx) {
     if (verif.status !== 0) {
       message = `Fusionnée, mais la vérification refuse la veille telle qu'elle est sur main. Rien n'est mis en ligne. Corrigez sur main, puis mettez en ligne à la main.\n\n\`\`\`\n${masquer(`${verif.stdout}${verif.stderr}`.trim())}\n\`\`\``;
     } else if (!reglages.deployer_apres_fusion) {
-      message = "Fusionnée. La mise en ligne automatique est coupée dans reglages.json : elle se fait à la main.";
+      message = "Fusionnée. GitHub met le site en ligne : le résultat est dans l'onglet Actions, et la veille sera à jour sur https://toulouseia.fr/veille/ dans quelques minutes.";
     } else if (ctx.aBlanc) {
       console.log(`  [à blanc] mise en ligne pour #${pr.number}`);
       continue;

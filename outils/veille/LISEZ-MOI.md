@@ -174,11 +174,12 @@ Les vagues manuelles se font sans terminal, dans un navigateur.
    toutes les cinq minutes. Il répond par une fusée sous le commentaire quand
    la commande est faite.
 4. Le serveur rédige un premier jet avec Claude et ouvre une demande de
-   fusion. Elle donne la liste des entrées, le résultat de la vérification et,
-   quand c'est possible, l'adresse d'un aperçu que les visiteurs ne voient pas.
+   fusion. Elle donne la liste des entrées et le résultat de la vérification.
+   GitHub y ajoute en commentaire le lien d'un aperçu, à une adresse non
+   listée.
 5. Le curateur relit et corrige chaque ligne dans l'onglet « Files changed »,
-   puis fusionne. Le serveur met le site en ligne, le dit dans la demande et
-   ferme le ticket.
+   puis fusionne. GitHub met le site en ligne, le serveur le dit dans la
+   demande et ferme le ticket.
 
 Les autres commandes : `/tout` ajoute en commentaire les sujets qui ne tiennent
 pas dans le ticket, `/abandon` ferme le ticket sans rien produire. Le serveur
@@ -199,12 +200,13 @@ Tout se règle dans `reglages.json`, sur `main` :
 | `vagues_manuelles.actif` | `false` arrête l'ouverture des tickets |
 | `vagues_manuelles.jours`, `heure` | quand le ticket s'ouvre, à l'heure de Paris, pas avant 2 h |
 | `vagues_manuelles.sujets_dans_le_ticket` | combien de sujets le ticket montre d'emblée |
-| `apercu` | `false` : pas d'aperçu dans la demande de fusion |
-| `deployer_apres_fusion` | `false` : après une fusion, la mise en ligne se fait à la main |
+| `apercu` | `false`, le réglage actuel : GitHub poste le lien d'aperçu. `true` : le serveur le fait lui-même |
+| `deployer_apres_fusion` | `false`, le réglage actuel : GitHub met en ligne après la fusion. `true` : le serveur le fait lui-même |
 
-La mise en ligne après fusion passe par la même garde que la mise en ligne à
-la main : si d'autres pages que la veille changent, rien ne part, et le
-serveur le dit dans la demande. Installer le serveur est décrit dans
+La mise en ligne et l'aperçu sont le travail de GitHub, décrit dans le
+`README.md` à la racine. Si l'on remet ces deux réglages à `true`, le serveur
+les fait lui-même, et sa mise en ligne s'arrête quand d'autres pages que la
+veille changent. Installer le serveur est décrit dans
 `serveur/INSTALLER.md`. Les vagues automatiques sont décrites dans
 `SPEC-PUBLICATION.md` et ne sont pas construites.
 
