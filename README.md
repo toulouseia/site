@@ -241,6 +241,42 @@ qui permet au contenu d'être des données. Le prix est qu'une faute de frappe n
 se voit pas à la compilation, elle produit un cadre « indisponible » devant un
 étudiant. Cette commande transforme la faute de frappe en échec.
 
+## La mise en ligne automatique
+
+GitHub vérifie chaque pull request et chaque envoi sur `main` : lint, types,
+essais et numéros de la veille, types du programme serveur, contenu, schéma
+de la base, puis construction complète. Le fichier est `.github/workflows/ci.yml`.
+
+Un envoi sur `main` met le site en ligne quand ces vérifications passent. Le
+travail lance `npm run deploy`, comme une mise en ligne à la main, puis contrôle
+que les pages principales et `/api/sante` répondent. Deux mises en ligne ne se
+chevauchent jamais, et un commit qui n'est plus le dernier de `main` ne part
+pas : le plus récent s'en charge. On peut aussi relancer la mise en ligne de `main` à la main
+depuis l'onglet Actions.
+
+Une pull request ouverte depuis une branche de ce dépôt reçoit une version
+d'aperçu. Un commentaire dans la pull request donne son lien, et il est mis à
+jour à chaque nouvel envoi. Une pull request venue d'un fork n'a pas d'aperçu,
+car GitHub ne lui donne pas les secrets. L'aperçu parle à la vraie base et au
+vrai bucket d'images : ce qu'on y écrit arrive en production.
+
+Le code d'une branche de ce dépôt tourne avec le jeton Cloudflare pendant la
+construction de son aperçu. Toute personne qui peut pousser une branche ici
+peut donc agir sur la production, comme elle le peut déjà en poussant sur
+`main`. Les migrations de la base ne font pas partie de ce travail : elles
+s'appliquent toujours à la main.
+
+Le travail lit deux secrets du dépôt, dans Settings, Secrets and variables,
+Actions : `CLOUDFLARE_API_TOKEN` et `CLOUDFLARE_ACCOUNT_ID`. Sans
+eux, la mise en ligne échoue avec un message qui le dit, et l'aperçu est sauté.
+Le jeton se crée sur le compte de l'association avec le modèle « Edit
+Cloudflare Workers ». Il lui faut au moins deux droits. Le premier est Account,
+Workers Scripts, Edit, sur le compte de l'association. Le second est Zone,
+Workers Routes, Edit, sur la zone `toulouseia.fr`, parce que `wrangler.jsonc`
+déclare les deux domaines du site. La base D1, le bucket R2 et les pages
+statiques n'ont pas besoin de droit à part : lier une ressource à un Worker ne
+demande que le droit d'éditer ce Worker.
+
 ## Trois choses à savoir avant de toucher au code
 
 **Les données sont réelles depuis le 14 septembre 2026, et écrites dans le
